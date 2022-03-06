@@ -5,17 +5,16 @@
 3. 検索エンジンとの統合
 # DEMO アプリ
 
-# LARAVEL
-
 ## sample アプリケーション実行手順
 - cd ./lv/docker
 - docker-compose up
 - ログイン　admin admin
 
-## GITHUB ACTION
+# LARAVEL github action
+
 - https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
 
-# DJANGO(python)
+# DJANGO github action
 
 - github action https://github.com/bpmbox/djangoaction
 
