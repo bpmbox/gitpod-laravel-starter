@@ -1,6 +1,8 @@
 # Welcome 
 # LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
-
+1. gitpod action と github action での自動化
+2. インフラ構成の自動化
+3. 検索エンジンとの統合
 # DEMO アプリ
 
 # LARAVEL
