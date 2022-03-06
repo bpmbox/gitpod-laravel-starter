@@ -1,6 +1,7 @@
 # Welcome 
 # LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
-
+1. github action でCICDで確認しながら　手順の作成
+2. 
 ## sample アプリケーション実行手順
 - cd ./lv/docker
 - docker-compose up
