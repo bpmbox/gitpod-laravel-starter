@@ -1,5 +1,9 @@
 # Welcome 
 
+## elastic search kibana laravel
+- https://liginc.co.jp/472808
+- 分析ツールの設定
+
 🚀
 `gitpod-laravel-starter` generates a starting point for you to [develop in the cloud](https://www.gitpod.io/) with [Laravel](https://laravel.com/) web application framework, [MySql](https://www.mysql.com/products/community/) and pretty much any other technology you would like to add.
 * Supports Laravel 6, 7, and 8
