@@ -1,4 +1,5 @@
 # Welcome 
+# LARAVEL
 
 ## sample アプリケーション実行手順
 - cd ./lv/docker
@@ -6,6 +7,7 @@
 - ログイン　admin admin
 
 ## CI/CD
+https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
 - ソース変更
 - CICD実行
 - エラーチェック
@@ -16,6 +18,8 @@
 ## elastic search kibana laravel
 - https://liginc.co.jp/472808
 - 分析ツールの設定
+
+# DJANGO(python)
 
 🚀
 `gitpod-laravel-starter` generates a starting point for you to [develop in the cloud](https://www.gitpod.io/) with [Laravel](https://laravel.com/) web application framework, [MySql](https://www.mysql.com/products/community/) and pretty much any other technology you would like to add.
