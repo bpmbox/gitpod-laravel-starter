@@ -1,4 +1,4 @@
-# Welcome
+# Welcome 
 
 🚀
 `gitpod-laravel-starter` generates a starting point for you to [develop in the cloud](https://www.gitpod.io/) with [Laravel](https://laravel.com/) web application framework, [MySql](https://www.mysql.com/products/community/) and pretty much any other technology you would like to add.
