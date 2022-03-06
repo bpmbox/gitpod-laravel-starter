@@ -1,5 +1,18 @@
 # Welcome 
 
+## sample アプリケーション実行手順
+- cd ./lv/docker
+- docker-compose up
+- ログイン　admin admin
+
+## CI/CD
+- ソース変更
+- CICD実行
+- エラーチェック
+
+##全文検索 
+- 今だとElasticSerchでの高速検索の為
+- 
 ## elastic search kibana laravel
 - https://liginc.co.jp/472808
 - 分析ツールの設定
