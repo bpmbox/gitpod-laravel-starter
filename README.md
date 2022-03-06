@@ -7,7 +7,7 @@
 - ログイン　admin admin
 
 ## CI/CD１
-https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
+- https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
 - ソース変更
 - CICD実行
 - エラーチェック
