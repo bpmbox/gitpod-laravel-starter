@@ -20,7 +20,7 @@
 
 # 全文検索 
 - 今だとElasticSerchでの高速検索の為
-- 
+
 ## elastic search kibana laravel
 - https://liginc.co.jp/472808
 - 分析ツールの設定
