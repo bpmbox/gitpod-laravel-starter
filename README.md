@@ -32,9 +32,10 @@
 - 今だとElasticSerchでの高速検索の為
 
 ## elastic search kibana laravel
+- Cloud site https://bpmboxes.kb.us-central1.gcp.cloud.es.io:9243/app/home
 - https://liginc.co.jp/472808
 - 分析ツールの設定
-
+- PYTHON から登録と検索の実装　
 
 🚀
 `gitpod-laravel-starter` generates a starting point for you to [develop in the cloud](https://www.gitpod.io/) with [Laravel](https://laravel.com/) web application framework, [MySql](https://www.mysql.com/products/community/) and pretty much any other technology you would like to add.
