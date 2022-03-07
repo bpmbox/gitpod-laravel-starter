@@ -9,7 +9,7 @@
 - 20230307 elasticsearch docker setting,laravel cicd setting,django cicd setting
 - 20230308 lambda github action auto update setting,reserve
 
-## サンプル設計書
+## サンプル設計書（サンプル設計を元に構築）
 
 - 在庫管理設計書を元にGSSで作成をする 20220308
 
