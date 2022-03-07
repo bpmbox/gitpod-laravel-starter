@@ -105,6 +105,7 @@ classDiagram
 
 - リポジトリー　https://github.com/bpmbox/djangoaction
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
+- 分析とGraph化　20220308
 
 # APIサービス(細かい箇所はマイクロサービスで作成）
 - AWS lambda chaiser で自動アップ◎
