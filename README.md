@@ -4,6 +4,11 @@
 
 - 設計書を元に、自動テストから、自動アップデートまでのサンプルをLaravel、Djangoを元に作成をする
 
+- time 20220301 - 202203 24 limit
+
+- 20230307 elasticsearch docker setting,laravel cicd setting,django cicd setting
+- 20230308 lambda github action auto update setting,reserve
+
 ## サンプル設計書
 
 - 在庫管理設計書を元にGSSで作成をする
