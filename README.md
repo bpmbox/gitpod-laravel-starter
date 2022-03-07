@@ -33,10 +33,13 @@
 - リポジトリー　https://github.com/bpmbox/djangoaction
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
 
-# APIサービス
+# APIサービス(細かい箇所はマイクロサービスで作成）
 - AWS lambda chaiser で自動アップ
 
-# 全文検索 
+# チェックシステム（REACTNATIVE)
+- API確認用　REST　GraphQL
+
+# BI（データ確認）全文検索 
 - 今だとElasticSerchでの高速検索の為
 
 ## elastic search kibana laravel
