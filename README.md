@@ -13,7 +13,7 @@
 
 # LARAVEL github action(CIDI 自動エラーチェック）
 
-- リポジトリー　https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
+- リポジトリー　https://github.com/bpmbox/laravel-ci-test
 - チェック画面　https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
 
 # DJANGO github action(CIDI 自動エラーチェック）
