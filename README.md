@@ -26,6 +26,7 @@
 ## 2.3.テストデータ作成
 
 - 開発前に自動でテストデータの作成
+- mk2mysql https://qiita.com/HyunwookPark/items/4d22b656bb62f8d2586a
 
 # 3.LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
 1. gitpod action と github action での自動化
