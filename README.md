@@ -1,6 +1,6 @@
 # Welcome 
 
-# 目的　
+# 1.目的　
 
 - 設計書を元に、サンプルシステム自動作成、自動テストから、自動アップデートまでのサンプルをLaravel、Djangoを元に作成をする
 
@@ -14,12 +14,12 @@
 - 20230307 elasticsearch docker setting,laravel cicd setting,django cicd setting
 - 20230308 lambda github action auto update setting,reserve
 
-## 1.サンプル設計書（サンプル設計を元に構築）
+## 2.1.サンプル設計書（サンプル設計を元に構築）
 
 - 在庫管理設計書を元にGSSで作成をする 20220308
 - https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml
 
-## 2.サンプル画面作成 GSS+APPSHEET（作成する画面はGSSからAPPSHEETで作成）
+## 2.2.サンプル画面作成 GSS+APPSHEET（作成する画面はGSSからAPPSHEETで作成）
 
 - APPSHEET でサンプル画面の作成 20220308 
 
@@ -28,7 +28,7 @@
 2. インフラ構成の自動化
 3. 検索エンジンとの統合
 
-## 4.用語の対比
+## 3.4.用語の対比
 
 - app（アプリケーション）
 - model（データ管理層）
@@ -88,12 +88,12 @@ classDiagram
 # 5.DEMO アプリ
 - 簡易設計を元に作成
 
-## 6.sample アプリケーション実行手順
+## 5.1.sample アプリケーション実行手順
 - cd ./lv/docker
 - docker-compose up
 - ログイン　admin admin
 
-# 7.最初に　CIDI（TDD駆動型）github action
+# 6.最初に　CIDI（TDD駆動型）github action
 
 - local ci https://github.com/nektos/act (ローカルでも実行可能にする）
 
@@ -102,36 +102,36 @@ classDiagram
 3. テストケース実行
 4. 本番システムにアップ
 
-# 8.LARAVEL github action(CIDI 自動エラーチェック）
+# 7.LARAVEL github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/laravel-ci-test
 - チェック画面　https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
 
-# 9.DJANGO github action(CIDI 自動エラーチェック）
+# 8.DJANGO github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/djangoaction
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
 - 分析とGraph化　20220308
 
-# 10.APIサービス(細かい箇所はマイクロサービスで作成）
+# 9.APIサービス(細かい箇所はマイクロサービスで作成）
 - AWS lambda chaiser で自動アップ◎
 - FastAPI◎
 
-# 11.チェックシステム（REACTNATIVE)
+# 10.チェックシステム（REACTNATIVE)
 - API確認用　REST　GraphQL
 
-# 12.BI（データ確認）全文検索 
+# 11.BI（データ確認）全文検索 
 - <a href="https://github.com/deviantony/docker-elk" target=_blunk>Elastic　Kibana</a>
 - 今だとElasticSerchでの高速検索の為
 - ElasticCheck Colab (KIBANAの遣い方調査）　GoogleStdioと同じ感じか？
 
-## 13.elastic search kibana laravel
+## 11.1.elastic search kibana laravel
 - Cloud site https://bpmboxes.kb.us-central1.gcp.cloud.es.io:9243/app/home
 - https://liginc.co.jp/472808
 - 分析ツールの設定
 - PYTHON から登録と検索の実装　
 
-# 14.AWS
+# 12.AWS
 ## cloud watch(エラーログ）
 ## lambda 
 ## cloud front
