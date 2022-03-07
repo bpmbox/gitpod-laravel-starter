@@ -22,6 +22,9 @@
 ## 2.2.サンプル画面作成 GSS+APPSHEET（作成する画面はGSSからAPPSHEETで作成）
 
 - APPSHEET でサンプル画面の作成 20220308 
+## 2.3.テストデータ作成
+
+- 開発前に自動でテストデータの作成
 
 # 3.LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
 1. gitpod action と github action での自動化
