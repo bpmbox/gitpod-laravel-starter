@@ -11,13 +11,15 @@
 - docker-compose up
 - ログイン　admin admin
 
-# LARAVEL github action
+# LARAVEL github action(CIDI 自動エラーチェック）
 
 - https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
+- チェック画面
 
-# DJANGO github action
+# DJANGO github action(CIDI 自動エラーチェック）
 
-- github action https://github.com/bpmbox/djangoaction
+- https://github.com/bpmbox/djangoaction
+- チェック画面
 
 # 全文検索 
 - 今だとElasticSerchでの高速検索の為
