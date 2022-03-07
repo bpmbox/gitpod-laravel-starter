@@ -19,7 +19,7 @@
 # DJANGO github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/djangoaction
-- チェック画面
+- チェック画面　https://github.com/bpmbox/djangoaction/actions
 
 # 全文検索 
 - 今だとElasticSerchでの高速検索の為
