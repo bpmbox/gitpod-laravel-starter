@@ -15,10 +15,10 @@
 - docker-compose up
 - ログイン　admin admin
 
-# 最初に　CIDI（TDD駆動型）
-- local ci https://github.com/nektos/act
-- 
-1. システム自動構築
+# 最初に　CIDI（TDD駆動型）github action
+- local ci https://github.com/nektos/act (ローカルでも実行可能にする）
+
+1. システム自動構築　
 2. テストデータ作成（Faker）
 3. テストケース実行
 4. 本番システムにアップ
