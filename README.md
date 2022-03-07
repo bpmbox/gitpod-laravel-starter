@@ -33,6 +33,9 @@
 - リポジトリー　https://github.com/bpmbox/djangoaction
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
 
+# APIサービス
+- AWS lambda chaiser で自動アップ
+
 # 全文検索 
 - 今だとElasticSerchでの高速検索の為
 
