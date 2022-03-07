@@ -1,7 +1,16 @@
 # Welcome 
 
+# 目的　
+
+- 設計書を元に、自動テストから、自動アップデートまでのサンプルをLaravel、Djangoを元に作成をする
+
 ## サンプル設計書
 
+- 在庫管理設計書を元にGSSで作成をする
+
+## サンプル画面作成
+
+- APPSHEET でサンプル画面の作成
 
 # LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
 1. gitpod action と github action での自動化
