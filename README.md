@@ -16,6 +16,54 @@
 - ログイン　admin admin
 
 # 最初に　CIDI（TDD駆動型）github action
+
+```mermaid
+classDiagram
+    App <|-- form
+    App <|-- view
+    App <|-- url
+    App : +int age
+    App : +view vw
+    App : +String gender
+    App: +isMammal()
+    App: +mate()
+    view <|-- form
+    view <|-- template
+    view <|-- model
+    class form{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class view{
+      mode: aaa
+      model:cc  
+      -int sizeInFeet
+      -canEat()
+    cc.test()
+    aaa.object()aaa
+    }
+    class url{
+      +bool is_wild
+      +run()
+    }
+
+    class template{
+        title
+        age
+        test
+    }
+            
+    class model{
+        title
+        age:aaa
+        test
+        manager()ssss
+        queryset()ssss
+        find.all.test()aaaaa
+    }
+```
+
 - local ci https://github.com/nektos/act (ローカルでも実行可能にする）
 
 1. システム自動構築　
