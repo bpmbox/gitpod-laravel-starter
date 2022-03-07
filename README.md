@@ -20,6 +20,7 @@
 - https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml
 
 ## 2.2.サンプル画面作成 GSS+APPSHEET（作成する画面はGSSからAPPSHEETで作成）
+- GOOGLE APP SHEET https://www.appsheet.com/Template/Apps
 
 - APPSHEET でサンプル画面の作成 20220308 
 ## 2.3.テストデータ作成
