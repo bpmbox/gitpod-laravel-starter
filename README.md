@@ -102,7 +102,8 @@ classDiagram
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
 
 # APIサービス(細かい箇所はマイクロサービスで作成）
-- AWS lambda chaiser で自動アップ
+- AWS lambda chaiser で自動アップ◎
+- FastAPI◎
 
 # チェックシステム（REACTNATIVE)
 - API確認用　REST　GraphQL
