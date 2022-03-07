@@ -15,8 +15,13 @@
 - docker-compose up
 - ログイン　admin admin
 
-# 最初に　CIDIのテストパターンを作成（TDD駆動型）
+# 最初に　CIDI（TDD駆動型）
 - local ci https://github.com/nektos/act
+- 
+1. システム自動構築
+2. テストデータ作成（Faker）
+3. テストケース実行
+4. 本番システムにアップ
 
 # LARAVEL github action(CIDI 自動エラーチェック）
 
