@@ -37,6 +37,19 @@
 - 分析ツールの設定
 - PYTHON から登録と検索の実装　
 
+# AWS
+## cloud watch(エラーログ）
+## lambda 
+## cloud front
+## ECS
+## ECR
+## EC2
+## teraform
+## sam
+## sla(serverless application)
+
+
+
 🚀
 `gitpod-laravel-starter` generates a starting point for you to [develop in the cloud](https://www.gitpod.io/) with [Laravel](https://laravel.com/) web application framework, [MySql](https://www.mysql.com/products/community/) and pretty much any other technology you would like to add.
 * Supports Laravel 6, 7, and 8
