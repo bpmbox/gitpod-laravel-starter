@@ -16,15 +16,15 @@
 1. gitpod action と github action での自動化
 2. インフラ構成の自動化
 3. 検索エンジンとの統合
-# DEMO アプリ
-- 簡易設計を元に作成
 
-## sample アプリケーション実行手順
-- cd ./lv/docker
-- docker-compose up
-- ログイン　admin admin
+## 用語の対比
 
-# 最初に　CIDI（TDD駆動型）github action
+- app（アプリケーション）
+- model（データ管理層）
+- view（コントローラー部分）LaravelだとControler
+- faker（テストデータ作成）
+- template（表示テンプレート）
+- form (登録用画面）
 
 ```mermaid
 classDiagram
@@ -72,6 +72,17 @@ classDiagram
         find.all.test()aaaaa
     }
 ```
+
+
+# DEMO アプリ
+- 簡易設計を元に作成
+
+## sample アプリケーション実行手順
+- cd ./lv/docker
+- docker-compose up
+- ログイン　admin admin
+
+# 最初に　CIDI（TDD駆動型）github action
 
 - local ci https://github.com/nektos/act (ローカルでも実行可能にする）
 
