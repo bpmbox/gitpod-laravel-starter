@@ -12,6 +12,7 @@
 ## サンプル設計書（サンプル設計を元に構築）
 
 - 在庫管理設計書を元にGSSで作成をする 20220308
+- https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml
 
 ## サンプル画面作成 GSS+APPSHEET（作成する画面はGSSからAPPSHEETで作成）
 
