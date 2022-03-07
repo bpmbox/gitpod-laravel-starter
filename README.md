@@ -116,6 +116,7 @@ classDiagram
 # BI（データ確認）全文検索 
 - <a href="https://github.com/deviantony/docker-elk" target=_blunk>Elastic　Kibana</a>
 - 今だとElasticSerchでの高速検索の為
+- ElasticCheck Colab (KIBANAの遣い方調査）　GoogleStdioと同じ感じか？
 
 ## elastic search kibana laravel
 - Cloud site https://bpmboxes.kb.us-central1.gcp.cloud.es.io:9243/app/home
