@@ -1,4 +1,8 @@
 # Welcome 
+
+## サンプル設計書
+
+
 # LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
 1. gitpod action と github action での自動化
 2. インフラ構成の自動化
@@ -10,6 +14,9 @@
 - cd ./lv/docker
 - docker-compose up
 - ログイン　admin admin
+
+# 最初に　CIDIのテストパターンを作成（TDD駆動型）
+- local ci https://github.com/nektos/act
 
 # LARAVEL github action(CIDI 自動エラーチェック）
 
