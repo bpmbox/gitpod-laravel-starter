@@ -245,6 +245,8 @@ erDiagram
 # 7.APIサービス(細かい箇所はマイクロサービスで作成）
 - AWS lambda chaiser で自動アップ◎
 - FastAPI◎
+- (lambda sls) python[https://github.com/bpmbox/lambdaactionpython/tree/master]
+- ここはいろいろと試す（SAM　serverless どれがいいのか　まずは　0308にHelloが動作するまで）
 
 # 8.チェックシステム（REACTNATIVE)
 - API確認用　REST　GraphQL
