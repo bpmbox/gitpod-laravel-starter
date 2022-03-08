@@ -73,11 +73,7 @@ No.	フィールド	データタイプ	フィールドに対する操作
 ```
 
 ## 2.2.サンプル画面作成 GSS+APPSHEET
--（作成する画面はGSSからAPPSHEETで作成）
-- GOOGLE APP SHEET https://www.appsheet.com/Template/Apps
-- データからリバースしてテスト画面作成
-
-- 外部設計はAPPSHEETで作成
+- 外部仕様の話し合いの物は、その場で、テスト画面を作成していく
 - デモアプリ　https://www.appsheet.com/Template/AppDef?appName=CopyofTenantLogistics-1359121&appId=CopyofTenantLogistics-1359121&linkFrom=CopyApp#Data.Tables
 
 ![image](https://user-images.githubusercontent.com/1344355/157165698-142cd904-c84a-48db-8180-cf330f17b107.png)
