@@ -14,7 +14,7 @@
 - 20230307 elasticsearch docker setting,laravel cicd setting,django cicd setting
 - 20230308 lambda github action auto update setting,reserve
 
-## 2.1.サンプル設計書（サンプル設計を元に構築）
+## 1.1.サンプル設計書（サンプル設計を元に構築）
 
 - 在庫管理設計書を元にGSSで作成をする 20220308
 - https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml
@@ -28,12 +28,12 @@
 - 開発前に自動でテストデータの作成
 - mk2mysql https://qiita.com/HyunwookPark/items/4d22b656bb62f8d2586a
 
-# 3.LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
+# 2.LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
 1. gitpod action と github action での自動化
 2. インフラ構成の自動化
 3. 検索エンジンとの統合
 
-## 3.4.用語の対比
+# 3.構造の対比（用語の対比）
 
 - app（アプリケーション）
 - model（データ管理層）
@@ -90,15 +90,15 @@ classDiagram
 ```
 
 
-# 5.DEMO アプリ
+# 4.DEMO アプリ
 - 簡易設計を元に作成
 
-## 5.1.sample アプリケーション実行手順
+## 4.1.sample アプリケーション実行手順
 - cd ./lv/docker
 - docker-compose up
 - ログイン　admin admin
 
-# 6.最初に　CIDI（TDD駆動型）github action
+# 5.最初に　CIDI（TDD駆動型）github action
 
 - local ci https://github.com/nektos/act (ローカルでも実行可能にする）
 
@@ -107,36 +107,36 @@ classDiagram
 3. テストケース実行
 4. 本番システムにアップ
 
-# 7.LARAVEL github action(CIDI 自動エラーチェック）
+# 5.LARAVEL github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/laravel-ci-test
 - チェック画面　https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
 
-# 8.DJANGO github action(CIDI 自動エラーチェック）
+# 6.DJANGO github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/djangoaction
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
 - 分析とGraph化　20220308
 
-# 9.APIサービス(細かい箇所はマイクロサービスで作成）
+# 7.APIサービス(細かい箇所はマイクロサービスで作成）
 - AWS lambda chaiser で自動アップ◎
 - FastAPI◎
 
-# 10.チェックシステム（REACTNATIVE)
+# 8.チェックシステム（REACTNATIVE)
 - API確認用　REST　GraphQL
 
-# 11.BI（データ確認）全文検索 
+# 9.BI（データ確認）全文検索 
 - <a href="https://github.com/deviantony/docker-elk" target=_blunk>Elastic　Kibana</a>
 - 今だとElasticSerchでの高速検索の為
 - ElasticCheck Colab (KIBANAの遣い方調査）　GoogleStdioと同じ感じか？
 
-## 11.1.elastic search kibana laravel
+## 9.1.elastic search kibana laravel
 - Cloud site https://bpmboxes.kb.us-central1.gcp.cloud.es.io:9243/app/home
 - https://liginc.co.jp/472808
 - 分析ツールの設定
 - PYTHON から登録と検索の実装　
 
-# 12.AWS
+# 10.AWS
 ## cloud watch(エラーログ）
 ## lambda 
 ## cloud front
