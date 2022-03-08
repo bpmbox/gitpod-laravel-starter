@@ -13,6 +13,12 @@
 5. CIDIで　AWS　サーバーに自動デプロイ
 
 ### 予定
+- 難易度と日数の目安（暫定工数位の目途）
+- SS(12)
+- S(8)
+- A(5)
+- B(3)
+- C(1)
 ```
 1,2,3,4,6,7,8,9,10,11,12,13,14
            lambda chaiser api up(github auction)　AWSLambdaにアプリを自動的にアップ出来る仕組み　github action 対応　優先度（高）メインでLambdaの為
