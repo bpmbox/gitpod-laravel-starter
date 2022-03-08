@@ -25,11 +25,13 @@
            lambda chaiser api up(github auction)　AWSLambdaにアプリを自動的にアップ出来る仕組み　github action 対応　優先度（高）メインでLambdaの為
            aws pem settigng
            テストデータ自動作成（設定　Mk2でやるかソフトで作成かまとめる　ソフトで自動化が良い）優先度（低）
-           laravel react sample apli up（モデルを統一して比較）
-           djinago react sample apli up(モデルを統一して比較）
-           　　AWS　SAM　設定
-             　AWS　SLS　設定　
-              　　SQS(プッシュ送信設定）
+           laravel react sample apli up（モデルを統一して比較）サンプルソース
+           djinago react sample apli up(モデルを統一して比較）サンプルソース
+           　　AWS　SAM　設定　https://github.com/bpmbox/lambdaactionpython/blob/master/.github/workflows/deploy.yml（簡易的な物は作成）
+             　AWS　SLS　設定　https://github.com/bpmbox/lambdaactionpython/blob/master/.github/workflows/deploy.yml（簡易的な物は作成）
+              　　SQS(プッシュ送信設定）→９日
+                 　API関数は　GOOGLE　COLAB
+            　　　　フロントエンド　GAS、（CloudFrontは使わない）
                 　Kibana ElasticSearch(結合テスト）
 ```
 
