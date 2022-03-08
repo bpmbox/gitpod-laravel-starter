@@ -72,8 +72,10 @@ No.	フィールド	データタイプ	フィールドに対する操作
 14	AMKAIMATSUZAN / 期末買掛残高	９桁金額(9)	
 ```
 
-## 2.2.サンプル画面作成 GSS+APPSHEET（作成する画面はGSSからAPPSHEETで作成）
+## 2.2.サンプル画面作成 GSS+APPSHEET
+-（作成する画面はGSSからAPPSHEETで作成）
 - GOOGLE APP SHEET https://www.appsheet.com/Template/Apps
+- データからリバースしてテスト画面作成
 
 - 外部設計はAPPSHEETで作成
 - デモアプリ　https://www.appsheet.com/Template/AppDef?appName=CopyofTenantLogistics-1359121&appId=CopyofTenantLogistics-1359121&linkFrom=CopyApp#Data.Tables
