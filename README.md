@@ -191,12 +191,12 @@ sequenceDiagram
 3. テストケース実行
 4. 本番システムにアップ
 
-# 5.LARAVEL github action(CIDI 自動エラーチェック）
+## 5.1.LARAVEL github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/laravel-ci-test
 - チェック画面　https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
 
-# 6.DJANGO github action(CIDI 自動エラーチェック）
+## 5.2.DJANGO github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/djangoaction
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
