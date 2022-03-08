@@ -106,6 +106,9 @@ DTNEND | DTMSEQ | NRTORIHIKISAKI | AMKAIKISYUZAN | AMKAINYUK | AMKAITYOK | AMKAI
 2. インフラ構成の自動化
 3. 検索エンジンとの統合
 
+## 内部設計　クラス　シーケンス　DBまでのひな形をUMLで作成
+### ここで技術選定の話し
+
 # 3.構造の対比（用語の対比）
 
 - app（アプリケーション）
@@ -161,7 +164,6 @@ classDiagram
         find.all.test()aaaaa
     }
 ```
-## 内部設計　クラス　シーケンス　DBまでのひな形をUMLで作成
 
 ```mermaid
 sequenceDiagram
