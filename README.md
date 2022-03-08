@@ -75,7 +75,11 @@ No.	フィールド	データタイプ	フィールドに対する操作
 ## 2.2.サンプル画面作成 GSS+APPSHEET（作成する画面はGSSからAPPSHEETで作成）
 - GOOGLE APP SHEET https://www.appsheet.com/Template/Apps
 
-- APPSHEET でサンプル画面の作成 20220308 
+- 外部設計はAPPSHEETで作成
+
+![image](https://user-images.githubusercontent.com/1344355/157165698-142cd904-c84a-48db-8180-cf330f17b107.png)
+
+
 ## 2.3.テストデータ作成
 
 - 開発前に自動でテストデータの作成
