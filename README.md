@@ -74,8 +74,8 @@ No.	フィールド	データタイプ	フィールドに対する操作
 
 ## 2.2.サンプル画面作成 GSS+APPSHEET
 - 外部仕様の話し合いの物は、その場で、テスト画面を作成していく
-- [デモアプリ](https://www.appsheet.com/Template/AppDef?appName=CopyofTenantLogistics-1359121&appId=CopyofTenantLogistics-1359121&linkFrom=CopyApp#Data.Tables)
-
+- [APPSHEET](https://www.appsheet.com/Template/AppDef?appName=CopyofTenantLogistics-1359121&appId=CopyofTenantLogistics-1359121&linkFrom=CopyApp#Data.Tables)
+- [デモサイト](https://www.appsheet.com/start/4b0e8ad9-6b94-4831-a33a-0d142aa8a738)
 ![image](https://user-images.githubusercontent.com/1344355/157165698-142cd904-c84a-48db-8180-cf330f17b107.png)
 
 
