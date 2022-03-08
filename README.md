@@ -161,6 +161,12 @@ classDiagram
     }
 ```
 ### seaquence　 (sample 仕様書を元に修正）
+
+1. 画面を開く
+2. URLでルーティング
+3. モデルを取得
+4. 画面表示
+
 ```mermaid
 sequenceDiagram
     api/urls->>+selializeze: testtt?
@@ -174,6 +180,11 @@ sequenceDiagram
 ```
 
 ### ER  (sample 仕様書を元に修正）
+
+- table1
+- table2
+- table3
+
 ```mermaid
 erDiagram
           CUSTOMER }|..|{ DELIVERY-ADDRESS : has
