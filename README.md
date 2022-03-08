@@ -74,7 +74,7 @@ No.	フィールド	データタイプ	フィールドに対する操作
 
 ## 2.2.サンプル画面作成 GSS+APPSHEET
 - 外部仕様の話し合いの物は、その場で、テスト画面を作成していく
-- デモアプリ　https://www.appsheet.com/Template/AppDef?appName=CopyofTenantLogistics-1359121&appId=CopyofTenantLogistics-1359121&linkFrom=CopyApp#Data.Tables
+- [デモアプリ](https://www.appsheet.com/Template/AppDef?appName=CopyofTenantLogistics-1359121&appId=CopyofTenantLogistics-1359121&linkFrom=CopyApp#Data.Tables)
 
 ![image](https://user-images.githubusercontent.com/1344355/157165698-142cd904-c84a-48db-8180-cf330f17b107.png)
 
@@ -97,7 +97,8 @@ DTNEND | DTMSEQ | NRTORIHIKISAKI | AMKAIKISYUZAN | AMKAINYUK | AMKAITYOK | AMKAI
 03/08/2025 | 03/08/2022 12:40:09 | 30003 | 30003 | 30003 | 30003 |   | 30003 | 30003 |   | 30003 | 30003 | 30003 | 30003
 
 
-# 2.LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
+# 2.デモアプリを元にLaravel Django 詳細設計を作成
+1. UMLで開発の雛型の作成（実装はUMLを元に各自開発）
 1. gitpod action と github action での自動化
 2. インフラ構成の自動化
 3. 検索エンジンとの統合
