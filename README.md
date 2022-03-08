@@ -106,7 +106,7 @@ DTNEND | DTMSEQ | NRTORIHIKISAKI | AMKAIKISYUZAN | AMKAINYUK | AMKAITYOK | AMKAI
 ## 内部設計　クラス　シーケンス　DBまでのひな形をUMLで作成 サンプル段階　各種フレームワークの仕組みで設計を記載する
 ### ここで技術選定の話し
 
-
+### class (sample 仕様書を元に修正）
 - app（アプリケーション）
 - model（データ管理層）
 - view（コントローラー部分）LaravelだとControler
@@ -160,7 +160,7 @@ classDiagram
         find.all.test()aaaaa
     }
 ```
-
+### seaquence　 (sample 仕様書を元に修正）
 ```mermaid
 sequenceDiagram
     api/urls->>+selializeze: testtt?
@@ -172,6 +172,19 @@ sequenceDiagram
     John->>+test: aaaaaaa
     test->>-aaa: aaaa
 ```
+
+### ER  (sample 仕様書を元に修正）
+```mermaid
+erDiagram
+          CUSTOMER }|..|{ DELIVERY-ADDRESS : has
+          CUSTOMER ||--o{ ORDER : places
+          CUSTOMER ||--o{ INVOICE : "liable for"
+          DELIVERY-ADDRESS ||--o{ ORDER : receives
+          INVOICE ||--|{ ORDER : covers
+          ORDER ||--|{ ORDER-ITEM : includes
+          PRODUCT-CATEGORY ||--|{ PRODUCT : contains
+          PRODUCT ||--o{ ORDER-ITEM : "ordered in"
+```            
 
 # 4.DEMO アプリ
 - 簡易設計を元に作成
