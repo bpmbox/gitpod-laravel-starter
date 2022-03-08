@@ -79,6 +79,8 @@ No.	フィールド	データタイプ	フィールドに対する操作
 
 - 開発前に自動でテストデータの作成
 - mk2mysql https://qiita.com/HyunwookPark/items/4d22b656bb62f8d2586a
+- 有料でNAVICAT15でやりたいが、無料のMK2で初期設定（こちらが時間的には早い）
+- その後に　Laravel,Python　Fakeでソフトで作成（CIDIの場合はこちらが必要）
 
 # 2.LARAVEL と　Djangoでサンプルアプリを元に比較をしていく
 1. gitpod action と github action での自動化
