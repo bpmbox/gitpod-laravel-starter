@@ -192,14 +192,27 @@ classDiagram
 - PYTHON から登録と検索の実装　
 
 # 10.AWS
+## VPS(AWS仮想環境）
+## cloudwatch(サーバー監視、エラーログ、バッチジョブなど）
+## apigateway(外部通信IP)
+## ALB(AWS のロードバランサー　負荷分散）
+## Asc(AWSのシステムのオートスケーリング）
+## route53（ドメイン管理）
+- 無料枠のSSLは使えないか
 ## cloud watch(エラーログ）
-## lambda 
-## cloud front
-## ECS
-## ECR
-## EC2
-## teraform
-## sam
+## lambda （サーバーレスアプリ）
+## cloud front（REACTなどのHTMLサイト）
+## ECS（Docker管理システム）
+- cluster(docker 管理仮想環境）
+- service(docker スケーリングとタスク管理）
+- task（サービスの実行本体）
+- schejule
+## ECR（Dockerファイル保存リポジトリー）
+## EC2（サーバー）
+- security group(iptable)
+- route(ロードバランサーマッピング）
+## teraform（サーバー自動化　ここでLaravelECS自動アップを設定）
+## sam（Lambda用自動化ツール）
 ## sla(serverless application)
 
 
