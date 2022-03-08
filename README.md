@@ -16,6 +16,7 @@
 1,2,3,4,6,7,8,9,10,11,12,13,14
            lambda chaiser api up(github auction)
            aws pem settigng
+           テストデータ自動作成（設定　Mk2でやるかソフトで作成かまとめる　ソフトで自動化が良い）
            laravel react sample apli up（モデルを統一して比較）
            djinago react sample apli up(モデルを統一して比較）
            　　AWS　SAM　設定
