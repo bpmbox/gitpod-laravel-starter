@@ -84,7 +84,7 @@ No.	フィールド	データタイプ	フィールドに対する操作
 ### テストデータまで出来れば詳細設計
 
 - 開発前に自動でテストデータの作成
-- mk2mysql https://qiita.com/HyunwookPark/items/4d22b656bb62f8d2586a
+- [mk2mysql](https://qiita.com/HyunwookPark/items/4d22b656bb62f8d2586a) DB仕様書の作成
 - 有料でNAVICAT15でやりたいが、無料のMK2で初期設定（こちらが時間的には早い）
 - その後に　Laravel,Python　Fakeでソフトで作成（CIDIの場合はこちらが必要）
 - 正常系と異常系の設定
@@ -197,7 +197,7 @@ erDiagram
 
 # 5.最初に　CIDI（TDD駆動型）github action
 
-- local ci https://github.com/nektos/act (ローカルでも実行可能にする）
+- [local ci](https://github.com/nektos/act) (GITPOD でもCIDIを実行可能にする）
 
 1. システム自動構築　
 2. テストデータ作成（Faker）
