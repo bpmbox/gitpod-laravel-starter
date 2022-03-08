@@ -116,6 +116,12 @@ DTNEND | DTMSEQ | NRTORIHIKISAKI | AMKAIKISYUZAN | AMKAINYUK | AMKAITYOK | AMKAI
 ## 内部設計　クラス　シーケンス　DBまでのひな形をUMLで作成 サンプル段階　各種フレームワークの仕組みで設計を記載する
 ### ここで技術選定の話し
 
+### FrontEnd ReactNative
+- screen（画面）
+- lib（モジュール）
+- stack（画面管理）
+- redux (全体データ）
+
 ### class (sample 仕様書を元に修正）
 - app（アプリケーション）
 - model（データ管理層）
