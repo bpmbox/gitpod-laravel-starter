@@ -11,10 +11,6 @@
 4. CIDIで自動ビルド＋テスト
 5. AWS　サーバーに自動デプロイ
 
-- time 20220301 - 202203 24 limit
-- 20230307 elasticsearch docker setting,laravel cicd setting,django cicd setting
-- 20230308 lambda github action auto update setting,reserve
-
 ## 1.1.サンプル設計書（サンプル設計を元に構築）
 
 - 在庫管理設計書を元にGSSで作成をする 20220308
