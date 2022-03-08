@@ -11,6 +11,19 @@
 4. CIDIで自動ビルド＋テスト
 5. CIDIで　AWS　サーバーに自動デプロイ
 
+### 予定
+```
+1,2,3,4,6,7,8,9,10,11,12,13,14
+           lambda chaiser api up(github auction)
+           aws pem settigng
+           laravel react sample apli up（モデルを統一して比較）
+           djinago react sample apli up(モデルを統一して比較）
+           　　AWS　SAM　設定
+             　AWS　SLS　設定　
+              　　SQS(プッシュ送信設定）
+                　Kibana ElasticSearch(結合テスト）
+```
+
 ## 1.1.サンプル設計書（サンプル設計を元に構築）
 
 - 在庫管理設計書を元にGSSで作成をする 20220308
