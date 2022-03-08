@@ -29,8 +29,8 @@
 ## 1.1.サンプル設計書（サンプル設計を元に構築）
 
 - 在庫管理設計書を元にGSSで作成をする 20220308
-- サンプル設計書 https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml
-- 今回のテスト仕様書　https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml#
+- [サンプル設計書](https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml)
+- [今回のテスト仕様書](https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml#)
 
 ```
 年次取引サマリの一覧 Ｘ.
