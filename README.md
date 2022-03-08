@@ -15,9 +15,9 @@
 ### 予定
 ```
 1,2,3,4,6,7,8,9,10,11,12,13,14
-           lambda chaiser api up(github auction)　AWSLambdaにアプリを自動的にアップ出来る仕組み　github action 対応
+           lambda chaiser api up(github auction)　AWSLambdaにアプリを自動的にアップ出来る仕組み　github action 対応　優先度（高）メインでLambdaの為
            aws pem settigng
-           テストデータ自動作成（設定　Mk2でやるかソフトで作成かまとめる　ソフトで自動化が良い）
+           テストデータ自動作成（設定　Mk2でやるかソフトで作成かまとめる　ソフトで自動化が良い）優先度（低）
            laravel react sample apli up（モデルを統一して比較）
            djinago react sample apli up(モデルを統一して比較）
            　　AWS　SAM　設定
