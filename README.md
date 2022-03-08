@@ -76,6 +76,7 @@ No.	フィールド	データタイプ	フィールドに対する操作
 - GOOGLE APP SHEET https://www.appsheet.com/Template/Apps
 
 - 外部設計はAPPSHEETで作成
+- デモアプリ　https://www.appsheet.com/Template/AppDef?appName=CopyofTenantLogistics-1359121&appId=CopyofTenantLogistics-1359121&linkFrom=CopyApp#Data.Tables
 
 ![image](https://user-images.githubusercontent.com/1344355/157165698-142cd904-c84a-48db-8180-cf330f17b107.png)
 
@@ -147,7 +148,19 @@ classDiagram
         find.all.test()aaaaa
     }
 ```
+## 内部設計　クラス　シーケンス　DBまでのひな形をUMLで作成
 
+```mermaid
+sequenceDiagram
+    api/urls->>+selializeze: testtt?
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    Alice->>+selializeze: ssssss?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great! https://jp
+    John->>+test: aaaaaaa
+    test->>-aaa: aaaa
+```
 
 # 4.DEMO アプリ
 - 簡易設計を元に作成
