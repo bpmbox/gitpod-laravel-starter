@@ -103,10 +103,9 @@ DTNEND | DTMSEQ | NRTORIHIKISAKI | AMKAIKISYUZAN | AMKAINYUK | AMKAITYOK | AMKAI
 2. インフラ構成の自動化
 3. 検索エンジンとの統合
 
-## 内部設計　クラス　シーケンス　DBまでのひな形をUMLで作成
+## 内部設計　クラス　シーケンス　DBまでのひな形をUMLで作成 サンプル段階　各種フレームワークの仕組みで設計を記載する
 ### ここで技術選定の話し
 
-# 3.構造の対比（用語の対比）
 
 - app（アプリケーション）
 - model（データ管理層）
