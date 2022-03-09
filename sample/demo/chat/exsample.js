@@ -1,8 +1,8 @@
- //  var ws = "";
- var mediaExpand = document.getElementById("media-expand-arrow");
- var mediaBar = document.getElementById("media-bar");
- var mediaCross = document.getElementById("media-bar-cross");
- var messageFeed = document.getElementById("message-feed");
+//  var ws = "";
+var mediaExpand = document.getElementById("media-expand-arrow");
+var mediaBar = document.getElementById("media-bar");
+var mediaCross = document.getElementById("media-bar-cross");
+var messageFeed = document.getElementById("message-feed");
 
 $(function () {
   $("#play").on("click", function () {

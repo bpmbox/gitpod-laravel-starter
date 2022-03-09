@@ -48,11 +48,11 @@ const Viedo = () => {
 
   return (
     <div>
-    <iframe class="video" id="popup-YouTube-player" width="560" height="315" src="https://www.YouTube.com/embed/Afr77al2_JM?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
-    <button id="play">play</button>
-    <button id="pause">pause</button>
-    <button id="stop">stop</button>
-    <button id="clear">clear</button>
+      <iframe class="video" id="popup-YouTube-player" width="560" height="315" src="https://www.YouTube.com/embed/Afr77al2_JM?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+      <button id="play">play</button>
+      <button id="pause">pause</button>
+      <button id="stop">stop</button>
+      <button id="clear">clear</button>
     </div>
   );
 };

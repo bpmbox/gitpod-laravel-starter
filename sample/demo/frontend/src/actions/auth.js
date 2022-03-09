@@ -31,6 +31,7 @@ export function authError(payload) {
   };
 }
 
+//dispath react-dedix setDispatch selector
 export function doInit() {
   return async (dispatch) => {
     try {

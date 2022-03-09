@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "<ipython-input-14-c7dead81b4b5>", line 4, in <module>
+    func1()  # func1()を呼出す
+  File "<ipython-input-13-d06f377cffd7>", line 4, in func1
+    func2()
+  File "<ipython-input-13-d06f377cffd7>", line 7, in func2
+    raise Exception('func1()のエラーメッセージです。')
+Exception: func1()のエラーメッセージです。

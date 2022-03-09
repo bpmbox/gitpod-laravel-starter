@@ -1,0 +1,2642 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="ja" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>MediaWiki API の結果 - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":!1,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"ja","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgMonthNamesShort":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"XikvLgpAAK4AAEoX-MEAAACU","wgCSPNonce":!1,"wgCanonicalNamespace":"Special","wgCanonicalSpecialPageName":"ApiHelp","wgNamespaceNumber":-1,"wgPageName":"特別:ApiHelp","wgTitle":"ApiHelp","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":!1,"wgIsRedirect":!1,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgPageContentLanguage":"ja","wgPageContentModel":"wikitext","wgRelevantPageName":"特別:ApiHelp","wgRelevantArticleId":0,"wgIsProbablyEditable":!1,"wgRelevantPageIsProbablyEditable":!1,"wgMediaViewerOnClick":!0,
+"wgMediaViewerEnabledByDefault":!0,"wgPopupsReferencePreviews":!1,"wgPopupsConflictsWithNavPopupGadget":!1,"wgVisualEditor":{"pageLanguageCode":"ja","pageLanguageDir":"ltr","pageVariantFallbacks":"ja"},"wgMFDisplayWikibaseDescriptions":{"search":!0,"nearby":!0,"watchlist":!0,"tagline":!0},"wgWMESchemaEditAttemptStepOversample":!1,"wgULSCurrentAutonym":"日本語","wgNoticeProject":"wikipedia","wgCentralAuthMobileDomain":!1,"wgEditSubmitButtonLabelPublish":!0};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.apipretty":"ready","ext.pygments":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.skinning.interface":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["site",
+"mediawiki.page.startup","mediawiki.page.ready","ext.gadget.ReferenceTooltips","ext.gadget.suppressEnterAtSummaryBox","ext.gadget.checkSignature","ext.gadget.WikiMiniAtlas","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1smlf",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"ja"});
+});mw.loader.implement("user.tokens@tffin",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=ja&amp;modules=ext.pygments%2CwikimediaBadges%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cmediawiki.apipretty%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface&amp;only=styles&amp;skin=apioutput"/>
+<script async="" src="/w/load.php?lang=ja&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=apioutput"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?lang=ja&amp;modules=site.styles&amp;only=styles&amp;skin=apioutput"/>
+<meta name="generator" content="MediaWiki 1.35.0-wmf.15"/>
+<meta name="referrer" content="origin"/>
+<meta name="referrer" content="origin-when-crossorigin"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta name="robots" content="noindex,nofollow"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (ja)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//ja.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="license" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="WikipediaのAtomフィード" href="/w/index.php?title=%E7%89%B9%E5%88%A5:%E6%9C%80%E8%BF%91%E3%81%AE%E6%9B%B4%E6%96%B0&amp;feed=atom"/>
+<link rel="canonical" href="https://ja.wikipedia.org/wiki/%E7%89%B9%E5%88%A5:ApiHelp"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<!--[if lt IE 9]><script src="/w/resources/lib/html5shiv/html5shiv.js"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns--1 ns-special mw-special-ApiHelp page-特別_ApiHelp rootpage-特別_ApiHelp skin-apioutput action-view">
+		<div class="mw-body" role="main">
+			<h1 class="firstHeading">MediaWiki API の結果</h1>
+			<div class="mw-body-content">
+				<div id="mw-content-text"><div class="api-pretty-header"><p>This is the HTML representation of the XML format. HTML is good for debugging, but is unsuitable for application use.
+</p><p>Specify the <var>format</var> parameter to change the output format. To see the non-HTML representation of the XML format, set <a class="external text" href="https://ja.wikipedia.org/w/api.php?action=query&amp;titles=BABYMETAL&amp;prop=revisions&amp;rvprop=content&amp;format=xml"><kbd>format=xml</kbd></a>.
+</p><p>See the <a href="https://www.mediawiki.org/wiki/API" class="extiw" title="mw:API">complete documentation</a>, or the <a href="/wiki/%E7%89%B9%E5%88%A5:ApiHelp/main" title="特別:ApiHelp/main">API help</a> for more information.
+</p></div><div dir="ltr"><div class="mw-highlight"><pre>&lt;?xml version="1.0"?>
+&lt;api batchcomplete="">
+  &lt;warnings>
+    &lt;main xml:space="preserve">Subscribe to the mediawiki-api-announce mailing list at &amp;lt;https://lists.wikimedia.org/mailman/listinfo/mediawiki-api-announce&amp;gt; for notice of API deprecations and breaking changes. Use [[Special:ApiFeatureUsage]] to see usage of deprecated features by your application.&lt;/main>
+    &lt;revisions xml:space="preserve">Because "rvslots" was not specified, a legacy format has been used for the output. This format is deprecated, and in the future the new format will always be used.&lt;/revisions>
+  &lt;/warnings>
+  &lt;query>
+    &lt;pages>
+      &lt;page _idx="2463870" pageid="2463870" ns="0" title="BABYMETAL">
+        &lt;revisions>
+          &lt;rev contentformat="text/x-wiki" contentmodel="wikitext" xml:space="preserve">{{Infobox Musician &amp;lt;!--プロジェクト:音楽家を参照--&amp;gt;
+| Name = BABYMETAL
+| Img = File:Babymetal_-_2018152162345_2018-06-01_Rock_am_Ring_-_5DS_R_-_0078_-_5DSR5665.jpg
+| Img_capt = ドイツ・ニュルブルク公演 (2018年6月)
+| Img_size = 250px
+| Landscape = yes
+| Background = group
+| Alias = 
+| Origin = {{JPN}}
+| Genre = &amp;lt;!-- カワイイメタルを追加する場合はノートの「導入部について」を参照し加筆提案してください。 --&amp;gt;[[J-POP]]&amp;lt;ref name="mtvgenre"&amp;gt;{{Cite web |url=http://www.mtv.com/news/2254891/babymetal-reading-festival/|title=Babymetal Is Japanese Metal Meets J-Pop Perfection|author=Kate Drozynski|accessdate=2015-08-30|publisher=[[MTV]]|date=2015-08-30|language=英語}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="rollingstone"&amp;gt;{{Cite web |url=http://www.rollingstone.com/music/premieres/hear-babymetals-blazing-bonus-cut-road-of-resistance-20150511|title=Hear Babymetal's Blazing Bonus Cut 'Road of Resistance'|author=|accessdate=2015-10-18|publisher=[[ローリング・ストーン]]|date=2015-05-11|language=英語}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="koeln.de"&amp;gt;{{cite news|url=http://www.koeln.de/koeln/babymetal-metalcorekindergeburtstag-in-der-live-music-hall_853002.html|title=Babymetal: Metalcorekindergeburtstag in der Live Music Hall|newspaper=koeln.de|author=Helmut Löwe|date=2014-07-04|accessdate=2015-11-01|language=ドイツ語}}&amp;lt;/ref&amp;gt;&amp;lt;br /&amp;gt;[[ヘヴィメタル]]&amp;lt;ref name="Allmusic"&amp;gt;{{Cite web|work=[[オールミュージック]]|url=http://www.allmusic.com/artist/babymetal-mn0003176966|title=BABYMETAL|accessdate=2014-11-16|publisher=All Media Guide|language=英語}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="fuse"&amp;gt;{{cite news|url=http://www.fuse.tv/2015/05/babymetal-interview-fan-questions|title=Babymetal Answer Your Fan Questions!|newspaper=[[:en:Fuse (TV channel)|fuse]]|author=Maria Sherman|date=2015-05-28|accessdate=2015-10-18|language=英語}}&amp;lt;/ref&amp;gt;
+| Years_active = [[2010年]] -
+| Label = {{Flagicon|JPN}} [[トイズファクトリー|重音部RECORDS]]&amp;lt;br /&amp;gt;（2011年10月 - 2013年1月）&amp;lt;br /&amp;gt;{{Flagicon|JPN}} [[トイズファクトリー|BMD FOX RECORDS]]&amp;lt;br /&amp;gt;（2013年6月 - ）&amp;lt;br /&amp;gt;{{Flagicon|DEU}} [[:en:Edel AG|earMUSIC]]&amp;lt;br /&amp;gt;（2015年5月 - ）&amp;lt;br /&amp;gt;{{Flagicon|US}} [[:en:RED Distribution|RAL]]&amp;lt;br /&amp;gt;（2015年5月 - 2016年4月）&amp;lt;br /&amp;gt;{{Flagicon|US}} [[:en:BABYMETAL RECORDS|BABYMETAL RECORDS]]&amp;lt;br /&amp;gt;（2018年5月 - ）
+| Production = {{Flagicon|JPN}} [[アミューズ]]&amp;lt;br /&amp;gt;（2010年 - ）&amp;lt;br /&amp;gt;{{Flagicon|US}} [[ウィリアム・モリス・エンデヴァー・エンターテイメント]]&amp;lt;br /&amp;gt;（2014年 - ）&amp;lt;br /&amp;gt;{{Flagicon|US}} [[ユナイテッド・タレント・エージェンシー]]&amp;lt;br /&amp;gt;（2014年 - ）
+| Associated_acts = [[KOBAMETAL]]（プロデュース）
+| URL = [https://www.babymetal.com/jp/ BABYMETAL]
+| Current_members = [[中元すず香|SU-METAL]]（[[ボーカル]]、[[ダンス]]）&amp;lt;br /&amp;gt;[[菊地最愛|MOAMETAL]]（スクリーム、ダンス）
+| Past_members = [[水野由結|YUIMETAL]]（スクリーム、ダンス）
+}}
+[[ファイル:Babymetal backing band Kami band at Danforth Music Hall on May 12, 2015.jpg|thumb|right|250px|ユニットのロゴ (後方)]]
+&amp;lt;!-- 導入文に加筆する場合はノートの「導入部について」を参照し加筆提案してください。（2015年7月29日（UTC）） --&amp;gt;
+'''BABYMETAL'''（ベビーメタル）は、[[日本]]の女性2人組{{Refnest|group="注"|2020年時点で女性3人によるダンスパフォーマンスだが、1人は日替わりの[[#サポートメンバー|#サポートダンサー]]で正規メンバーではない。}}[[ヘヴィメタル|メタル]][[ダンス]]・[[音楽ユニット|ユニット]]&amp;lt;ref&amp;gt;{{Cite web |url=http://equitystory.jp/interview/amuse_interview1-3.html |title=株式会社アミューズ 第3回：所属アーティストとポートフォリオ | IR担当者インタビュー vol.79|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。通称「べビメタ」&amp;lt;ref&amp;gt;[http://music-book.jp/video/news/news/160263 ELEVENPLAY主宰、Perfume・ベビメタの振り付けで知られるMIKIKOが中電工の仕事を振り付けで表現!]Music.Jp公式ホームページ&amp;lt;/ref&amp;gt;。
+
+「[[アイドル]]とメタルの融合」をテーマに[[2010年]]結成&amp;lt;ref name="shikakenin"&amp;gt;{{cite web|url=http://trendy.nikkeibp.co.jp/article/pickup/20121026/1044961/|title=異色メタルアイドル「ベビーメタル」はなぜ人気? “仕掛け人”を直撃!|archiveurl=https://web.archive.org/web/20130115162405/http://trendy.nikkeibp.co.jp/article/pickup/20121026/1044961/|archivedate=2013-01-15|work=[[日経トレンディ]]ネット|publisher=株式会社[[日経BP]]|author=有馬ゆえ|date=2012-10-26|accessdate=2019-08-14}}&amp;lt;/ref&amp;gt;。[[2014年]]から国外での活動が多くなっている&amp;lt;ref&amp;gt;[http://business.nikkeibp.co.jp/atcl/opinion/15/221102/090400060/ ヘビメタ再来、日本発・世界のアイドル「ベビーメタル」] - 日経ビジネス&amp;lt;/ref&amp;gt;。
+
+== メンバー ==
+===現メンバー===
+{| class="wikitable" style="text-align:center; font-size:small;"
+! 名前
+! 本名
+! 生年月日
+! 出身地
+! 担当及び立ち位置
+! 在籍期間
+|-
+| '''SU-METAL'''&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（スゥメタル）&amp;lt;/small&amp;gt;
+| [[中元すず香]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（なかもと すずか）&amp;lt;/small&amp;gt;
+| {{生年月日と年齢|1997|12|20}}
+| [[広島県]][[広島市]]
+| [[ボーカル]]、[[ダンス]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ中央）&amp;lt;/small&amp;gt;
+| 2010年 - 活動中
+|-
+| '''MOAMETAL'''&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（モアメタル）&amp;lt;/small&amp;gt;
+| [[菊地最愛]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（きくち もあ）&amp;lt;/small&amp;gt;
+| {{生年月日と年齢|1999|7|4}}
+| [[愛知県]][[名古屋市]]
+| スクリーム{{Refnest|group="注"|[[コーラス (ポピュラー音楽)|コーラス]]や合いの手に相当する&amp;lt;ref name="kiso"&amp;gt;『BABYMETAL 基礎の基礎』（村田游、Kindle版第三版、位置No. 147/1104）&amp;lt;/ref&amp;gt;。YUIMETALとMOAMETALの2人だけで歌う楽曲も存在し、その場合は'''BLACK BABYMETAL'''のユニット名を名乗った&amp;lt;ref name="kiso"/&amp;gt;。曲名はアルバム（[[BABYMETAL (アルバム)#収録トラック|1st]]、[[METAL RESISTANCE#収録トラック|2nd]]）ページの注記を参照。}}、ダンス&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（[[上手と下手|ステージ上手側]]）&amp;lt;/small&amp;gt;
+| 2010年 - 活動中
+|-
+|}
+&amp;lt;gallery widths="200px" heights="130px"&amp;gt;
+ファイル:Babymetal - 2018152162737 2018-06-01 Rock am Ring - 1D X MK II - 0397 - B70I0468.jpg|&amp;lt;center&amp;gt;SU-METAL&amp;lt;br /&amp;gt;（2018年）
+ファイル:Babymetal - 2018152162733 2018-06-01 Rock am Ring - 1D X MK II - 0389 - B70I0460.jpg|&amp;lt;center&amp;gt;MOAMETAL&amp;lt;br /&amp;gt;（2018年）
+&amp;lt;/gallery&amp;gt;
+
+=== 旧メンバー ===
+{| class="wikitable" style="text-align:center; font-size:small;"
+! 名前
+! 本名
+! 生年月日
+! 出身地
+! 担当及び立ち位置
+! 在籍期間
+|-
+| '''YUIMETAL'''&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ユイメタル）&amp;lt;/small&amp;gt;
+| [[水野由結]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（みずの ゆい）&amp;lt;/small&amp;gt;
+| {{生年月日と年齢|1999|6|20}}
+| [[神奈川県]]
+| スクリーム、ダンス&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側）&amp;lt;/small&amp;gt;
+| 2010年 - 2018年10月{{Refnest|group="注"|2017年12月より体調不良により活動休止。}}
+|}
+&amp;lt;gallery widths="200" heights="130"&amp;gt;
+ファイル:Yuimetal Babymetal US Tour 2017 Megitsune June 25 Nampa ID.jpg|&amp;lt;center&amp;gt;YUIMETAL&amp;lt;br /&amp;gt;（2017年）
+&amp;lt;/gallery&amp;gt;
+
+== 経歴 ==
+=== 構想 ===
+BABYMETALは、芸能プロダクション[[アミューズ]]社員の[[KOBAMETAL]]こと小林啓がプロデューサーとなり結成された&amp;lt;ref&amp;gt;『BABYMETALという戦略―週刊東洋経済eビジネス新書No.172』（Kindle版、東洋経済新報社、2016.8.29）「創造主はアミューズ社員でありプロデューサーのKOBAMETAL（コバメタル）氏だ。」&amp;lt;/ref&amp;gt;&amp;lt;ref name="billboard20160523"&amp;gt;{{cite news|url=http://www.billboard.com/articles/columns/rock/7377496/how-japanese-phenoms-babymetal-were-made-in-pops-image|title=How Japanese Phenoms Babymetal Were Made in Pop's Image|newspaper=[[:en:Billboard (magazine)|Billboard]]|author=Anurag Tagat|date=2016-05-23|accessdate=2016-08-24|language=英語}}&amp;lt;/ref&amp;gt;。企画背景は三つあった&amp;lt;ref name="shikakenin" /&amp;gt;&amp;lt;ref name="nexus60"&amp;gt;{{cite news|date=2014-12-09|newspaper=NEXUS 音楽主義 No.60|title=今、このシーンが熱い! ｢ロックするアイドル｣大研究!! 注目グループの仕掛人に戦略を聞く!|url=http://www.nexus-web.net/article/ongakusyugi-60/|pages=16-19|publisher=[[日本音楽制作者連盟]]|accessdate=2016-10-04}}&amp;lt;/ref&amp;gt;{{sfn|MARQUEE94|pp=39-40|ps=「KOBAMETALにきく BABYMETALというコンセプト」}}{{sfn|ヘドバン1|pp=42-55|ps=「BABYMETALプロデューサー KOBAMETAL徹底インタビュー」}}。
+# KOBAMETALが大の[[ヘヴィメタル|メタル]]ファンだったこと。日本のバンドでは[[聖飢魔II]]や[[X JAPAN]]を好んだ。
+# アミューズがマネジメントした[[可憐Girl's]]の[[中元すず香]]の歌声を聴いたこと。その歌声は[[少年合唱|少年少女合唱団]]のようでありつつ時に[[スピードリミッター|リミッター]]が効いていないと思うほど強かった。
+# 同じく同社がマネジメントする[[Perfume]]が[[テクノポップ|テクノ]]とアイドルを組み合わせて商業的に成功したこと。
+
+これらからKOBAMETALは、[[ラウドロック|ラウド]]なメタルサウンドと中元すず香の歌声を組み合わせれば商業的に成功するはずと考えた。中元は2009年3月に可憐Girl'sが解散した後、2010年4月に[[さくら学院]]に参加。KOBAMETALはさくら学院に関わる中で、自らの企画に対し社内承認を得て中元を中心に追加メンバーを探した。しかし中元が独特な存在感を持っていたためこれに伍する候補はなかなか見当たらず、「中元の周りを踊る[[天使]]のような子」という全く別のキャラクターを加えることに方針転換し、[[水野由結]]と[[菊地最愛]]を選抜した&amp;lt;ref name="shikakenin" /&amp;gt;&amp;lt;ref name="nexus60" /&amp;gt;。
+
+=== 命名から海外初公演まで（2010年 - 2012年）===
+2010年、学校生活とクラブ活動をテーマにした成長期限定ユニット「さくら学院」の派生ユニットとなる部活動「重音部」として始動&amp;lt;ref name="shikakenin" /&amp;gt;&amp;lt;ref name="nexus60" /&amp;gt;。同部に属した三人は10月30日に楽曲「[[ド・キ・ド・キ☆モーニング]]」を初録音し&amp;lt;ref&amp;gt;[https://www.youtube.com/watch?v=4zZeShPLkM4 さくら学院 FIRST LIVE &amp;amp; DOCUMENTARY 2010 to 2011 ~SMILE~] (DISC.2), アミューズ (2012年6月27日), JAN 4527427653467, ASIN B007CCAQO4, 該当時間:開始14分台&amp;lt;/ref&amp;gt;、[[11月28日]]に[[横浜赤レンガ倉庫]]で開催された「さくら学院」の単独ライブ「さくら学院祭☆2010」で初披露された&amp;lt;ref&amp;gt;{{cite news|url=http://www.cdjournal.com/main/news/sakura-gakuin/35386|title=さくら学院、初単独イベント＜さくら学院祭☆2010＞が大成功!|newspaper=CDJournal|publisher=株式会社音楽出版社|date=2010-11-30|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web|url=http://www.oricon.co.jp/music/special/2010/sakuragakuin1208/|title=さくら学院『かけがえのない青春が炸裂した!! 1日限りの学院祭』|work=ORICON STYLE|publisher=[[オリコン]]株式会社|author=斉藤貴志|date=2010-12-08|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+2011年2月1日、ユニット名が「BABYMETAL」と公表される&amp;lt;ref name="renraku110201"&amp;gt;{{Cite web |author=|date=2011-02-01|url=http://www.sakuragakuin.jp/news/single.php?id=39=|title=リリース  ファーストアルバム『さくら学院 2010年度 〜message〜』情報|work=|publisher=さくら学院 公式サイト 連絡板|accessdate=2016-07-06}}&amp;lt;/ref&amp;gt;。ユニット名は“ヘビーメタル”をもじったもの。BABYが可愛さを、METALが激しさを表し、新しいメタル音楽を生む願いを込めた&amp;lt;ref name="shikakenin" /&amp;gt;。BABYMETALは7月23日、楽曲「[[イジメ、ダメ、ゼッタイ]]」を初披露、10月12日のライブでは[[モッシュ]]&amp;amp;[[クラウド・サーフィング|ダイブ]]が発生&amp;lt;ref name="BARKS20120110"&amp;gt;[https://www.barks.jp/news/?id=1000076087 アイドルとメタルの融合BABYMETALが、「メタル女子会」イベントに参戦]&amp;lt;/ref&amp;gt;。[[トイズファクトリー]]は同日、「ド・キ・ド・キ☆モーニング」の[[ミュージック・ビデオ]]を[[YouTube]]で公開&amp;lt;ref&amp;gt;[https://www.youtube.com/watch?v=4QbAXXXOJF8 BABYMETAL - ド・キ・ド・キ☆モーニング[ Doki Doki☆Morning ](Edit ver.)]&amp;lt;/ref&amp;gt;。海外メディアに、少女がメタルを歌い踊る珍しさを報じられた&amp;lt;ref&amp;gt;{{cite news|author=|date=2011-11-28|newspaper=[[:en:Blabbermouth.net|Blabbermouth.net]]|title=BABYMETAL: Japanese Princesses Of 'Idol' Metal|url=http://www.blabbermouth.net/news/babymetal-japanese-princesses-of-idol-metal/|publisher=|language=en|accessdate=2016-09-05}}&amp;lt;/ref&amp;gt;。
+
+2012年1月9日、楽曲「[[BABYMETAL×キバオブアキバ|いいね!]]」を初披露&amp;lt;ref&amp;gt;{{cite news|date=2012|newspaper=Web Rock Magazine|title=WOMEN'S POWER 20th Anniversary|url=http://www.beeast69.com/feature/9087|publisher=BEEAST|accessdate=2016-07-25}}&amp;lt;/ref&amp;gt;。3月、スプリットシングル「[[BABYMETAL×キバオブアキバ]]」を発売&amp;lt;ref&amp;gt;{{Cite web |url=https://www.barks.jp/news/?id=1000076906 |title=「アイドルとメタルの融合」ヘヴィメタル・ダンスユニットBABYMETALのCDの全貌が明らかに | BABYMETAL | BARKS音楽ニュース |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://ameblo.jp/sakuragakuin/entry-11184507486.html |title=BABYMETALとキバオブアキバ!!｜さくら学院オフィシャルブログ「学院日誌」Powered by Ameba |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。4月6日、[[ニコニコ生放送]]を実施&amp;lt;ref&amp;gt;[http://live.nicovideo.jp/gate/lv88258592 BABYMETAL 「15分一本勝負!!〜見えづらっくってゴメンなさい!!〜」] &amp;lt;/ref&amp;gt;。6月23日、楽曲「[[ヘドバンギャー!!]]」を初披露&amp;lt;ref name="POPn2"&amp;gt;{{Cite web |url=http://www.hmv.co.jp/news/article/1210080004/ |title=BABYMETAL 動画コメント掲載DEATH!! ローチケHMVニュース |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://tower.jp/article/news/2012/06/25/n07 |title=Berryz工房×℃-uteサプライズも! タワー主催〈POP'n アイドル02〉レポ - TOWER RECORDS ONLINE |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。7月4日シングル「ヘドバンギャー!!」を発売&amp;lt;ref name="deview201276"&amp;gt;[https://deview.co.jp/Interview?am_interview_id=16 BABYMETAL | 芸能人インタビュー]&amp;lt;/ref&amp;gt;。7月21日、[[目黒鹿鳴館]]でライブ「LEGEND 〜コルセット祭り」を開催{{Refnest|group="注"|シングル「ヘドバンギャー!!」初回限定盤の購入者特典プレミアムライブで&amp;lt;ref name="natalie20120722"&amp;gt;[http://natalie.mu/music/news/73330 BABYMETAL、メタルの聖地で「コルセット祭り」開催]&amp;lt;/ref&amp;gt;、ワンマンライブと謳っていたが、純粋なワンマンライブではない(『ヘドバン1』pp.42-55)。}}。8月19日、史上最年少で[[サマーソニック]]に出演&amp;lt;ref name="summersonic2012"&amp;gt;{{Cite web |url=https://www.barks.jp/news/?id=1000082476 |title=BABYMETAL、＜サマソニ＞史上最年少&amp;amp;初出場ライヴでロックファンを魅了 | BABYMETAL | BARKS音楽ニュース |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="metaljp192"&amp;gt;[http://heavy-metal.jp/mag/192.htm サマソニ2014特集：BABYMETAL活動記録 - METAL JAPAN]&amp;lt;/ref&amp;gt;{{Refnest|group="注"|柵もない[[フードコート]]横の小ステージ・SIDE-SHOW MESSEに出演&amp;lt;ref name="summersonic2012" /&amp;gt;{{sfn|ヘドバン3|pp=52-54|ps=「BABYMETALを観てきたライター・編集者が選ぶ、BABYMETALベストライヴ!」}}。『ヘドバン』編集部・林幸生は「ここから一年をかけたレジェンドが始まったといっても過言でない」と述べている{{sfn|ヘドバン3|pp=52-54|ps=「BABYMETALを観てきたライター・編集者が選ぶ、BABYMETALベストライヴ!」}}。}}{{Refnest|group="注"|この記録は後に[[Li-sa-X]]により塗り替えられる。}}。10月、初のワンマンライブ「[[LIVE_〜LEGEND_I、D、Z_APOCALYPSE〜|I、D、Z〜LEGEND“I”]]」を開催。このアンコールで初めてバックバンドが生演奏した&amp;lt;ref name="hatsuoneman"&amp;gt;{{Cite web |url=http://natalie.mu/music/news/77976 |title=白塗り生バンドも登場!BABYMETAL初ワンマン大成功 - 音楽ナタリー |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。11月、「[[アニメ・フェスティバル・アジア]] シンガポール 2012」にて初めて日本国外で公演&amp;lt;ref name="nikkeibp20121121"&amp;gt;[http://trendy.nikkeibp.co.jp/article/column/20121121/1045699/ “日本ファン”8万3000人! シンガポールで盛り上がった「AFA2012」とは?]&amp;lt;/ref&amp;gt;。
+
+=== メタルレジスタンス第1章（2013年 - 2014年）===
+2013年1月4日放送の[[音楽番組|歌番組]]で、BABYMETALは目標を「世界征服」と述べ「イジメ、ダメ、ゼッタイ」を披露&amp;lt;ref&amp;gt;[http://www.ntv.co.jp/happy-music/backnumber/20130104.html いい歌探し”系音楽番組ハッピーMUSIC ONLINE 2013/01/04放送内容]&amp;lt;/ref&amp;gt;。同年1月9日、[[メジャー・デビュー (音楽家)|メジャーデビュー]]シングル「イジメ、ダメ、ゼッタイ」を発売、メタルの復興を期する「メタルレジスタンス」のスタートとした&amp;lt;ref&amp;gt;[http://www.babymetal.jp/news/detail.php?id=89 いよいよ本日!!1月9日（水）ニューシングル「イジメ、ダメ、ゼッタイ」発売DEATH!!]&amp;lt;/ref&amp;gt;。2月1日、ワンマンライブ「[[LIVE_〜LEGEND_I、D、Z_APOCALYPSE〜|I、D、Z〜LEGEND“Z”]]」およびさくら学院公式サイトで、BABYMETALは中元すず香のさくら学院卒業後も活動すると発表された&amp;lt;ref&amp;gt;{{Cite web |url=http://www.sakuragakuin.jp/news/single.php?id=341 |title=さくら学院 - 連絡板 - さくら学院 職員室よりお知らせ |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+5月、大阪、東京でワンマンライブツアーを開催し&amp;lt;ref name="5月革命"&amp;gt;[http://natalie.mu/music/news/87796 BABYMETALが生バンドと“修行”ツアー、6月には新曲発売]&amp;lt;/ref&amp;gt;、初めて全曲生演奏での公演が行われた&amp;lt;ref&amp;gt;{{Cite web |url=http://www.musicman-net.com/artist/25823.html|title=BABYMETAL初の全曲生バンド演奏ツアーは全公演異なる内容で展開 | Musicman-NET|accessdate=2017-07-20|archiveurl=http://web.archive.org/web/20141110170538/http://www.musicman-net.com/artist/25823.html|archivedate=2014-11-10}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://ameblo.jp/sakuragakuin/entry-11534875471.html |title=最高楽しかったDEATH!｜さくら学院オフィシャルブログ「学院日誌」Powered by Ameba |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;{{Refnest|group="注"|「I、D、Z〜LEGEND“I”」以来、アンコール数曲では生バンドの経験があるものの、果たして長時間のメタルの轟音にメンバーが立ち向うことができるのかが大きな修行の一つだった{{sfn|MARQUEE97|p=44|ps=「小野慎一郎 LIVE Report:BABYMETAL」}}。}}。同月から9月にかけて、「TOKYO [[METROPOLITAN ROCK FESTIVAL]] 2013」&amp;lt;ref name=" ro6982839 "&amp;gt;[https://rockinon.com/live/detail/82839 TOKYO METROPOLITAN ROCK FESTIVAL 2013（2日目）]&amp;lt;/ref&amp;gt;、「[[JOIN ALIVE]] 2013」&amp;lt;ref name="barks20130722"&amp;gt;[http://www.barks.jp/news/?id=1000092546 【Kawaii girl Japan/ライブレポート】BABYMETAL、北の大地でウォール・オブ・デスがスパーク]&amp;lt;/ref&amp;gt;、「[[ROCK IN JAPAN FESTIVAL]] 2013」&amp;lt;ref name="mfound20130805"&amp;gt;{{cite news|url=http://mfound.jp/news/2013/08/020070.html|title=BABYMETAL、初見参のロックインジャパンフェスで「We are BABYMETAL!!」|newspaper=mFound|date=2013-08-05|accessdate=2015-09-02}}&amp;lt;/ref&amp;gt;、「サマーソニック 2013」&amp;lt;ref name="metaljp192" /&amp;gt;&amp;lt;ref name="yomiuri20151102"&amp;gt;{{cite news|author=田中隆信|date=2015-11-03|newspaper=[[YOMIURI ONLINE]]|title=日本発「カワイイ」を超え、世界が認めたベビーメタル|url=http://www.yomiuri.co.jp/fukayomi/ichiran/20151102-OYT8T50061.html|publisher=[[読売新聞社]]|accessdate=2016-07-25}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="ss2013 "&amp;gt;{{Cite news |title=“サマソニ2013”でBABYMETALが大御所と対面。メタリカやチープトリックが「一緒に写真を!」 |newspaper=[[Techinsight]] |publisher=株式会社メディアプロダクツジャパン |date= 2013-08-13 |author=真紀和泉 |url=http://japan.techinsight.jp/2013/08/babymetal-metallica-summersonic20130810.html |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;、「アニメ・フェスティバル・アジア インドネシア 2013」&amp;lt;ref name="animefes2013"&amp;gt;[http://www.animefestival.asia/afaid/ ANIME FESTIVAL ASIA INDONESIA 2013official]&amp;lt;/ref&amp;gt;、「[[イナズマロックフェス]] 2013」&amp;lt;ref name="musicman-net20130925"&amp;gt;[http://web.archive.org/web/20130719021125/http://deview.co.jp/Interview?am_interview_id=16 BABYMETAL伝説のライブシリーズを全曲完全収録、初の映像作品リリース決定]&amp;lt;/ref&amp;gt;など、各種[[ロック・フェスティバル|ロックフェス]] &amp;amp;イベントに積極的に参加し知名度を上げていく{{sfn|Mマガジン20164|pp=44-47|ps=「まつもとたくお／時代のトレンドに左右されることなく、我が道を突き進んだライブ BABYMETAL最大の魅力を伝える映像作品全紹介」}}。2013年6月19日、シングル「[[メギツネ]]」発売&amp;lt;ref&amp;gt;{{Cite web |url=http://gekirock.com/news/2013/05/babymetal2nd.php |title=アイドルとメタルの融合!BABYMETAL、ジャパニーズ“祭りメタル”と位置付けた異色の2ndシングル「メギツネ」の最新アートワーク、詳細を公開! 激ロック ニュース |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://www.music-lounge.jp/v2/articl/news/detail/?articl=2013/06/24-13:00:00_984433e6243289063f6bf3f37b36d423 |title=BABYMETAL 自己最高デイリー2位にランクイン!BABYMETAL、ゆるキャラ“いなりん”と新曲ヒット祈願! -MUSIC LOUNGE ニュース- |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+10月20日、メタル・フェス「[[LOUD PARK]] 13」に出演&amp;lt;ref name="loudpark13"&amp;gt;{{Cite web |url=http://www.loudpark.com/13/lineup/ |title=LINEUP - LOUD PARK 13 |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。BABYMETALの出演がアナウンスされると賛否両論が渦巻き、LOUD PARKの公式[[Facebook]]および[[Twitter]]が炎上した&amp;lt;ref&amp;gt;{{Cite web |url=http://heavy-metal.jp/mag/238.htm |title=LOUD PARK歴代“アウェイ”出演者特集 - METAL JAPAN Feature / PickUp |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。しかし、当日は「イジメ、ダメ、ゼッタイ」で巨大な[[ウォール・オブ・デス]]が発生するなどの盛り上がりを見せた{{sfn|ヘドバン3|pp=52-54|ps=「BABYMETALを観てきたライター・編集者が選ぶ、BABYMETALベストライヴ!」}}&amp;lt;ref&amp;gt;{{Cite web |url=http://www.musicman-net.com/artist/29998.html|title=BABYMETAL、メタル・フェス「LOUD PARK 13」に初降臨|accessdate=2017-07-20|archiveurl=http://web.archive.org/web/20140222033148/http://www.musicman-net.com/artist/29998.html|archivedate=2014-02-22}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="enta1673"&amp;gt;[http://www.entamenext.com/news/detail/id=1673 「オジーよ、これが日本のメタルだ!」 オズフェスで示した“日本代表”としてのBABYMETAL]&amp;lt;/ref&amp;gt;。12月21日、「[[LIVE〜LEGEND 1999&amp;amp;1997 APOCALYPSE|LEGEND "1997" SU-METAL聖誕祭]]」で「[[ギミチョコ!!]]」を初披露&amp;lt;ref name="barks20140204"&amp;gt;[http://www.barks.jp/news/?id=1000099696 BABYMETAL、1stアルバムから熱狂蘇る「ギミチョコ!!」MV解禁]&amp;lt;/ref&amp;gt;{{Refnest|group="注"|YouTubeのBABYMETALオフィシャルチャンネルで公開されている「ギミチョコ!!」のミュージックビデオは、このライブでの映像が使用されている&amp;lt;ref&amp;gt;[http://realsound.jp/2014/02/babymetalmv-1.html BABYMETAL、上田剛士提供「ギミチョコ!!」MV公開 幕張メッセのライブを映像に]&amp;lt;/ref&amp;gt;。}}。12月28日、日本国外では初となるワンマンライブを[[シンガポール]]にて開催&amp;lt;ref name="ro6920131105"&amp;gt;{{cite news|url=https://rockinon.com/news/detail/91669|title=BABYMETAL、12月にシンガポールで初の海外ワンマンライヴを開催することが明らかに|newspaper=RO69|publisher=株式会社[[ロッキング・オン]]|date=2013-11-05|accessdate=2014-04-06}}&amp;lt;/ref&amp;gt;。
+
+2014年2月2日、[[台湾]]で[[ソニック (バンド)|ソニック]]とツーマンライブを開催&amp;lt;ref&amp;gt;{{cite news|url=http://www.metalsucks.net/2014/02/10/video-babymetal-performs-chthonic/|title=Video: Babymetal Performs with Chthonic|newspaper=[[:en:MetalSucks|MetalSucks]]|author=Axl Rosenberg|date=2014-02-10|accessdate=2014-12-14|language=英語}}&amp;lt;/ref&amp;gt;。2月7日、『[[ミュージックステーション]]』（[[テレビ朝日]]）に初出演し「イジメ、ダメ、ゼッタイ」をパフォーマンス&amp;lt;ref name="barks20140204" /&amp;gt;。[[生放送]]の歌番組出演はこれが初&amp;lt;ref name="M-ON95242"&amp;gt;[http://www.m-on-music.jp/0000095242/ BABYMETAL ALBUM「BABYMETAL」ディスクレビュー]&amp;lt;/ref&amp;gt;。2月26日、[[セルフタイトル]]の1stアルバム『[[BABYMETAL (アルバム)|BABYMETAL]]』を発売&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/96139 BABYMETAL、ファースト・アルバム『BABYMETAL』の詳細を発表]&amp;lt;/ref&amp;gt;。同アルバムは、[[iTunes Store]]にて7ヵ国のロックアルバムチャートでベスト10に入り&amp;lt;ref name="metaljp192" /&amp;gt;、全米総合アルバムチャート（[[Billboard 200]]）に日本人最年少でランクイン&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/d_news/detail/19195/2 米ビルボードチャートランクインのBABYMETAL イギリスの大型フェス出演決定]&amp;lt;/ref&amp;gt;。発売日の前日には、収録曲「ギミチョコ!!」のミュージックビデオがYouTubeの公式チャンネルにアップロードされ、これをきっかけとして日本国内外における知名度が高まっていった&amp;lt;ref name="nbc20140420"&amp;gt;{{cite news|author=Randee Dawn|date=2014-04-20|work=[[:en:NBC|NBC]]|title=Hard Rock, Pop Sweetness Combine in Teen Band Babymetal|url=http://www.nbcnews.com/pop-culture/music/hard-rock-pop-sweetness-combine-teen-band-babymetal-n84276|language=英語|accessdate=2015-10-18}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="yomiuri20151102 " /&amp;gt;&amp;lt;ref name="ukembjapan"&amp;gt;{{cite news|url=http://www.uk.emb-japan.go.jp/en/webmagazine/2014/07/baby.html|title=Featur Interview with Japanese "kawaii-metal" pop group BABYMETAL|work=[[在英国日本国大使館]]|author=|date=2014-07|accessdate=2016-09-26|language=英語}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="markezine21801"&amp;gt;{{cite web|url=http://markezine.jp/article/detail/21801|title=アイドル市場における「BABYMETAL」のポジショニングを主成分分析で検証する【最終回】|work=MarkeZine|publisher=株式会社翔泳社|author=豊澤栄治|date=2015-02-05|accessdate=2016-09-19}}&amp;lt;/ref&amp;gt;。3月1・2日、2日間にわたって[[日本武道館]]でワンマンライブを行った&amp;lt;ref name="zunny1396"&amp;gt;{{cite news|date=2016-05-05|newspaper=ZUNNY|title=ライブ動員でみる「BABYMETAL」の歩み|url=http://zunny.jp/00001396|publisher=ZUNNY|accessdate=2016-08-24}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://www.oricon.co.jp/news/2034651/full/ |title=BABYMETAL、武道館単独公演で史上最年少記録  ORICON NEWS |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。平均年齢14.7歳での開催となり、これまでの女性最年少記録を更新&amp;lt;ref name="yomiuri20151102 " /&amp;gt;&amp;lt;ref name="dot2015528"&amp;gt;{{Cite news|author=小熊一実|date=2015-05-28|newspaper=[[AERA dot.|dot.]]|title=第84回 レディ・ガガのお気に入り、ベビー・メタルが「メトロック2015」に降臨だ!|url=https://dot.asahi.com/musicstreet/column/osusume/2015052800066.html|publisher=[[朝日新聞出版]]|accessdate=2016-09-26}}&amp;lt;/ref&amp;gt;。また、この公演で「メタルレジスタンス第1章」が完結、今後は海外武者修行に出る「メタルレジスタンス第2章」を開始すると宣言した&amp;lt;ref name="nexus68" /&amp;gt;&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/111338 BABYMETAL武道館で第1章完結、海外武者修行の旅へ]&amp;lt;/ref&amp;gt;。
+
+=== メタルレジスタンス第2章（2014年) ===
+[[Image:Babymetal-2014-01.jpg|thumb|right|220px|ロンドン [[ブリクストン・アカデミー|O2アカデミー・ブリクストン]]公演 (2014年11月)]]
+2014年7月より、[[フランス]]、[[ドイツ]]、[[イギリス]]、[[アメリカ合衆国|アメリカ]]、[[カナダ]]、[[日本]]を巡る初のワールドツアーを開始&amp;lt;ref&amp;gt;{{cite news|url=http://www.zakzak.co.jp/entertainment/ent-news/news/20140709/enn1407091616023-n1.htm|title=世界を席巻中のBABYMETAL、圧倒的存在感でヨーロッパを熱狂の渦に|newspaper=zakzak by [[夕刊フジ]]|publisher=株式会社[[産経デジタル]]|date=2014-07-09|accessdate=2014-07-14}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="wt" group="注"&amp;gt;音楽フェスティバルも含む。&amp;lt;/ref&amp;gt;。同月に開催された「[[:en:Sonisphere Festival|Sonisphere Festival]] UK」ではメインステージに出演&amp;lt;ref name="ukembjapan" /&amp;gt;&amp;lt;ref name="afpbb20160912"&amp;gt;{{cite web|url=http://www.afpbb.com/articles/-/3100636|title=かわいいメタルで世界を変える「BABYMETAL」の挑戦|accessdate=2016-09-16|author=Fuyuko Tsuji|date=2016-09-12|work=[[:en:Agence France-Presse|AFPBB News]]|publisher=株式会社クリエイティヴ・リンク}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://www.cdjournal.com/main/news/babymetal/58903 BABYMETAL、日本公演を含むワールド・ツアー決定! 英大型ロックフェスのメインステージに異例の大抜擢!]&amp;lt;/ref&amp;gt;{{Refnest|group="注"|当初はテントステージの予定だったが、出演発表後に反響があったため変更となった&amp;lt;ref name="nexus68"&amp;gt;[http://www.nexus-web.net/article/ongakusyugi-68/ 「名物プロデューサー列伝 vol.60 KOBAMETALさん」『NEXUS 音楽主義』 No.68]、pp.38-41&amp;lt;/ref&amp;gt;。}}。7月中旬には、英[[:en:Metal Hammer|METAL HAMMER]]が主催したトーナメント方式のネット投票企画「HEAVY METAL WORLD CUP」に日本代表として選出され優勝&amp;lt;ref&amp;gt;{{cite news|url=http://gekirock.com/news/2014/07/babymetal_winner.php|title=BABYMETAL、日本代表として"ヘヴィ・メタル・ワールドカップ"で優勝!Metal Hammer誌主催の全世界的ネット投票企画でMACHINE HEAD、GOJIRAらを撃破!|newspaper=激ロック|publisher=激ロックエンタテインメント株式会社|date=2014-07-23|accessdate=2014-08-30}}&amp;lt;/ref&amp;gt;。また、7月下旬から8月上旬にかけて、[[レディー・ガガ]]の北米ツアーにオープニングアクトとして同行&amp;lt;ref&amp;gt;{{Cite web |url=http://www.sponichi.co.jp/entertainment/news/2014/08/05/kiji/K20140805008690670.html |title=ガガ“前座”ベビメタ絶賛!最前列でノリノリ「ファンになったわ」― スポニチ Sponichi Annex 芸能 |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://loudwire.com/babymetal-to-open-for-lady-gaga-on-u-s-tour/ |title=Babymetal Recruited to Open for Lady Gaga on U.S. Tour |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。8月、カナダの「[[:en:Heavy MONTRÉAL|HEAVY MONTRÉAL]]」に出演&amp;lt;ref&amp;gt;{{cite news|url=http://www.bitslounge.com/interview/babymetal|title=世界に拡大中の“メタルレジスタンス”BABYMETAL|newspaper=bits LOUNGE|publisher=Bits Box|date=2015-05-01|accessdate=2016-08-05}}&amp;lt;/ref&amp;gt;。
+
+11月、アメリカ、イギリスでワールドツアーの追加公演を開催&amp;lt;ref name="back"&amp;gt;[http://www.barks.jp/news/?id=1000109518 BABYMETAL、ロンドン公演で5,000人を前に新曲初披露]&amp;lt;/ref&amp;gt;。ロンドンの[[ブリクストン・アカデミー|O2アカデミー・ブリクストン]]で行われた公演&amp;lt;ref group="注"&amp;gt;同年12月には[[NHK総合テレビジョン|NHK総合]]の特集番組で公演の舞台裏が放送された。&amp;lt;/ref&amp;gt;において「メタルレジスタンス第2章」の完結が宣言され、[[ドラゴンフォース (バンド)|ドラゴンフォース]]とコラボレーションした楽曲「[[Road of Resistance]]」の初披露をもって「メタルレジスタンス第3章」の開始が宣言された&amp;lt;ref name="yomiuri20151102 " /&amp;gt;&amp;lt;ref name="back" /&amp;gt;。
+
+=== メタルレジスタンス第3章（2015年）===
+2015年1月、ライブアルバム『[[LIVE AT BUDOKAN 〜RED NIGHT〜]]』と映像作品『[[LIVE AT BUDOKAN 〜RED NIGHT &amp;amp; BLACK NIGHT APOCALYPSE〜]]』を同時発売&amp;lt;ref name="oricon2047103"&amp;gt;[http://www.oricon.co.jp/news/2047103/full/ 【オリコン】BABYMETAL、ライブ盤で快挙女性最年少15.7歳でBD1位]&amp;lt;/ref&amp;gt;、[[オリコン]]週間チャートにて、それぞれアルバムで3位、Blu-ray総合で1位となり、女性アーティストのライブアルバムとしては11年ぶりにTOP3に入り、Blu-rayでは総合1位の女性最年少記録を更新&amp;lt;ref name="oricon2047103" /&amp;gt;。1月10日、[[さいたまスーパーアリーナ]]でワンマンライブ「LEGEND“2015” 〜新春キツネ祭り〜」を開催し約2万人を動員&amp;lt;ref name="zunny1396" /&amp;gt;&amp;lt;ref name="mn20150121"&amp;gt;[http://news.mynavi.jp/news/2015/01/21/385/ 世界でBABYMETALも大ブレイク中! メタル系アーティストの魅力とは?]&amp;lt;/ref&amp;gt;。3月には「第7回 [[CDショップ大賞]] 2015」にてアルバム『BABYMETAL』が大賞を受賞&amp;lt;ref name="CDShopTaisyo"&amp;gt;[http://www.barks.jp/news/?id=1000113442 「第7回CDショップ大賞2015」、大賞は『BABYMETAL』]&amp;lt;/ref&amp;gt;。
+
+5月より、[[メキシコ]]、カナダ、アメリカ、ドイツ、フランス、[[スイス]]、[[イタリア]]、[[オーストリア]]、日本、イギリスを巡る2度目のワールドツアーを開始&amp;lt;ref&amp;gt;{{Cite web |url=http://www.entameplex.com/archives/18742 |title=BABYMETAL、「BABYMETAL WORLD TOUR 2015」第一弾スケジュールを発表 - Entame Plex |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="wt" group="注" /&amp;gt;。同ツアーは「Road of Resistance」の世界観である"道なき道を突き進んでいく"をテーマに掲げた&amp;lt;ref name="rs25663"&amp;gt;[http://www.rollingstonejapan.com/articles/detail/25663 世界を舞台に戦い続ける「BABYMETAL」の新たな挑戦（後編）]&amp;lt;/ref&amp;gt;{{sfn|別冊カドカワ04|pp=3-15|ps=「BABYMETAL 撮りおろしグラビア&amp;amp; 1万5千字インタビュー」}}&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/special/detail/1523/ BABYMETAL インタビュー]&amp;lt;/ref&amp;gt;。同月にはアメリカの「[[:en:Rock on the Range|Rock On The Range]] 2015」&amp;lt;ref name="oricon150518"&amp;gt;[http://www.oricon.co.jp/news/2052994/full/ BABYMETALに欧米メディア取材殺到 メタル界大御所と対面も]&amp;lt;/ref&amp;gt;、ドイツの「[[:de:Rock im Revier|Rock im Revier]]」などにも出演。また、海外レーベル（インディーズ）の[[:en:Edel AG|earMUSIC]]、[[:en:RED Distribution|RAL]]と契約し、欧米でCDの販売を開始したほか&amp;lt;ref&amp;gt;{{Cite web |url=http://www.billboard-japan.com/d_news/detail/27383/2 |title=BABYMETALが遂に海外デビュー US&amp;amp;EU盤のリリースが決定で更なる飛躍なるか? | Daily News | Billboard JAPAN |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;{{efn2|EU盤earMUSICとの契約は[[ドラゴンフォース (バンド)|ドラゴンフォース]]の推薦によるもの{{sfn|QJ20164|pp=32-33|ps=「海外メディアインタビュー 『[[:en:earMUSIC|earMUSIC]]』・ジョナサン・グリーン」}}。欧州・北米ではアルバム『BABYMETAL』がCDデビュー作品。}}、国内で発売した映像作品『[[LIVE IN LONDON -BABYMETAL WORLD TOUR 2014-]]』がオリコン週間チャートのBlu-ray総合で1位となり、10代アーティスト初の2作連続Blu-ray総合1位を記録&amp;lt;ref name="oricon15527"&amp;gt;[http://www.oricon.co.jp/news/2053383/full/ 【オリコン】BABYMETAL、10代初の2作連続BD総合1位]&amp;lt;/ref&amp;gt;。
+
+[[ファイル:Babymetal at 2015 GQ Men of the Year ceremony.jpg|thumb|right|220px|2015年度「[[GQ JAPAN|GQ]] Men of the Year」授賞式のグループショット。左からYUIMETAL, SU-METAL, MOAMETAL]]
+6月、イギリスのロック専門誌[[ケラング!]]が主催する「[[:en:Kerrang! Awards|KERRANG! AWARDS]] 2015」の授賞式に出席し「THE SPIRIT OF INDEPENDENCE AWARD」を受賞、同アワードでの受賞は日本人初となった&amp;lt;ref name="KerrangAwards"&amp;gt;[http://www.barks.jp/news/?id=1000116584 BABYMETAL、日本人初の「KERRANG!AWARDS 2015」受賞]&amp;lt;/ref&amp;gt;。また、イギリスの「[[ダウンロード・フェスティバル]] 2015」でのドラゴンフォースのステージにシークレットゲストとして参加し「ギミチョコ!!」で共演したほか&amp;lt;ref&amp;gt;[http://news.aol.jp/2015/06/13/babymetal/ BABYMETALとドラゴンフォースが英フェスで初共演、大騒ぎに!「ギミチョコ!!」も披露]&amp;lt;/ref&amp;gt;、イギリスのメタル専門誌METAL HAMMERが主催する「[[:en:Metal Hammer Golden Gods Awards|METAL HAMMER GOLDEN GODS AWARDS]] 2015 CEREMONY」に出席し「BREAKTHROUGH AWARD」を受賞、授賞式でドラゴンフォースとコラボレーションライブを行った&amp;lt;ref name="hammer150616"&amp;gt;[http://natalie.mu/music/news/150716 BABYMETAL、「METAL HAMMER」アワード受賞&amp;amp;DragonForceと共演]&amp;lt;/ref&amp;gt;。6月下旬には[[幕張メッセ]]にて全席オールスタンディングでの公演を行い約2万5000人を動員&amp;lt;ref&amp;gt;[http://www.oricon.co.jp/news/2054653/full/ BABYMETAL、史上最多2.5万人のダメジャンプ 横アリ2days含む国内初ツアー発表]&amp;lt;/ref&amp;gt;。
+
+8月、イギリスで開催された「[[レディング・フェスティバル|レディング&amp;amp;リーズ・フェスティバル]] 2015」のメインステージに史上最年少で出演し&amp;lt;ref name="BBC20150830"&amp;gt;{{Cite web |url=http://www.bbc.co.uk/newsbeat/article/34099317/babymetal-at-reading-festival-fans-and-the-band-on-being-different-bullying-and-criticism|title=Babymetal at Reading Festival: Fans and the band on being different, bullying and criticism|accessdate=2016-09-23|work=[[:en:BBC News|BBC Newabeat]]|author=Felicity Morse|date=2015-08-30|language=英語}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/144710 BABYMETAL欧州最大級フェスに日本人唯一&amp;amp;史上最年少メインステージ出演]&amp;lt;/ref&amp;gt;、2日間でのべ9万人を動員&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/158870 BABYMETAL、英国「Reading and Leeds Festivals」出演で9万人熱狂]&amp;lt;/ref&amp;gt;。9月より、大阪、北海道、福岡、愛知、東京、神奈川を巡る初の全国ツアーを開始&amp;lt;ref name="ro69132548"&amp;gt;[https://rockinon.com/news/detail/132548 BABYMETAL、Zeppに吹き荒れる世界凱旋の爆風! 初の全国ライヴハウスツアーレポ!]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite news|url=http://ticket.st/livel/54523r78y|title=【初日レポ】『BABYMETAL WORLD TOUR 2015』Zepp Namba グッズ、セトリ、ライブレポ|newspaper=ライブる|publisher=チケットストリート株式会社|date=2015-09-16|accessdate=2016-09-05}}&amp;lt;/ref&amp;gt;。同月には「[[ULTRA JAPAN]] 2015」での[[スクリレックス]]のステージにサプライズゲストとして参加し、「ギミチョコ!!」で共演&amp;lt;ref&amp;gt;{{cite news|url=http://www.fuse.tv/2015/09/skrillex-babymetal-ultra-japan|title=Watch Babymetal Join Skrillex Onstage for Insane Live Collaboration|newspaper=[[:en:Fuse (TV channel)|fuse]]|author=Jeff Benjamin|date=2015-09-21|accessdate=2015-09-22|language=英語}}&amp;lt;/ref&amp;gt;。11月、[[GQ JAPAN]]が主催する「GQ Men of the Year 2015」で特別賞「Discovery of the Year」を&amp;lt;ref name="GQ"&amp;gt;{{Cite web |url=http://natalie.mu/music/news/166558 |title=「唯一無二の女性に」BABYMETAL、「GQ Men of the Year」特別賞を受賞 - 音楽ナタリー |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=https://gqjapan.jp/culture/celebrity/20151223/discovery-babymetal-artists#1wmy4YrgVEjjlRul.97 |title=挑み続ける少女たち、 #BABYMETAL ──世界が彼女たちを追いかける GQ JAPAN |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;、[[VOGUE JAPAN]]が主催する「VOGUE JAPAN Women of the Year 2015」を&amp;lt;ref name="cinemacafe151126"&amp;gt;{{Cite news|url= http://www.cinemacafe.net/article/2015/11/26/35968.html |title= 広瀬すず、吉田羊、BABYMETALら「VOGUE Women of the Year」受賞! |newspaper= シネマカフェ |publisher= 株式会社イード |date= 2015-11-26 |accessdate= 2015-11-26 }}&amp;lt;/ref&amp;gt;それぞれ受賞。11月22日、「LOUD PARK 13」以来の国内メタルフェス参戦となる「[[Ozzfest]] Japan 2015」に出演し、日本人大トリを務めた&amp;lt;ref name="enta1673" /&amp;gt;{{sfn|ヘドバン9|pp=18-22|ps=「BABYMETALが日本人大トリとしてOZZFEST JAPANに初見参!」}}&amp;lt;ref&amp;gt;{{Cite web |url=http://spice.eplus.jp/articles/16277|title=『OZZFEST JAPAN2015』ついにタイムテーブル発表! | SPICE - エンタメ特化型情報メディア スパイス |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://www.grindhouse.jp/report/Ozzfest2015.php |title=日本のシーンに新たな歴史が刻まれるとともに、この2日間からまた何かが始まる予感も!? |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+12月、[[横浜アリーナ]]で行われた全国ツアーの最終公演において、「[[三部作|トリロジー]]」をサブタイトルとした「メタルレジスタンス第3章」が完結したことが宣言され、「FOX DAY」と題した2016年4月1日に「メタルレジスタンス第4章」を開始すると宣言した&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/135677 BABYMETAL、宙を舞う! 新曲連打、大発表続々で燃えた横浜アリーナ公演レポート!]&amp;lt;/ref&amp;gt;。
+
+=== メタルレジスタンス第4章（2016年）===
+[[ファイル:Babymetal performing at Wembley Arena, London (26201667231).jpg|thumb|right|220px|ロンドン [[ウェンブリー・アリーナ]]公演 (2016年4月)]]
+2016年4月1日、2ndアルバム『[[METAL RESISTANCE]]』を世界同時発売&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/139194 BABYMETAL、New AL詳細&amp;amp;新ビジュアルを解禁DEATH!]&amp;lt;/ref&amp;gt;、オリコン週間チャートで2位となり自己最高位を更新したほか&amp;lt;ref&amp;gt;{{cite news|url=http://music-book.jp/music/news/news/117046|title=BABYMETAL、前作を大幅に上回る勢いで2ndアルバム『METAL RESISTANCE』が自己最高位&amp;amp;初週売上を更新|newspaper=music.jpニュース|publisher=株式会社[[エムティーアイ]]|date=2016-04-05|accessdate=2016-04-09}}&amp;lt;/ref&amp;gt;、[[全英アルバムチャート|全英総合アルバムチャート]]で15位を記録し、日本人の最高位を41年ぶりに更新&amp;lt;ref name="oricon2070050"&amp;gt;[http://www.oricon.co.jp/news/2070050/full/ 【オリコン】BABYMETAL、全米TOP40入りの快挙 坂本九さん以来53年ぶり2組目]&amp;lt;/ref&amp;gt;、[[オーストラリア]]の[[ARIAチャート|ARIA]]による総合アルバムチャートでは7位を記録し、日本人初のチャートイン&amp;lt;ref&amp;gt;{{cite news|url=http://www.ariacharts.com.au/news/2016/lukas-graham-nabs-first-1-album|title=Lukas Graham Nabs First #1 Album|newspaper=[[ARIAチャート]]|publisher=[[オーストラリアレコード産業協会]]|date=2016-04-09|accessdate=2016-04-09|language=英語}}&amp;lt;/ref&amp;gt;、全米総合アルバムチャート（Billboard 200）では39位を記録し、日本人としては[[坂本九]]のアルバム『[[Sukiyaki and Other Japanese Hits]]』の14位以来53年ぶりにTOP40入りとなった&amp;lt;ref name="billboard20160523" /&amp;gt;&amp;lt;ref name="WB20160928"&amp;gt;{{cite news|author=|date=2016-09-28|work=[[:en:Warner Bros.|Warner Bros.]]|title=FOR IMMEDIATE RELEASE|url=http://www.warnerbros.com/studio/news/brc-baby-metal|language=en|accessdate=2016-10-03}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="oricon2070050" /&amp;gt;&amp;lt;ref name="asahi20160715"&amp;gt;{{cite news|url=http://www.asahi.com/articles/ASJ4D7DWBJ4DUCVL01W.html|title=ベビーメタル、米チャート39位 坂本九さん以来の快挙|author=|work=[[朝日新聞デジタル]]|publisher=[[朝日新聞社]]|date=2016-04-12|accessdate=2016-09-16}}&amp;lt;/ref&amp;gt;。
+
+翌日より、イギリス、アメリカ、スイス、オーストリア、[[オランダ]]、ドイツ、フランス、日本を巡る3度目のワールドツアーを開始&amp;lt;ref name="nsp20160404"&amp;gt;[http://www.nikkansports.com/entertainment/news/1626401.html ベビーメタル日本人初、聖地ウェンブリー単独ライブ]&amp;lt;/ref&amp;gt;&amp;lt;ref name="wt" group="注" /&amp;gt;。初日の2016年4月2日、ロンドンの[[ウェンブリー・アリーナ]]で日本人初{{Refnest|group="注"|当初は[[3月12日]]に[[X JAPAN]]が先に同会場でライブを開催し、BABYMETALは2番手となる予定だったが、[[PATA]]の大腸憩室炎および[[血栓症|門脈血栓症]]による入院に伴い公演が[[2017年]][[3月4日]]に延期された為、順番が入れ替わった。}}となるワンマンライブを開催&amp;lt;ref name="asahi20160715" /&amp;gt;&amp;lt;ref name="toyokeizai129634"&amp;gt;[http://toyokeizai.net/articles/-/129634 巷の｢BABYMETAL論｣は､ほぼ間違っている この3人組は､なぜ世界で成功できたのか]&amp;lt;/ref&amp;gt;&amp;lt;ref name="rs25744"&amp;gt;[http://www.rollingstonejapan.com/articles/detail/25744 BABYMETALが世界をつなぐ架け橋に!日本人初ウェンブリー・アリーナ公演完全レポート]&amp;lt;/ref&amp;gt;、約1万2000人を動員し&amp;lt;ref name="nsp20160404" /&amp;gt;、同会場におけるグッズ販売の売上記録を更新&amp;lt;ref name="barks20160406"&amp;gt;[http://www.barks.jp/news/?id=1000125954 BABYMETAL、英／米を席巻]&amp;lt;/ref&amp;gt;。また、同月にアメリカのトーク番組『[[ザ・レイト・ショー・ウィズ・スティーヴン・コルベア]]』（[[CBS]]）に出演し、「ギミチョコ!!」のスタジオライブを披露&amp;lt;ref&amp;gt;{{Cite web |url=http://www.gizmodo.jp/2016/04/baby-metal-made-their-us-tv-debut.html |title=アメリカの人気トーク番組に日本が世界に誇るBABYMETALが登場! |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://loudwire.com/babymetal-gimme-chocolate-the-late-show-with-stephen-colbert/ |title=Babymetal Perform 'Gimme Chocolate!!' on 'Stephen Colbert' |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。日本では歌番組『ミュージックステーション』（テレビ朝日）に出演し、「[[KARATE]]」のスタジオライブを披露した&amp;lt;ref&amp;gt;{{Cite web |url=https://e-talentbank.co.jp/news/14538/ |title=BABYMETALのYUIMETALが海外の反響を語る 飛行機でもらったあるモノとは?｜E-TALENTBANK co.,ltd. |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+6月、「KERRANG! AWARDS 2016」にて「BEST LIVE BAND」を受賞したほか&amp;lt;ref name="mtvjapan20160610"&amp;gt;{{cite news|url=http://www.mtvjapan.com/news/music/27092|title=BABYMETAL、英「Kerrang! Awards」で2年連続受賞|publisher=[[MTVジャパン]]|date=2016-06-10|accessdate=2016-06-10}}&amp;lt;/ref&amp;gt;、イギリスの「ダウンロード・フェスティバル 2016」およびフランスの「ダウンロード・フェスティバル・パリ 2016」でメインステージに出演&amp;lt;ref name="mtvjapan20160610" /&amp;gt;。7月にはアメリカの音楽誌[[オルタナティヴ・プレス]]が主催する「[[:en:Alternative Press Music Awards|Alternative Press Music Awards]] 2016」で、[[ジューダス・プリースト]]の[[ロブ・ハルフォード]]がBABYMETALのゲストボーカルとして出演した。歌った曲目は「[[ペインキラー (アルバム)|ペインキラー]]」および「[[ブリティッシュ・スティール|ブレイキング・ザ・ロウ]]」&amp;lt;ref&amp;gt;[http://www.oricon.co.jp/news/2075368/full/ BABYMETAL、ついに“メタルゴッド”と共演「うれしかったDEATH」]&amp;lt;/ref&amp;gt;。
+
+[[ファイル:BABYMETAL, O2 Arena, London (31443470776).jpg|thumb|right|220px|[[レッド・ホット・チリ・ペッパーズ]]のロンドン [[O2アリーナ (ロンドン)|O2アリーナ]]公演(2016年12月)]]
+7月から8月にかけて「[[フジロックフェスティバル]]'16」&amp;lt;ref&amp;gt;[http://ripy-jm.com/news/pickup1283_fujirock_babymetal.html フジロックに出れるアイドルはBABYMETALだけ]&amp;lt;/ref&amp;gt;、「ROCK IN JAPAN FESTIVAL 2016」&amp;lt;ref&amp;gt;[http://realsound.jp/2016/09/post-9385.html BABYMETALが飛び越えた数々の“枠” アイドルとロックの関係性を改めて考える]&amp;lt;/ref&amp;gt;、「[[ライジング・サン・ロックフェスティバル]] 2016 in EZO」&amp;lt;ref&amp;gt;[https://www.barks.jp/news/?id=1000125847 ＜RISING SUN ROCK FESTIVAL 2016 in EZO＞第一弾で、BABYMETAL、ONE OK ROCK、UA、電気グルーヴら] - BARKS&amp;lt;/ref&amp;gt;、「サマーソニック 2016」&amp;lt;ref&amp;gt;[http://www.musicman-net.com/artist/55933.html 「サマーソニック 2016」第4弾、オフスプリング、星野源、BABYMETAL、METAFIVEらが出演決定] - MUSICMAN-NET&amp;lt;/ref&amp;gt;の国内4大ロックフェスに出演。
+
+9月19日と20日に[[東京ドーム]]で「[[LIVE AT TOKYO DOME|BABYMETAL WORLD TOUR 2016 LEGEND - METAL RESISTANCE –RED NIGHT &amp;amp; BLACK NIGHT]]」を開催し計11万人を動員、8か国22公演で総計45万人（単独公演15万人、参加フェス30万人）を動員した2016年のワールドツアーを完結させた&amp;lt;ref&amp;gt;{{cite web|url=http://www.billboard-japan.com/d_news/detail/42212|title=BABYMETAL 45万人が熱狂したワールドツアーが東京ドームで完結!|work=Billboard JAPAN|author=|date=2016-09-20|accessdate=2016-09-21}}&amp;lt;/ref&amp;gt;。
+
+9月28日、[[ワーナー・ブラザース]]はBABYMETALを題材とする映像作品を制作することを発表した&amp;lt;ref&amp;gt;{{Cite press release |title=FOR IMMEDIATE RELEASE |publisher=Warner Bros. Entertainment, Inc|date=2016-09-28 |url=https://www.warnerbros.com/studio/news/brc-baby-metal |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。[[実写]]と[[アニメ]]を組み合わせた短編シリーズとなる予定で、制作にはKOBAMETALも参加する&amp;lt;ref&amp;gt;{{Cite web |url=http://natalie.mu/music/news/203560 |title=BABYMETALを米ワーナーがアニメ化!ヘヴィメタルの危機を救う - 音楽ナタリー|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。11月、音楽アワード「[[MTV Video Music Awards Japan]] 2016」にてアルバム『METAL RESISTANCE』が最優秀邦楽アルバム賞を受賞&amp;lt;ref&amp;gt;{{cite news|url=https://realsound.jp/2016/11/post-10176.html|title=BABYMETAL、MTVで『BABYMETAL LIVE AT WEMBLEY ARENA』放送決定|work=[[リアルサウンド (ニュースサイト)|リアルサウンド]]|publisher=株式会社blueprint|date=2016-11-16|accessdate=2019-08-14}}&amp;lt;/ref&amp;gt;。
+
+12月から翌年1月にかけて、イギリスで[[レッド・ホット・チリ・ペッパーズ]]&amp;lt;ref&amp;gt;[https://www.barks.jp/news/?id=1000136194 BABYMETAL、レッチリと共演] - BARKS&amp;lt;/ref&amp;gt;、[[韓国]]で[[メタリカ]]&amp;lt;ref&amp;gt;[http://amass.jp/83367/ BABYMETALがメタリカと一緒に撮影した写真を公開] - amass&amp;lt;/ref&amp;gt;、日本で[[ガンズ・アンド・ローゼズ]]&amp;lt;ref&amp;gt;[http://nme-jp.com/news/32917/ BABYMETAL、ガンズ・アンド・ローゼズ公演からの写真が公開に] - NME JAPAN&amp;lt;/ref&amp;gt;のツアーにそれぞれ同行し、&amp;lt;!--[[ドーム球場|ドーム]]や[[アリーナ]]クラスで--&amp;gt;オープニングアクトを務める。
+
+=== メタルレジスタンス第5章 / 第6章（2017年）===
+2017年3月、[[デジタルメディア協会]]主催の「デジタル・コンテンツ・オブ・ジ・イヤー'16 / 第22回AMD Award」で優秀賞を受賞&amp;lt;ref name="natalie20170313"&amp;gt;{{cite news|url=https://natalie.mu/music/news/224407|title=BABYMETALが「AMD Award」優秀賞受賞、MIKIKOは審査員特別賞|newspaper=音楽[[ナタリー (ニュースサイト)|ナタリー]]|publisher=株式会社ナターシャ|date=2017-03-13|accessdate=2019-12-05}}&amp;lt;/ref&amp;gt;。4月、レッド・ホット・チリ・ペッパーズのUSツアーに同行し、サポートアクトを務める&amp;lt;ref&amp;gt;[http://nme-jp.com/news/31790/ レッド・ホット・チリ・ペッパーズのアメリカ・ツアーへの出演が決定] - NME JAPAN&amp;lt;/ref&amp;gt;。6月、ロサンゼルスにてワンマンライブ&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/237235 BABYMETAL、ロサンゼルスでのワンマンライブに4000人熱狂] - ナタリー&amp;lt;/ref&amp;gt;。[[コーン (バンド)|コーン]]のUSツアーに同行&amp;lt;ref&amp;gt;[https://www.barks.jp/news/?id=1000140051 BABYMETAL、コーンとのUSツアーに先駆けLAワンマンライブ決定] - BARKS&amp;lt;/ref&amp;gt;。
+
+7月、「5大キツネ祭り in JAPAN」(黒・赤・金・銀・白の各キツネ祭り）と銘打った東名阪ツアーを開始&amp;lt;ref&amp;gt;[http://www.musicman-net.com/artist/66750.html BABYMETAL、「5大キツネ祭り in JAPAN」東名阪で開催決定] - MUSICMAN-NET&amp;lt;/ref&amp;gt;。8月、「SUMMER SONIC 2017」にてヘッドライナーの[[フー・ファイターズ]]と同じメインステージで自身初の2ndヘッドライナーを務める&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/d_news/detail/54527/2 BABYMETAL、6年連続出演の【サマソニ】で初のメインステージに降臨] - Billboard JAPAN&amp;lt;/ref&amp;gt;。同月末、「5大キツネ祭り in JAPAN」が最終地・大阪にて閉幕&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/246773 BABYMETAL「5大キツネ祭り」白塗りのファン集う大阪で幕] ナタリー 2017年8月30日&amp;lt;/ref&amp;gt;。9月、アリーナ級ツアー「巨大キツネ祭り in JAPAN」を開始し&amp;lt;ref&amp;gt;[https://www.barks.jp/news/?id=1000142541 BABYMETAL、アリーナワンマン＜巨大キツネ祭り in JAPAN＞開催] BARKS 2017.5.29&amp;lt;/ref&amp;gt;、10月の[[大阪城ホール]]公演で閉幕&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/252816 BABYMETAL「巨大キツネ祭り」終幕、SU-METAL“聖誕の地”で「洗礼の儀」開催決定] ナタリー 2017年10月15日&amp;lt;/ref&amp;gt;。(メタルレジスタンス第5章の終了)
+
+11月、来年度開催の海外大型フェス、「Rock On The Range 2018」（アメリカ）および&amp;lt;ref&amp;gt;{{Cite web |url=https://www.barks.jp/news/?id=1000149363 |title=BABYMETAL、米フェスでトゥール、A7X、STPらと競演へ |publisher=BARKS |date=2017-11-28 |accessdate=2017-11-30 }}&amp;lt;/ref&amp;gt;「Download Festival 2018」（イギリス）出演を発表&amp;lt;ref&amp;gt;{{Cite web |url=https://www.barks.jp/news/?id=1000149404 |title=BABYMETAL、＜Download Festival 2018＞出演決定 |publisher=BARKS |date=2017-11-29 |accessdate=2017-11-30 }}&amp;lt;/ref&amp;gt;。欧州最大級の音楽賞「2017 [[MTVヨーロッパ・ミュージック・アワード]]」にて、日本人アーティスト初の受賞（[[:en:MTV Europe Music Award for Best Worldwide Act|ベスト・ワールドワイド・アクト賞]]）&amp;lt;ref&amp;gt;{{Cite web |url=https://natalie.mu/music/news/257001 |title=BABYMETALが「MTV EMA」日本人初のベスト・ワールドワイド・アクト賞獲得 |publisher=ナタリー |date=2017-11-16 |accessdate=2018-06-04 }}&amp;lt;/ref&amp;gt;。
+
+12月、SU-METALの20歳を記念した公演「[[LEGEND - S - BAPTISM XX -|LEGEND - S - 洗礼の儀 -]]」を、彼女の出身地・広島の[[広島県立総合体育館|グリーンアリーナ]]にて開催&amp;lt;ref name="natalie171203"&amp;gt;{{Cite web |url=https://natalie.mu/music/news/259377 |title=BABYMETAL、新たな時代の幕開け飾ったSU-METAL凱旋公演2DAYS |publisher=ナタリー |date=2017-12-03 |accessdate=2018-01-06 }}&amp;lt;/ref&amp;gt;。YUIMETALは体調不良のため不参加であった&amp;lt;ref name="natalie171203"/&amp;gt;。(本公演がメタルレジスタンス第6章に当たる)
+
+=== メタルレジスタンス第7章（2018年）===
+[[ファイル:Babymetal - 2018152162914 2018-06-01 Rock am Ring - 1D X MK II - 0652 - AK8I2521.jpg|thumb|right|220px|ドイツ「[[ロック・アム・リング|Rock am Ring]] 2018」公演 (2018年6月)]]
+2018年4月、アパレルブランド「[http://bmdfoxapparel.com/ BMD FOX APPAREL]」を立ち上げる&amp;lt;ref&amp;gt;{{Cite news|title=BABYMETALアパレルブランド“BMD FOX APPAREL”、5/7にZOZOTOWNにてデビュー {{!}} Daily News {{!}} Billboard JAPAN|url=http://www.billboard-japan.com/d_news/detail/62668/2|accessdate=2018-06-20|language=ja-JP|work=Billboard JAPAN}}&amp;lt;/ref&amp;gt;。
+
+5月、[[カンザスシティ (ミズーリ州)|カンザスシティ]]にて、BABYMETALの「ダークサイド」と位置付けた&amp;lt;ref name="rockin180502"&amp;gt;{{Cite news|url= https://rockinon.com/news/detail/175730 |title= BABYMETAL、新たなお告げ。「DARK SIDEの7人の勇者たち」が「WORLD TOUR 2018」で明らかに |newspaper= ロッキング・オン |publisher= 株式会社ロッキング・オン |date= 2018-05-02 |accessdate= 2019-06-30 }}&amp;lt;/ref&amp;gt;ワールドツアー「BABYMETAL WORLD TOUR 2018」が開幕&amp;lt;ref name="nikkansports20180509"&amp;gt;{{Cite news|url= https://www.nikkansports.com/entertainment/news/201805090000436.html |title= ベビメタYUIMETALツアー初日姿なく心配の声 |newspaper= 日刊スポーツ |publisher= 日刊スポーツ新聞社 |date= 2018-05-09 |accessdate= 2018-05-09 }}&amp;lt;/ref&amp;gt;。YUIMETALは参加せず、2名のサポートダンサーを加えた4名でのダンスパフォーマンスとなった&amp;lt;ref name="nikkansports20180509" /&amp;gt;&amp;lt;ref&amp;gt;{{Cite news|url= http://loudwire.com/is-yuimetal-no-longer-a-member-of-babymetal/ |title= Is Yuimetal No Longer a Member of Babymetal? |publisher= Loudwire |date= 2018-05-09 |accessdate= 2018-05-10}}&amp;lt;/ref&amp;gt;。ツアーの開幕に合わせて配信シングル「[[Distortion (曲)|Distortion]]」をリリース&amp;lt;ref&amp;gt;{{cite news|url=https://www.oricon.co.jp/news/2110992/full/|title=BABYMETAL、急きょ新曲「Distortion」配信&amp;amp;MV公開|newspaper=ORICON NEWS|publisher=[[オリコン]]株式会社|date=2018-05-08|accessdate=2019-08-11}}&amp;lt;/ref&amp;gt;。5Bマネージメント・アンド・レコーズおよび[[クッキング・ヴァイナル]]と共に独立レーベル「BABYMETAL RECORDS」を設立&amp;lt;ref&amp;gt;{{Cite web |url=https://natalie.mu/music/news/280401 |title=BABYMETAL、アメリカで新レーベル「BABYMETAL RECORDS」設立 |publisher=ナタリー |date=2018-05-01 |accessdate=2018-06-04 }}&amp;lt;/ref&amp;gt;。「Rock on the Range 2018」に日本人初2ndステージのヘッドライナーとして出演&amp;lt;ref&amp;gt;{{Cite web |url=https://www.barks.jp/news/?id=1000155343 |title=BABYMETAL、アメリカ＜Rock on the Range＞に出演。日本人アーティストとして初の2ndステージのトリを務める |publisher=BARKS |date=2018-05-22 |accessdate=2018-06-04 }}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web|url=https://rockinon.com/news/detail/176412|title=BABYMETAL、日本人初「Rock on the Range」2ndステージのヘッドライナーとしてパフォーマンス－rockinon.com｜https://rockinon.com/news/detail/176412|accessdate=2018-06-20|last=株式会社ロッキング・オン|website=rockinon.com|language=ja-JP}}&amp;lt;/ref&amp;gt;。
+
+6月、欧州ツアーを開始し、「[[ロック・アム・リング|Rock am Ring]] 2018」、「Rock im Park 2018」（共にドイツ）&amp;lt;ref&amp;gt;{{Cite web|url=https://rockinon.com/news/detail/170886|title=BABYMETAL、ドイツのロックフェス「Rock am Ring 2018 / Rock im Park 2018」出演決定－rockinon.com｜https://rockinon.com/news/detail/170886|accessdate=2018-06-20|last=株式会社ロッキング・オン|website=rockinon.com|language=ja-JP}}&amp;lt;/ref&amp;gt;、「Download Festival UK」（イギリス）などの大型ロックフェスに出演&amp;lt;ref&amp;gt;{{Cite web |url=https://www.barks.jp/news/?id=1000156113 |title=BABYMETAL、2年ぶりの＜Download Festival UK＞出演でヨーロッパツアー閉幕 |publisher=BARKS |date=2018-06-10 |accessdate=2018-06-10 }}&amp;lt;/ref&amp;gt;。
+
+10月19日、アミューズ公式サイトにて、YUIMETALが自らの体調が万全ではないことや「水野由結としての夢に向かって進みたい」との気持ちを理由にBABYMETALから脱退することを発表&amp;lt;ref&amp;gt;{{Cite web|url=http://artist.amuse.co.jp/artist/20181019/index.html|title=ファンの皆様へ|accessdate=2018-10-19|date=2018年10月19日|publisher=株式会社アミューズ}}&amp;lt;/ref&amp;gt;。併せて、次回公演からSU-METAL、MOAMETALを中心とした新体制となることが発表された&amp;lt;ref&amp;gt;{{Cite web|url=http://www.babymetal.com/jp/news/?id=28|title=BABYMETAL新体制についてのお知らせ|accessdate=2018-10-20|date=2018年10月19日|publisher=株式会社アミューズ}}&amp;lt;/ref&amp;gt;。
+
+10月、日本公演「BABYMETAL WORLD TOUR 2018 in JAPAN」を[[幕張メッセ]]&amp;lt;ref&amp;gt;{{Cite web|url=https://rockinon.com/live/detail/181255|title=BABYMETAL／幕張メッセイベントホール－rockinon.com｜https://rockinon.com/live/detail/181255|accessdate=2018-11-07|last=株式会社ロッキング・オン|website=rockinon.com|language=ja-JP}}&amp;lt;/ref&amp;gt;、[[ワールド記念ホール]]&amp;lt;ref&amp;gt;{{Cite web|url=https://rockinon.com/live/detail/181231|title=「DARK NIGHT CARNIVAL」／さいたまスーパーアリーナ－rockinon.com｜https://rockinon.com/live/detail/181231|accessdate=2018-11-07|last=株式会社ロッキング・オン|website=rockinon.com|language=ja-JP}}&amp;lt;/ref&amp;gt;で開催。追加公演として「BABYMETAL WORLD TOUR 2018 in JAPAN EXTRA SHOW "DARK NIGHT CARNIVAL"」を開催し、5名のサポートダンサーを加えた7名でダンスパフォーマンスを行い、[[サバトン]]やギャラクティックエンパイアと共演した&amp;lt;ref&amp;gt;{{Cite web|url=https://natalie.mu/music/news/306085|title=【ライブレポート】BABYMETAL、新体制で臨んだジャパンツアーが終幕（写真11枚） - 音楽ナタリー|accessdate=2018-11-07|last=Inc.|first=Natasha,|website=音楽ナタリー|language=ja}}&amp;lt;/ref&amp;gt;。
+
+12月、シンガポールでジューダス・プリーストのライブにサポートゲストとして出演&amp;lt;ref&amp;gt;{{Cite news|title=Judas Priest brings firepower to Singapore, BABYMETAL makes its bid for future headlining show – gig report|date=2018-12-05}}&amp;lt;/ref&amp;gt;したほか、オーストラリアの「[[:en:Good Things (Australian music festival)|Good Things Festival]] 2018」に出演&amp;lt;ref name="cdjournal181223"&amp;gt;{{Cite news|url=https://www.cdjournal.com/main/news/babymetal/81339|title=BABYMETALが豪ロック・フェス〈Good Things 2018〉に出演　初の豪上陸にファン熱狂|newspaper=CDJournal|publisher=株式会社音楽出版社|date=2018-12-23|accessdate=2019-08-14}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web|url=https://killyourstereo.com/news/1105088/melbourne-good-things-festival-the-big-review/|title=Melbourne Good Things Festival: The Big Review // Killyourstereo.com|accessdate=2018-12-23|website=Killyourstereo.com|language=en-AU}}&amp;lt;/ref&amp;gt;。
+
+=== メタルレジスタンス第8章（2019年）===
+6月、2019年度の始動ライブ「BABYMETAL AWAKENS - THE SUN ALSO RISES -」を開催し、3名のサポートダンサーのうち1名が日替わりで出演する3名体制へと復帰し&amp;lt;ref name="nikkan190629"&amp;gt;{{Cite web |url=https://www.nikkansports.com/entertainment/news/201906280001094.html |title=ベビメタ新体制で初単独公演 元モー娘鞘師も登場 |publisher=日刊スポーツ |date=2019-6-29 |accessdate=2019-6-29 }}&amp;lt;/ref&amp;gt;、秋の新アルバムの発売と2019年度の世界ツアー「METAL GALAXY WORLD TOUR」のスケジュールを発表した&amp;lt;ref&amp;gt;{{Cite web |url=https://natalie.mu/music/news/337677 |title=BABYMETALアルバム「METAL GALAXY」発売決定、11月には日本公演も |publisher=ナタリー |date=2019-6-29 |accessdate=2019-6-29 }}&amp;lt;/ref&amp;gt;。これと同時に新曲「[[PA PA YA!!]] (feat. [[:th:ฟักกลิ้งฮีโร่|F.HERO]])」を配信リリース&amp;lt;ref&amp;gt;{{Cite web |url=https://natalie.mu/music/news/337361 |title=BABYMETALがタイのF.HEROとコラボ、新曲「PA PA YA!!」配信リリース |publisher=ナタリー |date=2019-6-27 |accessdate=2019-6-29 }}&amp;lt;/ref&amp;gt;。6月30日には世界最大規模のロック・フェスであるイギリスの「[[グラストンベリー・フェスティバル|Glastonbury Festival]] 2019」に出演し、”メインステージのうちの1つでプレイする最初のJ-POPバンド&amp;lt;ref&amp;gt;{{Cite news |url=https://www.bbc.com/news/entertainment-arts-48444654 |title=Lewis Capaldi, Dave and Babymetal named on full Glastonbury line-up |date=2019-05-29 |accessdate=2019-07-03 |work=BBC News |author=Mark Savage|language=en}}&amp;lt;/ref&amp;gt;{{Refnest|group="注"|”becoming the first J-pop band to play one of the festival's main stages”より。アザーステージはメインステージの1つである。}}”となった&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、初出演となったグラストンベリー・フェスティバルのステージについて語る {{!}} NME Japan|url=https://nme-jp.com/news/75211/|website=nme-jp.com|accessdate=2019-07-01|language=jp}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、英音楽フェス『Glastonbury Festival』出演決定 現地メディアが“同フェス初のJ-POPバンド”と紹介 (2019年5月30日)|url=https://www.excite.co.jp/news/article/Techinsight_20190530_613908/|website=エキサイトニュース|accessdate=2019-07-01|language=ja}}&amp;lt;/ref&amp;gt;。
+
+7月、MOAMETALが20歳になるのを記念した公演「BABYMETAL ARISES - BEYOND THE MOON - LEGEND - M -」を出身地である愛知の[[ポートメッセなごや]]で開催&amp;lt;ref&amp;gt;{{cite news|url=https://natalie.mu/music/news/339038|title=BABYMETALがグラストンベリーから凱旋、名古屋で迎えた熱狂のMOAMETAL聖誕祭|newspaper=音楽[[ナタリー (ニュースサイト)|ナタリー]]|publisher=株式会社ナターシャ|date=2019-07-09|accessdate=2019-10-19}}&amp;lt;/ref&amp;gt;。8月、「サマーソニック 2019」に出演し、マウンテンステージのトリを務める&amp;lt;ref&amp;gt;{{cite web|url=https://burrn.online/live-report/820|title=最先端にして最高のHEAVY METAL体験　BABYMETAL『SUMMER SONIC2019 DAY.2』|work=[[BURRN!]] ONLINE|publisher=株式会社HEAVY METAL ALLIANCE|author=倉田真琴|date=2019-09-06|accessdate=2019-10-19}}&amp;lt;/ref&amp;gt;。9月より、「METAL GALAXY WORLD TOUR」を開始&amp;lt;ref&amp;gt;{{cite news|url=https://www.barks.jp/news/?id=1000172030|title=BABYMETAL、ワールドツアー追加公演決定|newspaper=[[BARKS]]|publisher=ジャパンミュージックネットワーク株式会社|date=2019-09-30|accessdate=2019-10-19}}&amp;lt;/ref&amp;gt;。
+
+10月11日、3rdアルバム『[[METAL GALAXY]]』を世界同時発売&amp;lt;ref&amp;gt;{{cite news|url=https://realsound.jp/2019/06/post-382920.html|title=BABYMETAL、3rdアルバム『METAL GALAXY』世界同時発売　ツアー日本公演追加も|work=[[リアルサウンド (ニュースサイト)|リアルサウンド]]|publisher=株式会社blueprint|date=2019-06-29|accessdate=2019-10-19}}&amp;lt;/ref&amp;gt;、同作は全米アルバム・チャート「Billboard 200」で初登場13位を記録した&amp;lt;ref&amp;gt;{{Cite news|url= https://www.daily.co.jp/gossip/2019/10/22/0012811149.shtml |title= ＢＡＢＹＭＥＴＡＬ　米アルバムチャートで初登場１３位　前作の３９位から大躍進 |newspaper= デイリースポーツ online |publisher= 株式会社デイリースポーツ |date= 2019-10-22 |accessdate= 2019-10-22 }}&amp;lt;/ref&amp;gt;ほか、カテゴリチャートのトップ・ロック・アルバムでアジア人アーティストとしては初となる1位を記録した&amp;lt;ref&amp;gt;{{cite news|url=https://www.billboard.com/articles/business/chart-beat/8540112/babymetal-metal-galaxy-no-1-top-rock-albums|title=Babymetal's 'Metal Galaxy' Is No 1 On Top Rock Albums|newspaper=[[ビルボード]]|publisher=Hollywood Reporter-Billboard Media Group|author=Kevin Rutherford|date=2019-10-23|accessdate=2019-10-24|language=英語}}&amp;lt;/ref&amp;gt;。同日にアメリカでは自身初となるアリーナでのワンマンライブをロサンゼルスの[[ザ・フォーラム (アリーナ)|ザ・フォーラム]]で開催&amp;lt;ref&amp;gt;{{cite news|url=https://spice.eplus.jp/articles/257647|title=BABYMETAL、3rdアルバムをひっさげアメリカ初のアリーナ公演を開催　メタルの銀河の世界観を見事に作り上げる|newspaper=SPICE|publisher=株式会社[[イープラス]]|date=2019-10-12|accessdate=2019-10-19}}&amp;lt;/ref&amp;gt;。
+
+11月、ヨウジヤマモトが「Ground Y feat.BABYMETAL “GALAXY” Collection」を発売 &amp;lt;ref&amp;gt;{{Cite web|title=ヨウジヤマモトGround Y×BABYMETAL、浮かび上がる“宇宙柄”シャツやロゴカットソー|url=https://www.fashion-press.net/news/55301|website=www.fashion-press.net|accessdate=2019-11-07|language=ja}}&amp;lt;/ref&amp;gt; 。日本公演「METAL GALAXY WORLD TOUR IN JAPAN」のスペシャルゲストには [[ブリング・ミー・ザ・ホライズン|Bring Me the Horizon]] をスペシャルゲストに迎え開催した&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、日本凱旋公演でBRING ME THE HORIZONと共演！「METAL GALAXY WORLD TOUR IN JAPAN」開催|url=http://www.wws-channel.com/music2/177861.html|website=WWSチャンネル|accessdate=2019-11-18|language=ja}}&amp;lt;/ref&amp;gt;。
+
+== サポートメンバー ==
+=== ダンサー ===
+※2018年以降、YUIMETALの体調不良による離脱時や脱退後に、ライブではサポートダンサーを迎えてパフォーマンスを行っている。
+
+==== アベンジャーズ ====
+「メタルレジスタンス第8章」と位置付けた2019年6月から始まったツアーから、3人のサポートダンサー（アベンジャーズ）のうち1人が日替わりで出演する3人体制をとっており、SU-METALやMOAMETALと共にパフォーマンスを務めている&amp;lt;ref name="nikkan190629"/&amp;gt;。アベンジャーズはメタルの神「[[キツネ]]様」のお告げによって、毎公演ごとにその中から1人だけが選ばれ[[召喚]]されるとしている&amp;lt;ref name="realsound190711"&amp;gt;{{cite news|url=https://realsound.jp/2019/07/post-387864.html|title=BABYMETALは壮大なエンターテインメントだ　3人のトライアングルが生んだ荘厳な光景|work=[[リアルサウンド (ニュースサイト)|リアルサウンド]]|publisher=株式会社blueprint|author=冬将軍|date=2019-07-11|accessdate=2019-08-15}}&amp;lt;/ref&amp;gt;。
+
+{| class="wikitable" style="text-align:center; font-size:small;"
+! 名前
+! 生年月日
+! 出身地
+! 担当及び立ち位置
+! 備考
+|-
+| [[鞘師里保]]&amp;lt;ref name="nikkan190629"/&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（さやし りほ）&amp;lt;/small&amp;gt;
+| {{生年月日と年齢|1998|05|28}}
+| [[広島県]][[東広島市]]
+| [[ダンス]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（[[上手と下手|ステージ下手側]]）&amp;lt;/small&amp;gt;
+| [[TSSプロダクション#アクターズスクール広島|アクターズスクール広島]] 12期生&amp;lt;br&amp;gt;[[モーニング娘。]] 9期メンバー&amp;lt;br&amp;gt;（2011年～2015年）
+|-
+| [[藤平華乃]]&amp;lt;ref&amp;gt;{{Cite news |title=BABYMETAL『Glastonbury Festival』にも鞘師里保が登場 「RIHOMETAL」が加わり新章突入の予感|url= https://news.nicovideo.jp/watch/nw5579467|newspaper=ニコニコニュース |date=2019-07-01 |accessdate=2019-07-01}}&amp;lt;/ref&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ふじひら かの）&amp;lt;/small&amp;gt;
+| {{生年月日と年齢|2004|08|28}}
+| [[千葉県]]
+| ダンス&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側）&amp;lt;/small&amp;gt;
+| [[さくら学院]]　2015年度生&amp;lt;br&amp;gt;2019年度 生徒会長
+|-
+| [[岡崎百々子]]&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL『Elevator Girl』MVに藤平華乃、サマソニ大阪の“アベンジャーズ”は鞘師里保 (2019年8月17日)|url=https://www.excite.co.jp/news/article/Techinsight_20190817_629502/|website=エキサイトニュース|accessdate=2019-08-26|language=ja}}&amp;lt;/ref&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（おかざき ももこ）&amp;lt;/small&amp;gt;
+| {{生年月日と年齢|2003|03|03}}
+| [[神奈川県]]
+| ダンス&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側）&amp;lt;/small&amp;gt;
+| さくら学院　2015年度生&amp;lt;br&amp;gt;（2015年～2018年）
+|}
+
+==== THE CHOSEN SEVEN ====
+「メタルレジスタンス第7章」と位置付けた2018年5月から開始された海外ツアーでは「ダークサイド」と銘打ち、SU-METALとMOAMETALに2人のサポートダンサーを加えた4人体制で&amp;lt;ref&amp;gt;{{Cite web|date=2018-05-09|url=https://www.billboard.com/articles/news/international/8455342/babymetal-tour-kansas-city-missing-member-yuimetal |title=BABYMETAL Kicks Off World Tour in Kansas City Without Member Yuimetal  |publisher=[[ビルボード|Billboard]]|accessdate=2018-11-23}}&amp;lt;/ref&amp;gt;{{Refnest|group="注"|バックダンサーの1人は[[佃井皆美]]であると報道された&amp;lt;ref&amp;gt;{{Cite web|date=2018-7-28|url=https://woman.excite.co.jp/article/lifestyle/rid_Myjitsu_057883/pid_4.html |title=宗教活動、プロ雀士、BABYMETAL?…仮面ライダー「ヒロインたちの今」|work=[[まいじつ]]|publisher=[[エキサイト|Woman.excite]]|accessdate=2019-09-07}}&amp;lt;/ref&amp;gt;。}}、同年10月の日本国内のライブでは計5人のサポートダンサーを加えた7人体制で&amp;lt;ref&amp;gt;{{Cite web|date=2018-11-01|url=https://natalie.mu/music/news/306085 |title=BABYMETAL、新体制で臨んだジャパンツアーが終幕 |publisher=[[ナタリー (ニュースサイト)|ナタリー]]|accessdate=2018-11-23}}&amp;lt;/ref&amp;gt;パフォーマンスを行っていた。THE CHOSEN SEVENは「7人の勇者たち」という意味を持ち、メンバー2人と前述のサポートダンサー5人を含めた7人とも受け取れる名称になっている&amp;lt;ref name="realsound181105"&amp;gt;{{cite news|url=https://realsound.jp/2018/11/post-273524.html|title=YUIMETAL脱退のBABYMETAL、ユニットの変化と彼女の存在意義を追う|work=[[リアルサウンド (ニュースサイト)|リアルサウンド]]|publisher=株式会社blueprint|author=カネコシュウヘイ|date=2018-11-05|accessdate=2019-08-15}}&amp;lt;/ref&amp;gt;。「ダークサイド」体制は、従来の衣装にみられた赤と黒、銀を基調色としたイメージが一新され、ビジュアルは黒と金に統一、これまでの3人の活動を「ライトサイド」と称した上でのカウンター的な位置付けの[[外典]]としていた&amp;lt;ref name="realsound181105"/&amp;gt;。
+
+==== SISTERBONE ====
+[[骸骨]]の衣装を着たバックダンサーで、YUIMETAL脱退以前の初期のライブでカバーソングやリミックスバージョンを披露する際などに参加していた&amp;lt;ref&amp;gt;[https://web.archive.org/web/20150518071327/http://www.kawaii-girl.jp/feature/32317 BABYMETALの新たなる伝説、SU-METAL聖誕祭の”15（イチゴ）の夜”をリポート! まさかのカバーも!(archive)]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite news|url=https://www.cdjournal.com/main/news/babymetal/49105|title=BABYMETAL、大熱狂のワンマン・ライヴ開催！|newspaper=CDJournal|publisher=株式会社音楽出版社|date=2012-12-25|accessdate=2019-08-15}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="natalie130704"&amp;gt;{{cite news|url=https://natalie.mu/music/news/94183|title=BABYMETAL、YUI＆MOA聖誕祭で世紀末を彩る名曲カバー|newspaper=音楽[[ナタリー (ニュースサイト)|ナタリー]]|publisher=株式会社ナターシャ|date=2013-07-04|accessdate=2019-08-15}}&amp;lt;/ref&amp;gt;{{Refnest|group="注"|一部のライブではダンスカンパニーの[[ELEVENPLAY]]が担当していた&amp;lt;ref&amp;gt;{{cite web|url=https://elevenplay.net/casting|title=casting│elevenplay|work=[[ELEVENPLAY]]|publisher=|accessdate=2019-08-15}}&amp;lt;/ref&amp;gt;。}}。
+
+=== ミュージシャン ===
+==== 神バンド ====
+神バンドと呼ばれる、[[ギター]]2名、[[ベース (弦楽器)|ベース]]1名、[[ドラムセット|ドラムス]]1名の計4名からなる[[バックバンド]]が存在しており、ライブ限定で生演奏を務めている{{sfn|Mマガジン20164|pp=28-33|ps=「柴那典／世界の舞台へ駆け上がった“オンリー・ワン”な3人組 “BABYMETALというジャンル”が作り上げられた軌跡」}}{{Refnest|group="注"|初登場は2012年で、10月の公演に一曲限定で参加。2013年5月の公演で始めて全曲に参加し、2014年3月からは全公演に同行している。}}。神バンドはメタルの神「[[キツネ]]様」により[[召喚]]されたとし&amp;lt;ref&amp;gt;{{Cite web |url=http://www.oricon.co.jp/news/2056878/full/ |title=BABYMETAL、海外人気を後押しする“神バンド”の存在 | ORICON NEWS|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;、[[白装束]]や黒衣を着用し[[コープス・ペイント]]を施したり仮面をかぶったりする。神バンド初期の一連のライブ『五月革命』（2013年）には、「ヴァイオリンの神」が登場した&amp;lt;ref&amp;gt;{{Cite web |url=http://natalie.mu/music/news/90927 |title=BABYMETAL、剛速球&amp;amp;ド直球“修行”ライブツアー堂々完遂 - 音楽ナタリー|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+演奏技術については、過去にアメリカの週刊音楽業界誌『[[ビルボード]]』がニューヨーク公演のレポートの記事で「バックバンドが恐ろしいほど上手い」と評価したことがある&amp;lt;ref&amp;gt;{{Cite web |url=http://www.billboard.com/articles/news/6304542/babymetal-debut-nyc-concert |title=Babymetal's Debut NYC Concert/ 8 Observations | Billboard|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="newsphere1"&amp;gt;{{Cite web |url=http://newsphere.jp/entertainment/20141108-1/ |title=BABYMETALのNY公演、海外メディアも驚愕 「熱意と知性を感じる」「バックバンドが恐ろしく上手い」 | NewSphere|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+2018年1月5日、2013年より神バンドのギタリストとして活動していた藤岡幹大が不慮の事故により36歳の若さで他界&amp;lt;ref&amp;gt;[https://twitter.com/mikio158cm/status/950673918821462016 藤岡幹大(仮) @mikio158cm 19:21 - 2018年1月9日]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=https://natalie.mu/music/news/264459 |title=BABYMETAL“神バンド”のギタリスト藤岡幹大が36歳で急逝 |publisher=音楽ナタリー|date=2018-01-09|accessdate=2018-01-09}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://www.hochi.co.jp/entertainment/20180109-OHT1T50158.html |title=ギタリスト‧藤岡幹大さん死去、36歳…BABYMETALのバックバンドで活躍 |publisher=[[スポーツ報知]]|date=2018-01-09|accessdate=2018-01-09}}&amp;lt;/ref&amp;gt;。BABYMETALの公式Twitterアカウントも追悼ツイートを更新した&amp;lt;ref&amp;gt;[https://twitter.com/BABYMETAL_JAPAN/status/950716423386509312 @BABYMETAL_JAPAN 2018年1月9日 Twitter]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=https://www.sponichi.co.jp/entertainment/news/2018/01/09/kiji/20180109s00041000380000c.html |title=BABYMETAL 急逝の“神バンド”ギタリスト藤岡幹大さんを追悼 |publisher=[[スポニチ]]|date=2018-01-09|accessdate=2018-01-10}}&amp;lt;/ref&amp;gt;。
+
+&amp;lt;gallery widths="165px" heights="95px"&amp;gt;
+ファイル:Babymetal - 2018152161740 2018-06-01 Rock am Ring - 1D X MK II - 0447 - AK8I2316.jpg|&amp;lt;center&amp;gt;ギターの神&amp;lt;br /&amp;gt;（2018年）
+ファイル:20180602 Nürnberg Rock im Park Baby Metal 0275.jpg|&amp;lt;center&amp;gt;ギターの神&amp;lt;br /&amp;gt;（2018年）
+ファイル:Babymetal - 2018152161706 2018-06-01 Rock am Ring - 1D X MK II - 0443 - AK8I2312.jpg|&amp;lt;center&amp;gt;ベースの神&amp;lt;br /&amp;gt;（2018年）
+ファイル:20180602 Nürnberg Rock im Park Baby Metal 0027.jpg|&amp;lt;center&amp;gt;ドラムの神&amp;lt;br /&amp;gt;（2018年）
+&amp;lt;/gallery&amp;gt;
+
+:'''現メンバー'''
+
+:※公演毎に個人のスケジュールによって交代する。
+:{| class="wikitable" style="text-align:center; font-size:small;"
+! 名前
+! 生年月日
+! 出身地
+! 担当楽器及び立ち位置
+! 備考
+|-
+|[[大村孝佳]]&amp;lt;ref name = "rockinon140914"&amp;gt;{{cite web|url=https://rockinon.com/live/detail/109797|title=BABYMETAL@幕張メッセ イベントホール│邦楽ライヴレポート|work=[[rockin'on]].com|publisher=株式会社[[ロッキング・オン]]|author=高橋智樹|date=2014-09-14|accessdate=2019-08-15}}&amp;lt;/ref&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(おおむら たかよし)&amp;lt;/small&amp;gt;
+|{{生年月日と年齢|1983|12|26}}
+|[[大阪府]]
+|[[ギター]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（[[上手と下手|ステージ上手側]]、音源では基本的に右チャンネル）&amp;lt;/small&amp;gt;&amp;lt;small&amp;gt;（2018年以降は、[[上手と下手|ステージ下手側]]、音源では基本的に左チャンネル）&amp;lt;/small&amp;gt;
+|[[C4 (ロックバンド)|C4]]メンバー&amp;lt;br /&amp;gt;[[専門学校ミュージシャンズ・インスティテュート東京|MI Japan]]東京校 講師&amp;lt;ref name="mitokyo"&amp;gt;{{Cite web|url=https://www.esp.ac.jp/mi/|title=出身アーティスト {{!}} 東京の音楽専門学校 MI TOKYO|accessdate=2018-12-23|website=MI TOKYO｜ミュージシャンのための音楽専門学校（東京）|language=ja}}&amp;lt;/ref&amp;gt;
+|-
+|[[Leda (ギタリスト)|Leda]]&amp;lt;ref name = "rockinon140914"/&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(レダ)&amp;lt;/small&amp;gt;
+|{{生年月日と年齢|1987|6|9}}
+|[[三重県]]
+|ギター&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側、音源では基本的に左チャンネル）&amp;lt;/small&amp;gt;&amp;lt;small&amp;gt;（2018年以降は、ステージ上手側、音源では基本的に右チャンネル）&amp;lt;/small&amp;gt;
+|元[[Far East Dizain]]
+|-
+|[[ISAO (ギタリスト)|ISAO]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(イサオ)&amp;lt;/small&amp;gt;
+|{{生年月日と年齢|1977|12|29}}
+|[[大阪府]][[茨木市]]
+|ギター&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ上手側、音源では基本的に右チャンネル）&amp;lt;/small&amp;gt;&amp;lt;small&amp;gt;（2018年以降は、ステージ下手側、音源では基本的に左チャンネル）&amp;lt;/small&amp;gt;
+|[[Cube-ray]]メンバー
+|-
+|平賀 優介&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(ヒラガ ユウスケ)&amp;lt;/small&amp;gt;
+|{{生年月日と年齢|1992|8|10}}
+|[[東京都]][[練馬区]]
+|ギター&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側、音源では基本的に左チャンネル）&amp;lt;/small&amp;gt;
+|Arise in Stabilityメンバー&amp;lt;br /&amp;gt;&amp;lt;!--[[専門学校ミュージシャンズ・インスティテュート東京|MI Japan]]東京校 出身&amp;lt;ref name="mitokyo"/&amp;gt;--&amp;gt;
+|-
+|Kyle Ren&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(カイル・レン)&amp;lt;/small&amp;gt;&amp;lt;br /&amp;gt;C.J.Masciantonio&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(C・J・マッシャントーニオ)&amp;lt;/small&amp;gt;
+|
+|[[ペンシルベニア州]]ジャネット
+|ギター&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ上手側、音源では基本的に右チャンネル）&amp;lt;/small&amp;gt;
+|GALACTIC EMPIREメンバー
+|-
+|Dark Vader&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(ダーク・ベイダー)&amp;lt;/small&amp;gt;&amp;lt;br /&amp;gt;Chris Kelly&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(クリス・ケリー)&amp;lt;/small&amp;gt;
+|
+|[[ペンシルベニア州]][[フィラデルフィア]]
+|ギター&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側、音源では基本的に左チャンネル）&amp;lt;/small&amp;gt;
+|GALACTIC EMPIREメンバー
+|-
+|[[BOH (ベーシスト)|BOH]]&amp;lt;ref name = "rockinon140914"/&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(ボー)&amp;lt;/small&amp;gt;
+|{{生年月日と年齢|1982|8|14}}
+|[[北海道]][[旭川市]]
+|[[エレクトリックベース|ベース]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側）&amp;lt;/small&amp;gt;
+|仮BANDメンバー
+元[[BINECKS]]
+|-
+|[[瀧田イサム]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(たきた いさむ)&amp;lt;/small&amp;gt;
+|{{生年月日と年齢|1964|8|8}}
+|[[神奈川県]][[横須賀市]]
+|ベース&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側）&amp;lt;/small&amp;gt;
+|元[[Ark Storm]]
+|-
+|Red Guard&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(レッド・ガード)&amp;lt;/small&amp;gt;&amp;lt;br /&amp;gt;Clint Tustin&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(クリント・タスティン)&amp;lt;/small&amp;gt;
+|
+|[[ペンシルベニア州]][[フィラデルフィア]]
+|ベース&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ下手側）&amp;lt;/small&amp;gt;
+|GALACTIC EMPIREメンバー
+|-
+|[[青山英樹]]&amp;lt;ref name = "rockinon140914"/&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(あおやま ひでき)&amp;lt;/small&amp;gt;
+|{{生年月日と年齢|1986|8|29}}
+|[[神奈川県]]
+|[[ドラムセット|ドラムス]]&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ上手側）&amp;lt;/small&amp;gt;
+|EVER+LASTメンバー&amp;lt;br /&amp;gt;[[日本芸術専門学校]]講師
+|-
+|Eiji MatsuMo-Fo&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(エイジ)&amp;lt;/small&amp;gt;
+|
+|
+|ドラムス&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ上手側）&amp;lt;/small&amp;gt;
+|Radical Hardcore Cliqueメンバー
+元[[FACT]]
+|-
+|Anthony Barone&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;(アンソニー・バローネ)&amp;lt;/small&amp;gt;
+||{{生年月日と年齢|1993|10|8}}
+|[[ニューヨーク州]][[ロングアイランド]]
+|ドラムス&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;（ステージ上手側）&amp;lt;/small&amp;gt;
+|[[:de:Shadow of Intent|Shadow of Intent]]メンバー
+|}
+
+:'''旧メンバー'''
+:* [[藤岡幹大]]（仮BAND） - ギター
+:* [[前田遊野]]（仮BAND） - ドラムス
+:* 紫煉（UnluckyMorpheus/元[[妖精帝國]]） - ギター
+:* [[新井弘毅]] - ギター
+:* RYO（元[[BLOOD STAIN CHILD]]） - ベース
+:* SHIN（元FORCE PRIME） - ドラムス
+:* [[Ikuo|IKUO]]（[[BULL ZEICHEN 88]]&amp;lt;!--/元[[Lapis Lazuli (バンド)|Lapis Lazuli]]--&amp;gt;） - ベース
+:* 前田秋気（[[I Don't Like Mondays.]]） - ドラムス
+:* [[小林信一 (ギタリスト)|小林信一]]（[[地獄カルテット]]） - ギター
+:* かどしゅんたろう（[[TAKUYA]] and the Cloud Collectors） - ドラムス
+:* 野村康貴 - ギター
+:* [[MIZ (ヴァイオリニスト)|MIZ]] - ヴァイオリン
+
+==== BABYBONE ====
+結成当初のライブでは演奏に[[カラオケ]]音源を用いており、BABYBONEと呼ばれる[[骸骨]]の衣装を着た人々が[[当て振り]]のパフォーマンスを行っていた&amp;lt;ref&amp;gt;『BABYMETAL 基礎の基礎』（村田游、Kindle版第三版、位置No. 246/1104）&amp;lt;/ref&amp;gt;{{Refnest|group="注"|2012年4月から2014年2月まで、いくつかの公演に参加していた。}}。
+
+== 特徴 ==
+=== ライブ ===
+BABYMETALのライブは非日常感の提供を企図し、ヘヴィメタルの様式美を踏襲する&amp;lt;ref name="shikakenin" /&amp;gt;。衣装や舞台装置は[[ゴシック・ファッション|ゴシック]]要素を含み、基調色は[[黒]]と[[赤]]&amp;lt;ref name="mn20150121" /&amp;gt;&amp;lt;ref name="barks20120621"&amp;gt;[http://www.barks.jp/news/?id=1000080752 BABYMETAL、「扇風機ヘドバン」「土下座ヘドバン」が舞い踊るミュージックビデオが完成]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web|url=http://www.vogue.com/13442552/babymetal-japanese-band-fashion-style-harajuku/?mbid=social_twitter|title=Babymetal Might Be Japan’s Most Wonderfully Weird Fashion Export|accessdate=2016-10-04|author=Monica Kim|date=2016-06-03|work=[[:en:Vogue (magazine)|Vogue]]|language=英語}}&amp;lt;/ref&amp;gt;。メタルの神「[[キツネ]]様」が公演中に演者に[[降臨]]する&amp;lt;ref name="mtvgenre" /&amp;gt;&amp;lt;ref name="BBC20150830" /&amp;gt;としており、決めポーズは[[コルナ|メロイックサイン]]ではなく'''フォックスサイン'''（影絵のキツネを模したもの）を用いる。これは結成当初、メロイックサインを教えられたメンバーがキツネと勘違いし、結局そのままグループのシンボルに採用されることになったものである&amp;lt;ref name="shikakenin" /&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://en.rocketnews24.com/2013/06/21/put-your-kitsune-up-babymetal-is-set-to-dominate-the-world-with-dangerous-kawaii/|title=Put your kitsune up! BABYMETAL is set to dominate the world with ‘dangerous kawaii’【Interview】 | SoraNews24 | NewSphere|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。ライブの締めにSU-METALは「We are!」と観客を煽り、観客はフォックスサインを高く掲げ、YUIMETAL・MOAMETALと共に「BABYMETAL!!」と返す。これは[[X JAPAN]]が「We are!」と煽り、観客が両手をX字にして「X!!」と返すことに由来する&amp;lt;ref name="x japan" /&amp;gt;。
+
+=== 言語 ===
+歌詞のほとんどは日本語で、海外公演でも英訳しない。[[マーティ・フリードマン]]は日本語で通した点を評価している&amp;lt;ref name="japanese"&amp;gt;{{Cite web |url=http://www.entamenext.com/news/detail/id=1787 |title=BABYMETAL『Metal Resistance』に全米が震撼した理由 その3「日本語の響き」 |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。『[[:en:Metal Hammer|Metal Hammer]]』編集長（当時）のアレクサンダー・マイラスは「英語で歌わないこと、変に真似しようとしないところ、そういうところがカッコ良く映っています。そもそもメタルはグローバル」とし、『[[インデペンデント|インデペンデント紙]]』のロブ・ジョーンズは「何が歌われているのか分からないことが気にならない。そのことはどれだけ曲が素晴らしいのかを示している」とした{{sfn|QJ20164|pp=26-27|ps=「海外メディアインタビュー 『Metal Hammer』編集長・アレクサンダー・マイラス」}}&amp;lt;ref name="Independent2016521"&amp;gt;{{cite news|url=http://suindependent.com/babymetal-metal-resistance-album-review/?platform=hootsuite|title=Album Review: Babymetal’s “Metal Resistance” is a Japanese metal mutant|newspaper=[[:en:The Independent|The Independent]]|author= Guest Contributor|date=2016-05-21|accessdate=2016-09-04|language=英語}}&amp;lt;/ref&amp;gt;。
+
+=== サウンド ===
+KOBAMETALが本格的なメタルサウンドありきで制作する。狙ったリアクションを聴衆から得るため[[童謡]]や[[ポップ・ミュージック|ポップス]]などの要素も取り込み&amp;lt;ref name="shikakenin" /&amp;gt;、楽曲のコンセプトを立て、[[上田剛士]]や[[ゆよゆっぺ]]などの作曲家や振り付け師などと綿密に話し合う&amp;lt;ref name="billboard20160523" /&amp;gt;&amp;lt;ref name="shikakenin" /&amp;gt;。「イジメ、ダメ、ゼッタイ」は作曲者3人が作ったメロディをミックスして[[Aメロ|Aメロ、Bメロ、サビ]]を構成した{{sfn|MARQUEE94|pp=39-40|ps=「KOBAMETALにきく BABYMETALというコンセプト」}}{{sfn|ヘドバン1|pp=42-55|ps=「BABYMETALプロデューサー KOBAMETAL徹底インタビュー」}}。
+
+KOBAMETALはこうした楽曲制作について「メタル好きからは、極端に『賛』と『否』しかない」&amp;lt;!--反応をもたらしたことを認めて、変えるつもりがないと説明した。--&amp;gt;「新しいメタルのスタイルの提案という一面もあるので仕方のないことであり、そういった層に届くにはとても時間がかかるとは想定している。」「批判される対象であればあるほど、実は可能性があるのではないかと思っているし、アイドルやメタルの枠に収まりきらない"ストレンジ感"は、常に大切にしている。」と述べている&amp;lt;ref name="shikakenin" /&amp;gt;。
+
+=== ボーカル ===
+リード・ボーカル担当のSU-METALは、メタルのシャウトが混じったハイトーンボーカルとは異なる、ノン[[ビブラート]]で真っ直ぐに歌うスタイルを特徴としている&amp;lt;ref name="realsound190711"/&amp;gt;ほか、ほぼ全てのパートをライブで生歌唱する。『Metal Hammer』編集長（当時）のアレクサンダー・マイラスは「彼女たちは本当に歌っている。それこそがメタルと他の音楽をわける一番大きな部分」「アイドルは口パクで歌うことが許されますが、メタルではそれが許されない」とした{{sfn|QJ20164|pp=26-27|ps=「海外メディアインタビュー 『Metal Hammer』編集長・アレクサンダー・マイラス」}}。『[[:en:LA Weekly|LA Weekly]]』のライブレビューでは「大部分の曲でリード・ボーカルを取る、三人の中で最年長のSU-METALは、本物の声の持ち主であることを証明し、"Amore-蒼星"のような曲でその歌声は素晴らしい輝きを見せた」とした&amp;lt;ref name="LA_Weekly2016718"&amp;gt;{{cite news|url=http://www.laweekly.com/music/at-the-wiltern-japanese-pop-metal-phenoms-babymetal-lived-up-to-the-hype-7150070|title=At the Wiltern, Japanese Pop-Metal Phenoms Babymetal Lived Up to the Hype|newspaper=[[:en:LA Weekly|LA Weekly]]|author= JASON ROCHE|date=2016-07-18|accessdate=2016-10-09|language=英語}}&amp;lt;/ref&amp;gt;。
+
+=== ダンス ===
+[[ヘッドバンギング]]、[[演劇]]&amp;lt;ref&amp;gt;{{Cite journal|和書|author=|title=works MIKIKOの仕事 BABYMETAL CHOREGRAPHY│11 「メギツネ」2013の振り付け|journal=月刊MdN|issue=2015年9月号|page=41|publisher=株式会社[[エムディエヌコーポレーション]]}}&amp;lt;/ref&amp;gt;、[[空手]]&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/140586 BABYMETAL、新曲“KARATE”ミュージックビデオ公開!]&amp;lt;/ref&amp;gt;などの要素を取り入れた振り付けは[[MIKIKO]]（MIKIKOMETAL）による&amp;lt;ref&amp;gt;{{Cite web |url=http://natalie.mu/music/pp/babymetal |title=BABYMETAL×アニメタルUSA対談 (1/3) - 音楽ナタリー 特集・インタビュー |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。MIKIKOはKOBAMETALからの要望を聞き、メタルの知識を補うためKOBAMETALと相談しながら振り付けを決めるが、MIKIKOがこの形式をとるのはBABYMETALだけだという{{sfn|ヘドバン1|pp=76-80|ps=「BABYMETAL振り付け担当 MIKIKOMETALインタビュー」}}。メンバーの発案を採用したこともある&amp;lt;ref&amp;gt;{{Cite web |url=https://deview.co.jp/Interview?am_interview_id=16 |title=BABYMETAL  芸能人インタビュー  Deview-デビュー|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+=== ファン対応 ===
+握手会のような接触イベントは実施していない。ただし活動初期に海外ではサイン会を実施した&amp;lt;ref&amp;gt;[http://www.animefestival.asia/afa12/i_love_anisong.html I LOVE ANISONG, AFA 2012]&amp;lt;/ref&amp;gt;&amp;lt;ref name="animefes2013" /&amp;gt;。アミューズは、ライブチケットやグッズの購入機会提供に向けた会員サイトを運営している&amp;lt;ref name="natalie20131121"&amp;gt;[http://natalie.mu/music/news/104087 BABYMETAL、アーティスト本発売決定&amp;amp;メンバー動画公開]&amp;lt;/ref&amp;gt;&amp;lt;ref name="theone"&amp;gt;{{cite web|url=https://theone.babymetal.jp/2016/|title=ABOUT THE ONE|accessdate=2016-01-23|work=THE ONE|publisher=株式会社[[アミューズ]]}}&amp;lt;/ref&amp;gt;。同サイト会員向けライブでは、客の衣装や化粧、性別が限定されることがある&amp;lt;ref&amp;gt;[http://japan.techinsight.jp/2015/04/babymetal-kuromisa-aono20150423.html BABYMETALの“黒ミサ”に漫画家が白塗りで参戦。その姿に「貴族の血すら感じる]&amp;lt;/ref&amp;gt;。BABYMETALはファンを「もっしゅっしゅメイト」「THE ONE」と呼ぶ&amp;lt;ref&amp;gt;[http://ameblo.jp/sakuragakuin/entry-11435210665.html もっしゅっしゅメイトの皆さん!スタッフの皆さんありがとう。 中元すず香「学院日誌」2012-12-26]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web|url=http://www.youtube.com/watch?v=dbODbQMm5Wc|title=Cute/Terrifying Music Sensation Babymetal Talks Overlords and Ariana Grande|accessdate=2015-10-18|date=2015-09-24|publisher=[[NYLON]]（[[YouTube]]）}}&amp;lt;/ref&amp;gt;。
+
+=== 宣伝 ===
+テレビ番組出演はあまりせず、YouTubeにおけるミュージックビデオ公開や、ロックフェスへの出演、国際的なメジャーアーティストの公演前座による波及・拡散を重視している。[[トイズファクトリー]]が「[[ド・キ・ド・キ☆モーニング]]」のミュージックビデオを公開した当初（2011年時点）、約1300のコメントのほとんどが英語だった&amp;lt;ref&amp;gt;{{Cite web |url=http://www.j-cast.com/2011/12/16116731.html |title=12〜13歳女の子の「ヘビメタアイドル」「さくら学院 BABYMETAL」に世界が大注目 |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web |url=http://www.j-cast.com/trend/2012/01/10118369.html |title=BABYMETALがメタルの先輩たちと共演! 白熱のパフォーマンスを披露 |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。「[[ギミチョコ!!]]」のミュージックビデオには2016年までに日本語以外で68000件以上のコメントが寄せられた。[[レディー・ガガ]]は前述の映像を見て前座出演を持ちかけた&amp;lt;ref name="musicvoice"&amp;gt;{{cite news|title=BABYMETALなぜ海外で人気?カワイイ文化から生まれたメタルユニットとしての評価|newspaper=Music Voice|date=2014-11-29|author=平吉賢治|url=http://www.musicvoice.jp/news/20141129020740/|accessdate=2015-01-13|publisher=株式会社アイ・シー・アイ}}&amp;lt;/ref&amp;gt;。アメリカの[[YouTuber]]である[[:en:Fine Brothers|Fine Brothers]]は2014年4月、BABYMETALのミュージックビデオに対するリアクション動画を公開した&amp;lt;ref name="nbc20140420" /&amp;gt;&amp;lt;ref name="youtuber2014a"&amp;gt;{{Cite web|url=https://www.youtube.com/watch?v=PeARpcDimx4|title=YOUTUBERS REACT TO BABYMETAL|accessdate=2016-05-15|date=2014-04-03|publisher=Fine Brothers Entertainment}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="youtuber2014b"&amp;gt;[https://www.youtube.com/watch?v=PSsaByB5EtM YOUTUBERS REACT TO BABYMETAL(EXTRAS #34)]&amp;lt;/ref&amp;gt;ほか、2年後にはBABYMETALがリアクション動画に感想を述べるリアクション動画も公開した&amp;lt;ref name="youtuber2016"&amp;gt;[https://www.youtube.com/watch?v=r6UZFkrv9-E BABYMETAL REACTS TO YOUTUBERS REACT TO BABYMETAL]&amp;lt;/ref&amp;gt;。
+
+== 反響と批評 ==
+
+=== 日本 ===
+==== 音楽産業従事者の見解 ====
+* [[加山雄三]]
+** 複数のメディアでBABYMETALのファンと公言し評価している&amp;lt;ref name="kayama"&amp;gt;{{Cite journal|title=加山雄三がBABYMETALを大絶賛「オレはジジイの大ファン」|url=http://www.dailyshincho.jp/article/2016/04200505/?all=1|journal=[[週刊新潮]]|issue=2016年4月21日号|publisher=[[新潮社]]|accessdate=2016-08-15}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="kayama2"&amp;gt;{{Cite news|date=2016-07-30|newspaper=[[デイリースポーツ]]|title=加山雄三、BABYMETALを大絶賛「最初に聞いてすげーと思った」|url=http://www.daily.co.jp/gossip/2016/07/30/0009336558.shtml|publisher=[[神戸新聞社]]|accessdate=2016-08-15}}&amp;lt;/ref&amp;gt;。
+** 加山は「すごい歌いづらいと思うんだけど歌のピッチが正確。リズムも新しいし、日本ぽいところがあったり、踊りも斬新だし、歯切れがいい」と評価&amp;lt;ref name="kayama2" /&amp;gt;。
+* [[湯川れい子]]
+** こちらも同様に複数のメディアでファンと公言&amp;lt;ref&amp;gt;[http://tvtopic.goo.ne.jp/program/nhk/44681/972572/ インタビュー ここから 音楽評論家 湯川れい子]&amp;lt;/ref&amp;gt;&amp;lt;ref name="yukawa"&amp;gt;{{Cite journal|和書|title=Special 対談/小泉純一郎|url=http://prtimes.jp/main/html/rd/p/000000215.000011710.html|journal=[[ぴあ#雑誌|ぴあ Special]] Issue 湯川れい子80th記念本、発売決定!「音楽を愛して、音楽に愛されて〜湯川れい子 80th記念BOOK〜」|issue=2016年6月29日|page=10|publisher=[[ぴあ]]}}&amp;lt;/ref&amp;gt;。
+** 『[[ぴあ#雑誌|ぴあ Special]]』での[[小泉純一郎]]との対談で「BABYMETALは歌と踊りも違和感なくカワイイ、そこにある神髄のようなものって[[卑弥呼]]のような[[カリスマ|カリスマ性]]、誰にも代われないようなキラメキがある」と評価した&amp;lt;ref name="yukawa" /&amp;gt;。
+* 小杉茂（[[ハウリング・ブル・エンターテイメント]]代表）
+** 「BABYMETALはもはや新しいメタルジャンルを創出といってよい。早晩、彼女らに追従するアーティストが生まれ、一つの潮流となるだろう」と予想した{{sfn|東洋経済2016528|pp=30-31}}。
+* [[YOSHIKI]]（[[X JAPAN]]）
+** [[2014年]][[7月7日]]、仕事で滞在中の[[ロンドン]]で開催された[[LIVE IN LONDON -BABYMETAL WORLD TOUR 2014-#LIVE IN LONDON （DVD/Blu-ray〈JP/EU盤〉）|BABYMETALの公演]]を視察。「東洋と西洋の音楽との間にある境界線が消えていくのを目撃できたことは素晴らしかった」と評価&amp;lt;ref&amp;gt;[http://www.jwide.com/news/news.htm?id=4658 X Japan、世界をとる準備はできた、英ロック誌が特集とインタビュー(2)] - JAPAN WIDE 2015年1月16日掲載&amp;lt;/ref&amp;gt;。バックステージにて、X JAPANの「Xポーズ&amp;lt;ref&amp;gt;[https://twitter.com/YoshikiOfficial/status/486315110517186560/photo/1 Pic with @BABYMETAL_JAPAN after the show in #London! Great show!!] - YOSHIKI公式Twitter 2014年7月8日掲載&amp;lt;/ref&amp;gt;」と、BABYMETALの「フォックスサイン&amp;lt;ref&amp;gt;[https://twitter.com/BABYMETAL_JAPAN/status/486819827210665984?ref_src=twsrc%5Etfw @BABYMETAL_JAPAN with @YoshikiOfficial from X JAPAN! Thank you for coming to our London show!] - BABYMETAL公式Twitter 2014年7月9日掲載&amp;lt;/ref&amp;gt;」で撮影した写真を双方の公式Twitterにて公開している。
+** 元々KOBAMETAL自身がメタル畑で育った影響（特にX JAPANフリークでもあった）から、BABYMETALは一部楽曲・パフォーマンスで既存アーティストを[[オマージュ]]しているが、その中でも、X JAPANを元にしたオマージュが特に多く{{Refnest|group="注"|代表的なものとして、メジャーデビュー曲の『[[イジメ、ダメ、ゼッタイ]]』において、「ダメ!」の掛け声と同時に両腕をクロスしジャンプする「'''ダメ!ジャンプ'''」の由来が、『[[BLUE BLOOD|X]]』演奏中の「'''Xジャンプ'''」。また、『[[メギツネ|紅月-アカツキ-]]』にてSU-METALが「'''アカツキだーっ!!'''」と叫ぶ部分は、[[Toshl]]が『[[紅 (Xの曲)|紅]]』で叫ぶ「'''クレナイだーっ!!'''」が由来。前述の通り、ライブにて行う「'''We are BABYMETAL!!'''」の煽りも「'''We are X!!'''」が由来。}}、YOSHIKIは視察以前より自身のファンを通じてこの情報を入手していた。
+** 後の「Metal Hammmer」のインタビューで「可愛い女の子とメタルの融合というアイディアは凄く気に入った」とし、「いつか（X JAPANがBABYMETALと）共演してもいい」と機会さえあれば共演もあり得る事を示唆した&amp;lt;ref name="x japan"&amp;gt;{{Cite journal|title=X JAPAN・YOSHIKIがBABYMETALについて言及 共演の可能性も示唆!|url=http://news.aol.jp/2015/07/27/babymetal/|journal=AOLニュース|issue=2015年7月27日}}&amp;lt;/ref&amp;gt;。
+
+==== 音楽メディアの見解 ====
+* ヘヴィメタル雑誌『[[BURRN!]]』
+** BABYMETALをごく初期を除き2017年初めまで取り上げてこなかった。編集長の[[広瀬和生]]はアミューズが「プロモーションをすれば取材をする。ただし、インタビューをするなら女の子3人よりも制作側」とした&amp;lt;ref name="aol150102"&amp;gt;[http://news.aol.jp/2015/01/01/hwz_babymetal 「BABYMETAL現象」をヘヴィメタル評論界の重鎮が分析しコメント、ファンが大注目]&amp;lt;/ref&amp;gt;{{sfn|BURRN!20153|p=38}}。同編集部の藤木昌生は売り込みに来ないことを批判し{{sfn|BURRN!20153|p=38}}、[[Party Rockets|他のアイドルグループ]]と比較して「BABYMETALにこんなに良い曲があるかい?」とコメントした{{sfn|BURRN!20161|p=160}}。
+** BURRN編集長の広瀬は2016年4月発売の雑誌『[[週刊新潮]]』の取材に対し、ヘヴィメタルかどうかとは別にイギリスでは「日本発の全く新しいエンターテインメントとして歓迎された」と述べた&amp;lt;ref&amp;gt;週刊新潮（[[新潮社]]） 2016年 4月21日号 40p&amp;lt;/ref&amp;gt;&amp;lt;ref name="kayama" /&amp;gt;。
+** しかし、2016年に入り2ndアルバムの各国での上位ランキング入り、日本人初となる[[ウェンブリー・アリーナ]]公演を始めとするワールドツアーの成功、さらに[[ロブ・ハルフォード]]に始まるビッグネームとの相次ぐ共演の決定と続き、2017年1月には[[メタリカ]]の[[ソウル特別市|ソウル]]公演で彼らへの日本人初となるサポートアクトを実現させるに至り、同年3月号でのメタリカ公演の記事中に見開き2pにわたってBABYMETALのパフォーマンス紹介が行われた。記事では、バンドとして捉えるかはさておき、としながらも、聴衆を引き込んで行く様子などが肯定的にレポートされている&amp;lt;ref&amp;gt;{{Cite book|和書|author=[[シンコーミュージック・エンタテイメント]]|year=2017-02-03|title=[[BURRN!]]3月号「◆METALLICA・スペシャル・ゲストにBABYMETALが抜擢された韓国公演で開幕!『WORLDWIRED TOUR 2017』の第1夜を速報リポート!!」 |publisher=シンコーミュージック・エンタテイメント|page=24-25|}}&amp;lt;/ref&amp;gt;。
+
+* [[シンコーミュージック・エンタテイメント]]（『BURRN!』の出版元）
+** 2013年、BABYMETALのプッシュ役を自認するヘヴィメタル中心の雑誌『[[ヘドバン (雑誌)|ヘドバン]]』を創刊した。創刊したきっかけは、同誌編集長の梅沢直幸が2012年にBABYMETALのライブを見たこと{{sfn|ヘドバン1|p=224}}。梅沢はBABYMETALが「メタルと真っ向から向き合っている」「極めて緻密な音作りがファンを感嘆させ魅了している」と感じた&amp;lt;ref name="ddnavi20150205"&amp;gt;{{cite news|author=カネコシュウヘイ|date=2015-02-05|newspaper=[[ダ・ヴィンチ]]NEWS|title=なぜBABYMETALなのか。『ヘドバン』編集長・梅沢直幸さんインタビュー|url=http://ddnavi.com/news/225382/a/|publisher=株式会社[[KADOKAWA]]|accessdate=2015-02-06}}&amp;lt;/ref&amp;gt;{{sfn|東洋経済2016528|pp=30-31}}。
+
+* 『[[YOUNG GUITAR]]』（ヘヴィメタル中心の老舗ギター雑誌）
+** 2014年4月号で「イジメ、ダメ、ゼッタイ」のギタースコアを掲載した&amp;lt;ref&amp;gt;[http://www.cdjournal.com/main/news/george-lynch/57554 【George Lynch】BABYMETAL「イジメ、ダメ、ゼッタイ」のスコアも掲載、『YOUNG GUITAR』最新号発売]&amp;lt;/ref&amp;gt;。2016年5月号では表紙やギター奏法解説でBABYMETALを取り上げた&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/d_news/detail/36612/2 BABYMETAL『YOUNG GUITAR 5月号』表紙巻頭に登場 ドラゴンフォースやマーティ・フリードマンも]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[https://twitter.com/mikio158cm/status/715790956608495616 藤岡幹大 @mikio158cm 2016年4月1日のツイート]&amp;lt;/ref&amp;gt;。メンバー3人が結成当時メタルを知らなかったことに対しては「誰にだって初めて知る瞬間はある」「頭でっかちにメタルというものを捉えるのではなく、本能のままに感じて楽しんでいる現在の3人の姿は、清々しさを覚える」とした{{sfn|YOUNG GUITAR20165|p=4}}。
+
+==== 海外で人気を得たことに対する指摘 ====
+* [[マーティ・フリードマン]]
+** BABYMETALが海外で受け入れられた理由として「“メタル＋アイドル”が世界に類を見ないものだったこと」、「ミュージシャンを集めて“神バンド”を結成、アルバム制作や世界ツアーに対応できるようにしたこと」、「ほとんど日本語で歌っていること」、「一番重要なのは結成から彼女たち自身が大きく成長したこと」を挙げた&amp;lt;ref&amp;gt;{{Cite web |url=http://www.entamenext.com/news/detail/id=1785 |title=BABYMETAL『Metal Resistance』に全米が震撼した理由 その1「メンバーの成長」 |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="japanese"/&amp;gt;。
+
+* [[中野信子]]（[[脳科学|脳科学者]]）
+** BABYMETALを「[[西洋|西洋のキリスト教文化圏]]に、突如舞い降りた謎の[[巫女]]たち。その異質性が魅力」と述べた。「海外でkawaii文化というのは、[[キッチュ]]でストレンジなもの」なので、BABYMETALは「[[魔法使い]]のような不思議な怖さも評価されている。"[[ホラー映画|ジャパニーズホラー]]"に近い部分もある」と論じた{{sfn|別冊カドカワ04|pp=44-48|ps=「DirecT考察企画 脳/中野信子(脳科学者)}}。
+
+* 『[[週刊東洋経済]]』
+** 2016年5月28日号にてエンターテイメントビジネスの輸出という観点からBABYMETALは見逃せないと論じ{{sfn|東洋経済2016528|pp=30-31}}、そこに寄稿した[[明治大学]][[経営学部]][[教授]]・[[大石芳裕]]は「メタルはロックから派生したジャンルで、個々の国においてはロックより小さい[[市場経済|市場]]だが、それらを足し上げてみると、無視できない[[ニーズ]]がある」こと、ライブの感動を[[YouTube]]などでシェアできる「[[ソーシャル・ネットワーキング・サービス|SNS]]時代に合致した」ことを指摘した{{sfn|東洋経済2016528|pp=32-33}}。
+
+*[[伊藤政則]]（音楽評論家）
+** 海外人気のきっかけとしてメタリカに同行したカメラマン（[[:en:Ross Halfin|ロス・ハルフィン]]）が「[[サマーソニック]] 2012」でBABYMETALに驚愕してメタリカの[[ラーズ・ウルリッヒ]]へ伝えたことを挙げた&amp;lt;ref name="aol150102" /&amp;gt;。ただしこれは「サマーソニック 2013」の出来事と考えられる。ラーズはサマーソニック 2013でステージ脇からBABYMETALのライブを観て好印象を抱き、楽屋でフォト・セッション&amp;lt;ref name="metaljp192" /&amp;gt;&amp;lt;ref name="ss2013" /&amp;gt;、それがメタリカのオフィシャル[[SNS]]で発信された。これはkawaii文化に親しんでいなかった海外のメタル・ファンに、BABYMETALが知れ渡るきっかけとなった{{sfn|Mマガジン20164|pp=28-33|ps=「柴那典／世界の舞台へ駆け上がった“オンリー・ワン”な3人組 “BABYMETALというジャンル”が作り上げられた軌跡」}}。
+
+* ほかのライター／編集者
+** 音楽誌を手掛ける宮内健は「英雄神話構造、もしくは『ヒーローズ・ジャーニー（英雄の旅路）』構造の物語が形成されている」「ソロではなく三人組で、強固な信頼関係を構築した」「三人のプロ意識の高さ・芸能という職業への理解と洞察」という点を挙げた&amp;lt;ref&amp;gt;{{Cite web |author=宮内健 |date=2016-10-06 |url=http://shigotonews.com/archives/5114539.html |title=BABYMETALの歴史と「ヒロインズ・ジャーニー」の物語 |quote= |work=仕事にゅうす（仮） |publisher= |accessdate=2016-10-16}}&amp;lt;/ref&amp;gt;。
+** BABYMETALに関する著書を出版したカネコシュウヘイは「どの国でも、誰でもベビメタファンであるアイコンが共有されている。ライブでファンの一体感が生まれやすいのは、ベビメタのコンセプトが変わっておらず、誰でもファンのスタイルを貫けるから」とした&amp;lt;ref name="spa1099736"&amp;gt;{{cite news|title=BABYMETALを769日間追いかけた男が語る――ベビメタは日本そして世界市場をいかにして獲得したのか|date=2016-04-27|author=|url=http://nikkan-spa.jp/1099736|accessdate=2016-08-24|publisher=[[扶桑社]]|work=[[SPA!|日刊SPA!]]}}&amp;lt;/ref&amp;gt;。
+** BABYMETALの初公演記事を執筆した斉藤貴志は海外人気の理由として、(1)本格メタルを可愛らしい少女たちが歌い踊るというギャップと、(2)既存のアイドル市場で争わなかったことを挙げた&amp;lt;ref name="sg1208"&amp;gt;[http://www.oricon.co.jp/music/special/2010/sakuragakuin1208/index.html さくら学院祭☆2010レポート]&amp;lt;/ref&amp;gt;&amp;lt;ref name="oricon20160424"&amp;gt;[http://www.oricon.co.jp/news/2070581/full/ なぜ、BABYMETALは海外でウケたのか? 万国共通の魅力とは]&amp;lt;/ref&amp;gt;。
+
+==== その他 ====
+* [[TBSテレビ|TBS]]の[[報道番組]]『[[NEWS23]]』は、BABYMETALの特集を2回組んだ。
+** 1回目では[[クールジャパン]]戦略担当大臣（当時）[[稲田朋美]]がそのヒントを探った&amp;lt;ref&amp;gt;[https://twitter.com/news23_tbs/status/481851628698337280 news23 Twitter]&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;[http://kakaku.com/tv/channel=6/programID=12203/episodeID=764040/ 「NEWS23」 2014年6月26日（木）放送内容]&amp;lt;/ref&amp;gt;。
+** 2回目では、BABYMETALによって日本でメタルが復権しつつあるという内容であった&amp;lt;ref&amp;gt;[https://twitter.com/news23_tbs/status/633936544894550017/photo/1 news23 Twitter]&amp;lt;/ref&amp;gt;。
+* 2016年2月から[[自由民主党 (日本)|自民党]]クールジャパン戦略推進特命委員会委員長を務める[[山本一太]]は、2016年9月にBABYMETALのライブを観戦し「東京ドームで行われた数多くのライブに足を運んだが、これほど完成度の高いライブ・イベントは初めて」とした&amp;lt;ref&amp;gt;{{Cite web |url=http://ameblo.jp/ichita-y/entry-12201653862.html |title=「BABYMETAL」（ベビーメタル）の東京公演を目撃〜進化を続ける日本発クールジャパンに感動! 山本一太の「気分はいつも直滑降」：アメーバブログ |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{cite web|url=http://www.musicvoice.jp/news/20160920047449/|title=BABYMETALを山本一太議員が絶賛「こんなの初めてだ」演奏隊にも MusicVoice|accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+=== 海外 ===
+
+==== 1stアルバム発売からSonisphere Festival出演決定までの評価 ====
+1stアルバムの発売と「ギミチョコ!!」のミュージックビデオがYouTubeに公開された直後の2014年3月、アメリカのネットメディア『[[:en:The Daily Dot|The Daily Dot]]』は、BABYMETALの存在を「日本から飛び込んできた狂気的なコンセプト」「音楽の趣味がメタルと[[ティーンポップ]]の中間にあるリスナーにとって、BABYMETALはまさにミラクルな存在」と評価した&amp;lt;ref name="realsound140618"&amp;gt;{{cite news|title=海外で快進撃のBABYMETAL 各国メディアはどう評価している?|newspaper=Real Sound|date=2014-06-18|author=北濱信哉|url=http://realsound.jp/2014/06/post-727.html|accessdate=2015-01-13|publisher=株式会社blueprint}}&amp;lt;/ref&amp;gt;。イギリスの日刊紙『[[ガーディアン]]』は、「BABYMETALは悪魔のように手段を選ばぬ天才の策謀家が生み出した新しい音楽」と論じた&amp;lt;ref name="realsound140618" /&amp;gt;。アメリカの雑誌『[[タイム (雑誌)|タイム]]』は「新しいシーンを切り開く存在か、ただの一発屋か、Sonisphere Festivalで本物のメタルファンを唸らせられるかどうかが大きなヒント」とした&amp;lt;ref name="realsound140618" /&amp;gt;。
+
+==== Sonisphere Festival出演後の評価 ====
+『[[:en:earMUSIC|earMUSIC]]』でメタリカを8年担当した後、BABYMETALのEU盤を担当するジョナサン・グリーンは「[[:en:Sonisphere Festival|Sonisphere Festival]]でのBABYMETALは驚異的だった。バックステージにいたんだけど関係者がみんな立ち止まっていたよ。何なんだこの3人組は!?って感じで、小さくて、ヘンテコな衣装を着て、でも本当に存在感があって、政権交代っていうかね、新しい子達が登場して、古いやつらが敬意を表してるんだ。ロックという音楽においてすごく重要な瞬間だった。BABYMETALの成功はロックの歴史を書き換えたと思うよ」と述べた{{sfn|QJ20164|pp=32-33|ps=「海外メディアインタビュー 『[[:en:earMUSIC|earMUSIC]]』・ジョナサン・グリーン」}}。Sonisphere後に音楽ニュースサイト『[[:en:Gigwise|Gigwise]]』は「BABYMETALを出演させたことは天才的なお手柄」と評価&amp;lt;ref name="gigwise"&amp;gt;{{cite news|title=The 10 best things that happened at Sonisphere 2014|newspaper=[[:en:Gigwise|Gigwise]]|date=2014-07-07|author=Ed Keeble|url=http://www.gigwise.com/news/92387/the-10-best-things-that-happened-at-sonisphere-2014|accessdate=2015-01-15|language=英語}}&amp;lt;/ref&amp;gt;、『[[:en:Virtual Festivals|Virtual Festivals]]』も「当初は冷やかし半分面白半分が支配的だった聴衆が、Sonisphereを去るころには畏怖の念に満ちた敬意に変わっていた」と評価した&amp;lt;ref name="virtual"&amp;gt;{{cite news|title=Are Babymetal the strangest thing you'll see at a festival all year? Babymetal made their UK debut at Sonisphere|newspaper=[[:en:Virtual Festivals|Virtual Festivals]]|date=2014-07-07|author=Anna Hyams|url=http://www.virtualfestivals.com/latest/news/14697|accessdate=2015-01-15|language=英語}}&amp;lt;/ref&amp;gt;。
+
+==== メタルか否か ====
+アメリカのユーザー参加型[[HR/HM]]情報サイト『[[:en:Blabbermouth.net|Blabbermouth.net]]』では賛否両論になることもあり&amp;lt;ref&amp;gt;{{Cite web |url=http://www.blabbermouth.net/news/babymetal-plays-first-ever-u-s-show-at-sold-out-fonda-theatre-in-los-angeles-video-photos-available/#AGY4yECam0VEuiLU.99 |title=Babymetal Plays First Ever U.S. Show At Sold Out Fonda Theatre In Los Angeles; Video, Photos Available - Blabbermouth.net |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;、日刊紙『[[ロサンゼルス・タイムズ]]』は、「BABYMETALはヘヴィメタル界でいま最も意見を二分するグループだ」と述べた&amp;lt;ref&amp;gt;{{Cite web |url=http://www.latimes.com/entertainment/music/posts/la-et-ms-babymetal-fonda-20140728-story.html |title=Babymetal shreds heavy-metal's seriousness at the Fonda - LA Times |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="newsphere2"&amp;gt;{{Cite web |url=http://newsphere.jp/entertainment/20140731-4/ |title=「真のメタル、偽メタル、そしてBABYMETAL」 ジャンルを超えた魅力、海外で話題 | NewSphere |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。イギリスの音楽ライターであるドム・ローソンは、BABYMETALの音楽は「ヘヴィメタルとJ-POPの[[ハイブリッド]]」「既存のヘヴィメタルを求めているのなら[[アイアン・メイデン]]や[[カーカス]]などを聴けば良い」とした{{sfn|ヘドバン5|p=62}}。
+
+『[[:en:MetalSucks|MetalSucks]]』はロサンゼルス公演後「BABYMETALはメタルではなく、キャラクター・音楽など様々な要素が複合した“演劇”に近いもの」と論じた&amp;lt;ref&amp;gt;{{Cite web |url=http://www.metalsucks.net/2014/07/29/true-metal-false-metal-babymetal-review-babymetals-first-ever-u-s-performance-los-angeles/ |title=There is True Metal, There is False Metal, and There is Babymetal/ A Review of Babymetal's First Ever U.S. Performance in Los Angeles | MetalSucks |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="newsphere2"/&amp;gt;。アメリカの音楽ライター、キム・ケリーは「[[サブカルチャー]]と多くの人が真面目に愛する音楽（メタル）に対する侮辱」と批判したが、ニューヨーク公演の観賞後には「（BABYMETALの）若いファンたちが最終的に真のメタルファンになってくれるのなら悪くない」と述べ&amp;lt;ref&amp;gt;{{Cite web |url=https://noisey.vice.com/en_us/article/rk49w6/heavy-metal-fan-vs-babymetal-the-review |title=Babymetal vs Bullet Belts/ A Metalhead's Review of the Japanese Band's Manic Live Show - Noisey |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;&amp;lt;ref name="newsphere1"/&amp;gt;、後に直接インタビューを行い、その記事の中で「傍観者の立場から彼女たちを応援する」と述べた&amp;lt;ref&amp;gt;{{Cite web |url=https://noisey.vice.com/en_us/article/rgp7eq/babymetal-interview-2016 |title=How I Learned to Stop Worrying and Love Babymetal - Noisey |accessdate=2017-07-20}}&amp;lt;/ref&amp;gt;。
+
+“メタル・ゴッド”こと[[ロブ・ハルフォード]]は2016年7月にBABYMETALとの歌唱を披露&amp;lt;ref&amp;gt;{{Cite web|url=https://www.youtube.com/watch?v=TD85aM0VQ3o|title=APMAs 2016 Performance: BABYMETAL perform with ROB HALFORD of JUDAS PRIEST|accessdate=2016-11-27|publisher=Alternative Press}}&amp;lt;/ref&amp;gt;した上で「BABYMETALはメタルの未来」と評しており、具体的には「[[ジューダス・プリースト]]の他の連中も、（彼女達が）ジューダス・プリーストをヘヴィメタルのルーツと認識している事にとても心踊らせているよ。そして（BABYMETALの三人を手で示しながら）未来はここにある。」と語っている&amp;lt;ref&amp;gt;{{Cite web|url=https://www.youtube.com/watch?v=KwqrMD9U76g|title=APMAs 2016 Interview: BABYMETAL {{!}} PRS Lounge|accessdate=2016-11-27|publisher=Alternative Press}}{{Cite web|url=http://cnloni.hatenablog.com/entry/2016/09/19/024940#fn-4f6b4ec4|title=Baby Priestが示すもの|accessdate=2016-11-27|publisher=文書の形}}&amp;lt;/ref&amp;gt;。
+
+== 作品 ==
+&amp;lt;small&amp;gt;※日本での最高順位は[[オリコンチャート]]の総合ランキング（週間）、日本国外での最高順位は各国の主要チャートにおける総合ランキング（週間）を使用。&amp;lt;/small&amp;gt;
+=== シングル ===
+'''CDシングル'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! リリース日
+! タイトル
+! 最高順位&amp;lt;ref&amp;gt;[http://www.oricon.co.jp/prof/552304/rank/single/ BABYMETAL シングル売上ランキング] - オリコンスタイル&amp;lt;/ref&amp;gt;
+! 販売形態
+! 規格品番
+! 備考
+|-
+! colspan="8"| インディーズ
+|-
+! 1
+| 2012年7月4日
+| '''[[ヘドバンギャー!!]]'''
+| align="center"| 20位
+| CD&amp;lt;br /&amp;gt;CD+ヘドバン養成コルセット
+| JOBR-1003&amp;lt;br /&amp;gt;JOBR-1002||通常盤&amp;lt;br /&amp;gt;初回限定“ヘド”盤
+|-
+! colspan="8"| メジャー
+|-
+! 1
+| 2013年1月9日
+| '''[[イジメ、ダメ、ゼッタイ]]'''
+| align="center"| 6位
+| CD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD
+| TFCC-89407&amp;lt;br /&amp;gt;TFCC-89404&amp;lt;br /&amp;gt;TFCC-89405&amp;lt;br /&amp;gt;TFCC-89406&amp;lt;br /&amp;gt;-
+| 通常盤&amp;lt;br /&amp;gt;初回限定“I”盤&amp;lt;br /&amp;gt;初回限定“D”盤&amp;lt;br /&amp;gt;初回限定“Z”盤&amp;lt;br /&amp;gt;世直し盤
+|-
+! 2
+| 2013年6月19日
+| '''[[メギツネ]]'''
+| align="center"| 7位
+| CD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD
+| TFCC-89448&amp;lt;br /&amp;gt;TFCC-89445&amp;lt;br /&amp;gt;TFCC-89446&amp;lt;br /&amp;gt;TFCC-89447&amp;lt;br /&amp;gt;-
+| 通常盤&amp;lt;br /&amp;gt;初回限定“キ”盤&amp;lt;br /&amp;gt;初回限定“ツ”盤&amp;lt;br /&amp;gt;初回限定“ネ”盤&amp;lt;br /&amp;gt;五月革命盤
+|}
+'''DVDシングル'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! リリース日
+! タイトル
+! 最高順位
+! 販売形態
+! 規格品番
+! 備考
+|-
+! 1
+| 2011年10月24日
+| '''[[ド・キ・ド・キ☆モーニング]]'''
+| align="center"| -位
+| DVD+タオル&amp;lt;br /&amp;gt;DVD+タオル
+| JOBR-0001J&amp;lt;br /&amp;gt;JOBR-0001B
+| 重音部 ver.&amp;lt;br /&amp;gt;BABYMETAL ver.
+|}
+'''アナログシングル'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! リリース日
+! タイトル
+! 最高順位
+! 販売形態
+! 規格品番
+! 備考
+|-
+! 1
+| 2018年11月23日
+| '''[[Distortion (曲)|Distortion]]'''
+| align="center"| 42位
+| LP
+| TFJC-38033
+|JAPAN LIMITED EDITION(完全生産限定盤)
+|}
+'''スプリットシングル'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! リリース日
+! タイトル
+! 最高順位
+! 販売形態
+! 規格品番
+! 備考
+|-
+! 1
+| 2012年3月7日
+| '''[[BABYMETAL×キバオブアキバ]]'''
+| align="center"| 46位
+| CD
+| JOBR-1001
+| 「BABYMETAL×キバオブアキバ」名義
+|}
+'''配信シングル'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! リリース日
+! タイトル
+! 備考
+|-
+! 1
+| 2011年10月24日&amp;lt;!-- http://www.toysfactory.co.jp/artist/babymetal/disco/884 --&amp;gt;
+| '''[[ド・キ・ド・キ☆モーニング]]'''
+| 
+|-
+! 2
+| 2015年2月1日
+| '''[[Road of Resistance]]'''
+| 
+|-
+! -
+| 2015年5月31日
+| '''[[ギミチョコ!!]]'''
+| イギリス限定&amp;lt;!-- https://itunes.apple.com/gb/album/gimme-chocolate!!-single/id992824081 --&amp;gt;
+|-
+! 3
+| 2016年2月26日
+| '''[[KARATE]]'''
+| 
+|-
+!4
+|2018年5月8日
+|'''[[Distortion (曲)|Distortion]]'''
+|
+|-
+!5
+|2018年10月19日
+|'''[[Starlight (BABYMETALの曲)|Starlight]]'''
+|
+|-
+!6
+|2019年5月10日
+|'''[[Elevator Girl]]'''
+|
+|-
+!7
+|2019年6月28日
+|'''[[PA PA YA!!]]''' (feat. F.HERO)
+|
+|-
+!8
+|2019年9月27日
+|'''[[Shanti Shanti Shanti]]'''
+|
+|}
+=== アルバム ===
+'''スタジオアルバム'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! 盤
+! リリース日
+! タイトル
+! 最高順位&amp;lt;ref&amp;gt;[http://www.oricon.co.jp/prof/552304/rank/album/ BABYMETAL アルバム売上ランキング] - オリコンスタイル&amp;lt;/ref&amp;gt;
+! 販売形態
+! 規格品番
+! 備考
+|-
+! rowspan="6"| 1
+| rowspan="3" align="center"| JP
+| 2014年2月26日
+| rowspan="6"| '''[[BABYMETAL (アルバム)|BABYMETAL]]'''
+| rowspan="2" align="center"| {{Flagicon|JPN}}：4位
+| CD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD+ブックレット
+| TFCC-86461&amp;lt;br /&amp;gt;TFCC-86460&amp;lt;br /&amp;gt;PPTF-8058
+| 通常盤&amp;lt;br /&amp;gt;初回限定盤&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+| 2014年7月26日
+| CD+DVD
+| TFCC-86460X
+| 初回限定盤
+|-
+| 2015年6月17日
+| align="center"| 20位
+| LP
+| TFJC-38024
+| 限定生産盤
+|-
+| align="center"| EU
+| 2015年5月29日&amp;lt;br /&amp;gt;2015年6月1日&amp;lt;br /&amp;gt;2015年6月2日
+| align="center"| {{Flagicon|UK}}：103位&amp;lt;br /&amp;gt;{{Flagicon|SCO}}：91位&amp;lt;br /&amp;gt;{{Flagicon|GER}}：95位&amp;lt;br /&amp;gt;{{Flagicon|AUT}}：69位&amp;lt;br /&amp;gt;{{Flagicon|NED}}：90位&amp;lt;br /&amp;gt;{{Flagicon|BEL}}：181位
+| CD&amp;lt;br /&amp;gt;CD+DVD
+| EMU-0210395&amp;lt;br /&amp;gt;EMU-0210400
+| 通常盤&amp;lt;br /&amp;gt;初回限定盤
+|-
+| rowspan="2" align="center"| US
+| 2015年5月18日&amp;lt;br /&amp;gt;2015年6月16日&amp;lt;br /&amp;gt;2015年6月18日
+| rowspan="2" align="center"| {{Flagicon|USA}}：187位{{Refnest|group="注"|US盤自体はランクインしておらず、JP盤発売と同時に配信された[[iTunes Store]]での売り上げによるもの。}}
+| CD
+| RAL96922
+| 通常盤
+|-
+| 2016年1月15日
+| LP
+| RAL509692
+| 限定生産盤
+|-
+! rowspan="5"| 2
+| rowspan="2" align="center"| JP
+| rowspan="5"| 2016年4月1日
+| rowspan="5"| '''[[METAL RESISTANCE]]'''
+| align="center"| {{Flagicon|JPN}}：2位
+| CD&amp;lt;br /&amp;gt;CD+DVD&amp;lt;br /&amp;gt;CD+Blu-ray
+| TFCC-86546&amp;lt;br /&amp;gt;TFCC-86545&amp;lt;br /&amp;gt;ONEC-0002
+| 通常盤&amp;lt;br /&amp;gt;初回限定盤&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+| align="center"| -位
+| LP
+| PPTF-3870
+| 限定生産盤
+|-
+| rowspan="2" align="center"| EU
+| rowspan="2" align="center"|{{Flagicon|UK}}：15位&amp;lt;br /&amp;gt;{{Flagicon|SCO}}：12位&amp;lt;br /&amp;gt;{{Flagicon|SUI}}：55位&amp;lt;br /&amp;gt;{{Flagicon|GER}}：36位&amp;lt;br /&amp;gt;{{Flagicon|AUT}}：22位&amp;lt;br /&amp;gt;{{Flagicon|NED}}：71位&amp;lt;br /&amp;gt;{{Flagicon|BEL}}：63位&amp;lt;br /&amp;gt;{{Flagicon|FIN}}：45位&amp;lt;br /&amp;gt;{{Flagicon|FRA}}：108位
+| CD
+| EMU-0210923
+| 通常盤
+|-
+| LP
+| EMU-0210979
+| 限定生産盤
+|-
+| align="center"| US
+| align="center"|{{Flagicon|USA}}：39位&amp;lt;br /&amp;gt;{{Flagicon|CAN}}：74位&amp;lt;br /&amp;gt;{{Flagicon|AUS}}：7位&amp;lt;br /&amp;gt;{{Flagicon|NZL}}：31位
+| CD
+| 8875193202
+| 通常盤
+|-
+! rowspan="6" |3
+| rowspan="2" align="center"| JP
+| rowspan="6" |2019年10月11日
+| rowspan="6" |'''[[METAL GALAXY]]'''
+|{{Flagicon|JPN}}：3位
+|2CD&amp;lt;br /&amp;gt;2CD+DVD&amp;lt;br /&amp;gt;2CD+DVD&amp;lt;br /&amp;gt;2CD+DVD&amp;lt;br /&amp;gt;2CD+DVD
+|TFCC-86687&amp;lt;br /&amp;gt;TFCC-86686&amp;lt;br /&amp;gt;TFCC-86684&amp;lt;br /&amp;gt;TFCC-86685&amp;lt;br /&amp;gt;ONEC-0012
+|通常盤&amp;lt;br /&amp;gt;初回限定盤&amp;lt;br /&amp;gt;初回限定盤 - SUN&amp;lt;br /&amp;gt;初回限定盤 - MOON&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+| align="center"| -位
+|LP
+|TFJC-38037
+|アナログ盤
+|-
+| rowspan="2" align="center"| EU
+| rowspan="2" |{{Flagicon|UK}}：19位&amp;lt;br /&amp;gt;{{Flagicon|SCO}}：5位&amp;lt;br /&amp;gt;{{Flagicon|SUI}}：46位&amp;lt;br /&amp;gt;{{Flagicon|GER}}：18位&amp;lt;br /&amp;gt;{{Flagicon|AUT}}：30位&amp;lt;br /&amp;gt;{{Flagicon|NED}}：95位&amp;lt;br /&amp;gt;{{Flagicon|BEL}}：44位&amp;lt;br /&amp;gt;{{Flagicon|FIN}}：40位&amp;lt;br /&amp;gt;{{Flagicon|FRA}}：115位&amp;lt;br /&amp;gt;{{Flagicon|ESP}}：69位
+|CD
+|EMU-213252
+|通常盤
+|-
+|LP
+|EMU-0214346
+|アナログ盤
+|-
+| rowspan="2" align="center"| US
+| rowspan="2" |{{Flagicon|USA}}：13位&amp;lt;br /&amp;gt;{{Flagicon|CAN}}：18位&amp;lt;br /&amp;gt;{{Flagicon|AUS}}：18位&amp;lt;br /&amp;gt;
+|CD
+|COOKCD737
+|通常盤
+|-
+|LP
+|COOKCD737C
+|アナログ盤
+|}
+'''ライブアルバム'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! 盤
+! リリース日
+! タイトル
+! 最高順位
+! 販売形態
+! 規格品番
+! 備考
+|-
+! rowspan="2"| 1
+| align="center"| JP
+| 2015年1月7日
+| rowspan="2"| '''[[LIVE AT BUDOKAN 〜RED NIGHT〜]]'''
+| align="center"| 3位
+| CD&amp;lt;br /&amp;gt;CD+ミュージックカード
+| TFCC-86503&amp;lt;br /&amp;gt;TFCC-86502
+| 通常盤&amp;lt;br /&amp;gt;初回限定盤
+|-
+| align="center"| EU
+| 2015年10月30日
+| align="center"| -位
+| CD+DVD
+| EMU-0210723
+| 限定生産盤
+|-
+! -
+| align="center"| JP
+| 2015年1月7日
+| '''[[LIVE AT BUDOKAN 〜BLACK NIGHT〜]]'''
+| align="center"| -
+| CD
+| PPTF-8074
+| WEB会員限定盤
+|-
+! -
+| align="center"| JP
+| 2015年10月21日
+| '''BABYMETAL LEGEND "2015" 〜新春キツネ祭り〜'''
+| align="center"| -
+| CD
+| ONEC-0001
+| WEB会員限定盤
+|-
+! rowspan="2"|2
+| align="center"|JP
+|2016年12月28日
+| rowspan="2"|'''[[LIVE AT WEMBLEY (アルバム)|LIVE AT WEMBLEY]]'''
+| align="center"|5位
+|CD
+|TFCC-86581
+|通常盤&amp;lt;!--&amp;lt;br /&amp;gt;初回限定盤--&amp;gt;
+|-
+| align="center"|EU
+|2016年12月9日
+| align="center"|-位
+|CD
+|EMU-0211680
+|通常盤
+|}
+'''その他'''
+{| class="wikitable" style="font-size:small"
+! 枚
+! リリース日
+! タイトル
+! 最高順位
+! 販売形態
+! 規格品番
+! 備考
+|-
+! -
+| 2015年9月16日
+| '''INTRODUCING BABYMETAL'''
+| align="center"| -
+| CD+DVD
+| PPTF-8088
+| [[カルチュア・コンビニエンス・クラブ|TSUTAYA]]レンタル限定盤
+|}
+
+=== 映像作品 ===
+{| class="wikitable" style="font-size:small"
+! 枚
+! 盤
+! リリース日
+! タイトル
+! 最高順位&amp;lt;ref&amp;gt;[http://www.oricon.co.jp/prof/552304/rank/dvd/ BABYMETAL DVD売上ランキング]、[http://www.oricon.co.jp/prof/552304/rank/blu-ray/ BABYMETAL Blu-ray売上ランキング ] - オリコンスタイル&amp;lt;/ref&amp;gt;
+! 販売形態
+! 規格品番
+! 備考
+|-
+! rowspan="2"| 1
+| rowspan="2" align="center"| JP
+| 2013年10月19日
+| rowspan="2"| '''[[LIVE 〜LEGEND I、D、Z APOCALYPSE〜]]'''
+| align="center"| -
+| DVD+マントストール
+| PPTF-1012
+| 限定生産盤
+|-
+| 2013年11月20日
+| align="center"| 7位
+| Blu-ray
+| TFXQ-78112
+| 通常盤
+|-
+! rowspan="2"| 2
+| rowspan="2" align="center"| JP
+| rowspan="2"| 2014年10月29日
+| rowspan="2"| '''[[LIVE〜LEGEND 1999&amp;amp;1997 APOCALYPSE]]'''
+| align="center"| 8位
+| DVD&amp;lt;br /&amp;gt;DVD+Tシャツ
+| TFBQ-18153&amp;lt;br /&amp;gt;-
+| rowspan="2"| 通常盤&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+| align="center"| 4位
+| Blu-ray&amp;lt;br /&amp;gt;Blu-ray+Tシャツ
+| TFXQ-78116&amp;lt;br /&amp;gt;-
+|-
+! rowspan="3"| 3
+| rowspan="2" align="center"| JP
+| rowspan="2"| 2015年1月7日
+| rowspan="3"| '''[[LIVE AT BUDOKAN 〜RED NIGHT &amp;amp; BLACK NIGHT APOCALYPSE〜]]'''
+| align="center"| 3位
+| DVD&amp;lt;br /&amp;gt;DVD+CD+コルセット+キーホルダー
+| TFBQ-18161&amp;lt;br /&amp;gt;ONED-0001
+| rowspan="2"| 通常盤&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+| align="center"| 1位
+| Blu-ray&amp;lt;br /&amp;gt;Blu-ray+CD+コルセット+キーホルダー
+| TFXQ-78119&amp;lt;br /&amp;gt;ONEB-0001
+|-
+| align="center"| EU
+| 2015年10月30日
+| align="center"| -位
+| DVD&amp;lt;br /&amp;gt;Blu-ray
+| EMU-0210721&amp;lt;br /&amp;gt;EMU-0210722
+| 通常盤
+|-
+! rowspan="3"| 4
+| rowspan="2" align="center"| JP
+| rowspan="2"| 2015年5月20日
+| rowspan="3"| '''[[LIVE IN LONDON -BABYMETAL WORLD TOUR 2014-]]'''
+| align="center"| 3位
+| DVD
+| TFBQ-18167
+| 通常盤
+|-
+| align="center"| 1位
+| Blu-ray&amp;lt;br /&amp;gt;2Blu-ray+2CD+フォトブック
+| TFXQ-78120&amp;lt;br /&amp;gt;ONEB-0002
+| 通常盤&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+| align="center"| EU
+| 2015年10月30日
+| align="center"| -位
+| DVD&amp;lt;br /&amp;gt;Blu-ray
+| EMU-0210724&amp;lt;br /&amp;gt;EMU-0210725
+| 通常盤
+|-
+! -
+| align="center"| JP
+| 2015年8月14日
+| '''BABYMETAL LEGEND "2015" 〜新春キツネ祭り〜'''
+| align="center"| -
+| Blu-ray
+| ONEB-0003
+| WEB会員限定盤
+|-
+! -
+| align="center"| JP
+| 2016年9月1日
+| '''TRILOGY - METAL RESISTANCE EPISODE III - APOCALYPSE'''
+| align="center"| -
+| Blu-ray+フォトブック
+| ONEB-0004〜6
+| WEB会員限定盤
+|-
+! rowspan="2" |5
+| rowspan="2" align="center"|JP
+| rowspan="2" |2016年11月23日
+| rowspan="2" |'''[[LIVE AT WEMBLEY]]'''
+| align="center"| 1位
+|DVD
+|TFBQ-18184
+|通常盤
+|-
+| align="center"| 2位
+|Blu-ray{{refnest|group="注"|2016年11月14日のamazonランキング「ブルーレイ ミュージックの売れ筋ランキング」&amp;lt;ref&amp;gt;{{Cite web|date=2016-11-14|url=https://www.amazon.co.jp/gp/bestsellers/dvd/2147355051/|title=Amazon.co.jp 売れ筋ランキング: ブルーレイ ミュージック の中で最も人気のある商品です|publisher=Amazon.com|archiveurl=http://archive.is/4LXKv|archivedate=2016-11-14|accessdate=2016-11-14}}&amp;lt;/ref&amp;gt;および「ブルーレイ ミュージックのほしい物ランキング」&amp;lt;ref&amp;gt;{{Cite web|date=2016-11-14|url=https://www.amazon.co.jp/gp/most-wished-for/dvd/2147355051/|title=Amazon.co.jp ほしい物ランキング: ブルーレイ ミュージック で、ほしい物リストとレジストリに最も多く追加された商品|publisher=Amazon.com|archiveurl=http://archive.is/rPeki|archivedate=2016-11-14|accessdate=2016-11-14}}&amp;lt;/ref&amp;gt;で1位となった。}}&amp;lt;br /&amp;gt;Blu-ray+CD+写真集+バンダナ
+|TFXQ-78140&amp;lt;br /&amp;gt;ONEB-0007
+|通常盤&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+! rowspan="3" |6
+| rowspan="3" align="center"|JP
+| rowspan="2" |2017年4月12日&amp;lt;!--{{refnest|group="注"|WEB会員限定盤は2017年4月1日発売}}--&amp;gt;
+| rowspan="3" |'''[[LIVE AT TOKYO DOME]]'''
+| align="center"| 3位
+|DVD
+|TFBQ-18187
+|通常盤
+|-
+| align="center"| 1位
+|Blu-ray
+|TFXQ-78150&amp;lt;br /&amp;gt;TFXQ-78149
+|通常盤&amp;lt;br /&amp;gt;初回限定盤
+|-
+|2017年4月1日
+| align="center"| -
+|Blu-ray+CD+写真集+バンダナ
+|ONEB-0008〜9
+|WEB会員限定盤
+|-
+!-
+| align="center"|JP
+|2017年12月24日
+|'''THE FOX FESTIVALS IN JAPAN 2017'''
+'''- THE FIVE FOX FESTIVAL &amp;amp; BIG FOX FESTIVAL -'''&amp;lt;ref&amp;gt;{{Cite web|url=https://rockinon.com/news/detail/171224|title=BABYMETAL、「5大キツネ祭り」と「巨大キツネ祭り」収録のスペシャルBDボックスリリース|accessdate=2018-06-05|last=株式会社ロッキング・オン|website=rockinon.com|language=ja-JP}}&amp;lt;/ref&amp;gt;
+| align="center"| -
+|Blu-ray
+|ONEB-0010〜15
+|WEB会員限定盤
+|-
+! rowspan="2" |7
+| rowspan="2" align="center"|JP
+| rowspan="2" |2018年8月1日&amp;lt;!--&amp;lt;ref&amp;gt;{{Cite news|title=BABYMETAL {{!}} TOY'S FACTORY|url=http://www.toysfactory.co.jp/artist/babymetal/news/detail/3130|accessdate=2018-06-05|language=ja}}&amp;lt;/ref&amp;gt;--&amp;gt;
+| rowspan="2" |'''[[LEGEND - S - BAPTISM XX -]]'''
+| align="center"|4位
+|DVD&amp;lt;ref name="utiwa" group="注"&amp;gt;早期購入特典：うちわ。&amp;lt;/ref&amp;gt;
+|TFBQ-18204
+|通常版
+|-
+| align="center"|1位
+|Blu-ray&amp;lt;ref name="utiwa" group="注"/&amp;gt;&amp;lt;br /&amp;gt;Blu-ray+CD+写真集
+|TFXQ-78162&amp;lt;br /&amp;gt;ONEB-0016
+|通常版&amp;lt;br /&amp;gt;WEB会員限定盤
+|-
+! -
+| align="center"|JP
+|2019年6月25日
+|'''METAL RESISTANCE EPISODE VII - APOCRYPHA - THE CHOSEN SEVEN'''
+| align="center"| -
+|Blu-ray+CD
+|ONEB-0017
+|WEB会員限定盤
+|}
+
+=== ミュージックビデオ ===
+{| class="wikitable" style="font-size:small"
+|-
+! 年
+! タイトル
+! 監督
+! 備考
+|-
+| align="center"| 2011
+| 「[http://www.youtube.com/watch?v=cirhQ8iLdbw ド・キ・ド・キ☆モーニング]」
+| 田中紫紋
+| 
+|-
+| align="center" rowspan="2"| 2012
+| 「[http://www.youtube.com/watch?v=qVdBBOpSoN4 いいね!]」
+| スズキダイシン
+| 
+|-
+| 「[http://www.youtube.com/watch?v=2IzR_ClTE8Y ヘドバンギャー!!]」
+| 田辺秀伸
+| 
+|-
+| align="center" rowspan="2"| 2013
+| 「[http://www.youtube.com/watch?v=nDqaTXqCN-Q イジメ、ダメ、ゼッタイ]」
+| KAMIMETAL
+| 
+|-
+| 「[http://www.youtube.com/watch?v=cK3NMZAUKGw メギツネ]」
+| [[多田卓也]]
+| 
+|-
+| align="center" | 2014
+| 「[http://www.youtube.com/watch?v=WIKqgE4BwAY ギミチョコ!!]」
+| [[INNI VISION]]
+| ライブ映像
+|-
+| align="center" rowspan="2"| 2015
+| 「[http://www.youtube.com/watch?v=zTEYUFgLveY Road of Resistance]」
+| INNI VISION
+| ライブ映像、ライブ音源
+|-
+| 「[http://www.youtube.com/watch?v=Ro-_cbfdrYE イジメ、ダメ、ゼッタイ]」
+| INNI VISION
+| ライブ映像、ライブ音源
+|-
+| align="center" rowspan="2"| 2016
+| 「[http://www.youtube.com/watch?v=GvD3CHA48pA KARATE]」
+| [[二宮“NINO”大輔]]
+| 
+|-
+| 「[http://www.youtube.com/watch?v=TZRvO0S-TLU THE ONE]」
+| INNI VISION
+| ライブ映像
+|-
+| align="center" rowspan="4" |2018
+|「[https://www.youtube.com/watch?v=1ce456Nnkt8 Distortion]」
+| 安田大地
+|メンバー出演なし
+|-
+|「[https://www.youtube.com/watch?v=FzgU3W5ZgzU Distortion]」
+| 
+| ライブ映像、ライブ音源
+|-
+|「[https://www.youtube.com/watch?v=pDgqo6fcliY NO RAIN, NO RAINBOW]」
+|
+|ライブ映像、ライブ音源
+|-
+|「[https://www.youtube.com/watch?v=hPVx7IazcEw Starlight]」
+|
+|
+|-
+| align="center" rowspan="4" |2019
+| 「[https://www.youtube.com/watch?v=oO7Y8NsnkRg PA PA YA!! (feat. F.HERO) ]」
+| 
+| ライブ映像
+|-
+|「[https://www.youtube.com/watch?v=Q48bwxyqVpQ Elevator Girl {{Nowiki|[English ver.]}}]」
+|
+| ライブ映像
+|-
+|「[https://www.youtube.com/watch?v=gQnG_T7kbtY Shanti Shanti Shanti]」
+|
+| ライブ映像
+|-
+|「[https://www.youtube.com/watch?v=qMKlj_1zbYc DA DA DANCE (feat. Tak Matsumoto)]」
+|
+| ライブ映像
+|}
+
+=== さくら学院の作品での収録曲 ===
+'''アルバム収録曲'''
+{| class="wikitable" style="font-size:small"
+! #
+! リリース日
+! 曲名
+! 収録作品
+! 備考
+|-
+! 1
+| 2011年4月27日
+| ド・キ・ド・キ☆モーニング
+| [[さくら学院 2010年度 〜message〜]]
+|
+|-
+! 2
+| 2012年3月21日
+| いいね! (Vega mix ver.)
+| [[さくら学院 2011年度 〜FRIENDS〜]]
+|
+|-
+! 3
+| 2013年3月13日
+| ヘドバンギャー!!
+| [[さくら学院 2012年度 〜My Generation〜]]
+|
+|-
+! 4
+| 2014年5月5日
+| ド・キ・ド・キ☆モーニング
+| 放課後アンソロジー from さくら学院
+| 「さくら学院 部活動」名義
+|}
+'''映像作品収録曲'''
+{| class="wikitable" style="font-size:small"
+! #
+! リリース日
+! 曲名
+! 収録作品
+|-
+! 1
+| 2012年6月27日
+| いいね! (Vega mix ver.)
+| さくら学院 FIRST LIVE &amp;amp; DOCUMENTARY 2010 to 2011 〜SMILE〜
+|-
+! 2
+| 2013年7月3日
+| ヘドバンギャー!!
+| The Road to Graduation Final 〜さくら学院 2012年度 卒業〜
+|}
+
+=== その他の作品での収録曲 ===
+'''コンピレーションアルバム収録曲'''
+{| class="wikitable" style="font-size:small"
+! #
+! リリース日
+! 曲名
+! 収録作品
+! 備考
+|-
+! 1
+| 2012年7月18日
+| いいね!
+| LOCAL IDOL BEST!
+| 東京ローカルアイドルとして参加
+|}
+
+== 受賞とノミネート ==
+{| class="wikitable" style="font-size:small"
+!年
+!賞
+!ノミネート対象
+!結果
+|-
+| 2014
+| 2014 [[MTVヨーロッパ・ミュージック・アワード|MTV Europe Music Awards]] - Wild Card for [[:en:MTV Europe Music Award for Best Japanese Act|Best Japan Act]]&amp;lt;ref&amp;gt;[http://gekirock.com/news/2014/09/mtv_ema.php MAN WITH A MISSION、BABYMETALら、ヨーロッパ最大級の音楽アワード"2014 MTV EMA"のワイルドカード枠にノミネート!Twitterによるファン投票受付スタート!]&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{nom}}
+|-
+| rowspan="12"| 2015
+| [[:en:Neo (magazine)|NEO]] Awards 2014 - Best Musical Act&amp;lt;ref&amp;gt;[http://web.archive.org/web/20150202060546/http://www.jwide.com/news/news.htm?id=4706 BABYMETAL、2014年ベストミュージカルアクトに、英月刊誌で(archive)]&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 4th Annual [[:en:Loudwire|Loudwire]] Music Awards - 2014 New Artist of the Year&amp;lt;ref&amp;gt; [http://web.archive.org/web/20150207021929/http://www.jwide.com/news/news.htm?id=4729 BABYMETAL、2014年ベストニューアーティストに、米音楽誌の投票で(archive)]&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 第7回 [[CDショップ大賞]] 2015 - 大賞&amp;lt;ref name="CDShopTaisyo" /&amp;gt;
+| [[BABYMETAL (アルバム)|BABYMETAL]] (アルバム)
+| {{Won}}
+|-
+| [[:en:Kerrang! Awards|KERRANG! AWARDS]] 2015 - THE SPIRIT OF INDEPENDENCE AWARD&amp;lt;ref name="KerrangAwards" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| [[:en:Metal Hammer Golden Gods Awards|METAL HAMMER GOLDEN GODS AWARDS]] 2015 - BREAKTHROUGH AWARD&amp;lt;ref name="hammer150616" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 2015 MTV Europe Music Awards - BEST JAPAN ACT&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/130610 MTVヨーロッパ、日本代表にONE OK ROCK、セカオワ、ベビメタ、三代目]&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{nom}}
+|-
+| [[MTV Video Music Awards Japan]] 2015 - BEST METAL ARTIST&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/133698 「MTV VMAJ 2015」受賞作品&amp;amp;アーティスト発表 栄冠を手にしたのはこのアーティスト!]&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| [[GQ JAPAN|GQ]] Men of the Year 2015 - Discovery of the Year&amp;lt;ref name="GQ"/&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| [[VOGUE JAPAN]] Women of the Year 2015&amp;lt;ref name="cinemacafe151126" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 5th Annual Loudwire Music Awards - Best Metal Song of 2015&amp;lt;ref name="jwide20151202"&amp;gt;[http://web.archive.org/web/20151208074356/http://www.jwide.com/news/news.htm?id=5788 BABYMETAL、米ラウドワイヤーのミュージックアワードで3賞受賞(archive)]&amp;lt;/ref&amp;gt;
+| [[Road of Resistance]]
+| {{Won}}
+|-
+| 5th Annual Loudwire Music Awards - Best Live Act of 2015&amp;lt;ref name="jwide20151202" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 5th Annual Loudwire Music Awards - Most Devoted Fans of 2015&amp;lt;ref name="jwide20151202" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| rowspan="8"| 2016
+| KERRANG! AWARDS 2016 - BEST LIVE BAND&amp;lt;ref name="mtvjapan20160610" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| METAL HAMMER GOLDEN GODS AWARDS 2016 - BEST INTERNATIONAL BAND&amp;lt;ref&amp;gt;{{cite news|url=http://www.metalinsider.net/award-show-battles/metal-hammer-golden-gods-announce-nominations-for-2016|title=Metal Hammer Golden Gods announce nominations for 2016|newspaper=Metal Insider|publisher=|author=Alix Vallecillo|date=2016-04-04|accessdate=2016-06-14|language=英語}}&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{nom}}
+|-
+| [[:en:Alternative Press Music Awards|Alternative Press Music Awards]] 2016 - Best International Band&amp;lt;ref&amp;gt;[http://altpress.jp/?p=39306 【NEWS】AP Music Awards 2016「Best International Band」部門に日本からONE OK ROCK, BABYMETALがノミネート]&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{nom}}
+|-
+| [[:en:Association of Independent Music#AIM Awards|AIM Independent Music Awards]] 2016 - BEST LIVE ACT&amp;lt;ref name="awards2016"&amp;gt;[http://www.mtvjapan.com/news/music/27527 BABYMETAL、イギリスの音楽アワードを受賞]&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{won}}
+|-
+| MTV Video Music Awards Japan 2016 - BEST GROUP VIDEO - JAPAN&amp;lt;ref name="awards2016" /&amp;gt;
+| [[KARATE]]
+| {{nom}}
+|-
+| MTV Video Music Awards Japan 2016 - BEST ALBUM OF THE YEAR - JAPAN&amp;lt;ref name="awards2016mtvj"&amp;gt;[http://www.mtvjapan.com/vmaj2016/winners/ WINNERS | MTV VMAJ 2016]&amp;lt;/ref&amp;gt;
+| [[METAL RESISTANCE]]
+| {{won}}
+|-
+| MTV Video Music Awards Japan 2016 - BEST METAL VIDEO&amp;lt;ref name="awards2016mtvj" /&amp;gt;
+| KARATE
+| {{won}}
+|-
+| [[:en:Revolver (magazine)|Revolver]] Music Awards 2016 - Best New Talent&amp;lt;ref&amp;gt;{{cite news|url=https://metalinjection.net/latest-news/nominees-for-revolvers-music-awards-include-megadetgh-metallica-ghost-opeth-nails-and-babymetal|title=Nominees For Revolver's Music Awards Include MEGADETH, METALLICA, GHOST, OPETH, NAILS, And BABYMETAL|newspaper=Metal Injection|author=Greg Kennelty|date=2016-11-02|accessdate=2019-12-05|language=英語}}&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{nom}}
+|-
+| rowspan="10"| 2017
+| 6th Annual Loudwire Music Awards - Best Metal Album&amp;lt;ref name="loudwire20170111"&amp;gt;[http://loudwire.com/babymetal-win-five-honors-6th-annual-loudwire-music-awards/ Babymetal Win Five Honors in the 6th Annual Loudwire Music Awards (January 10th, 2017)]&amp;lt;/ref&amp;gt;
+| METAL RESISTANCE
+| {{Won}}
+|-
+| 6th Annual Loudwire Music Awards - Best Metal Song&amp;lt;ref name="loudwire20170111" /&amp;gt;
+| KARATE
+| {{Won}}
+|-
+| 6th Annual Loudwire Music Awards - Rock Goddess of the Year&amp;lt;ref name="loudwire20170111" /&amp;gt;
+| SU-METAL
+| {{Won}}
+|-
+| 6th Annual Loudwire Music Awards - Best Live Act&amp;lt;ref name="loudwire20170111" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 6th Annual Loudwire Music Awards - Most Devoted Fans&amp;lt;ref name="loudwire20170111" /&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 第9回 CDショップ大賞 2017&amp;lt;ref&amp;gt;{{cite news|url=https://natalie.mu/music/news/195299|title=「CDショップ大賞」に岡崎体育、D.A.N.、バンプ、ベビメタ、METAFIVEらノミネート|newspaper=音楽[[ナタリー (ニュースサイト)|ナタリー]]|publisher=株式会社ナターシャ|date=2016-07-21|accessdate=2019-12-05}}&amp;lt;/ref&amp;gt;
+| METAL RESISTANCE
+| {{nom}}
+|-
+| 第22回 [[デジタルメディア協会|AMD]] Award '16 - 優秀賞&amp;lt;ref name="natalie20170313"/&amp;gt;
+| BABYMETAL/KOBAMETAL
+| {{Won}}
+|-
+| 2017 Loudwire Music Awards - Most Dedicated Fans&amp;lt;ref&amp;gt;{{cite news|url=https://loudwire.com/babymetal-win-most-dedicated-fans-2017-loudwire-music-awards/|title=Babymetal Win Most Dedicated Fans - 2017 Loudwire Music Awards|newspaper=[[:en:Loudwire|Loudwire]]|author=Graham Hartmann|date=2017-10-25|accessdate=2019-12-05|language=英語}}&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 2017 MTV Europe Music Awards - BEST JAPAN ACT&amp;lt;ref&amp;gt;{{cite news|url=https://rockinon.com/news/detail/169490|title=BABYMETAL、ヨーロッパ最大級の音楽アワード内「BEST JAPAN ACT」を獲得|newspaper=[[rockin'on]].com|publisher=株式会社[[ロッキング・オン]]|date=2017-11-13|accessdate=2019-08-04}}&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{Won}}
+|-
+| 2017 MTV Europe Music Awards - [[:en:MTV Europe Music Award for Best Worldwide Act|Best Worldwide Act]]&amp;lt;ref&amp;gt;{{Cite web |url=http://gekirock.com/news/2017/11/babymetal_2017-mtv-ema.php |title=BABYMETAL、ヨーロッパ最大級の音楽授賞式"2017 MTV EMA"にて日本人アーティスト初のベスト・ワールドワイド・アクト賞受賞! |publisher=激ロック |date=2017-11-16 |accessdate=2018-06-04 }}&amp;lt;/ref&amp;gt;
+| BABYMETAL
+| {{Won}}
+|}
+
+== ライブ一覧 ==
+{{出典の明記|section=1|date=2015年12月}}
+※フリーライブとインストアライブは除く
+{| class="wikitable" style="font-size: small"
+!年
+!開催日
+!公演タイトル
+!会場
+!備考
+|-
+|2010
+|style="white-space:nowrap;"|11月28日
+|'''さくら学院祭☆2010'''&amp;lt;ref name="sg1208" /&amp;gt;
+|[[横浜赤レンガ倉庫]] 1号館3Fホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[神奈川県]][[横浜市]]）
+|フェス
+|-
+| rowspan="4" |2011
+|{{0}}7月24日
+|'''さくら学院 2011年度 NEW 〜Departure〜'''&amp;lt;ref name="nd201107"&amp;gt;{{cite news|title=成長期限定ユニット さくら学院が新メンバー初お披露目|newspaper=hotexpress|date=2011-07-26|url=http://www.hotexpress.co.jp/news/110726_sakuragakuin/|accessdate=2016-01-11|publisher=株式会社プランテック}} [http://ameblo.jp/sakuragakuin/entry-10961954954.html 重大発表!! 中元すず香「学院日誌」2015-04-04]、[http://ameblo.jp/sakuragakuin/entry-10968820399.html 親友のうた 水野由結「学院日誌」2011-07-29]&amp;lt;/ref&amp;gt;
+|[[Shibuya O-EAST|DUO MUSIC EXCHANGE]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[東京都]][[渋谷区]]）
+|フェス
+|-
+|{{0}}8月28日
+|'''[[TOKYO IDOL FESTIVAL]] 2011 Eco&amp;amp;Smile'''
+|[[お台場]]・[[青海 (江東区)|青海]]特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都[[江東区]]）
+|フェス
+|-
+|10月12日
+|'''[[タワーレコード]]新宿店 13th Birthday 〜NO MUSIC,NO IDOL?〜'''&amp;lt;ref name="barks20111017"&amp;gt;[https://www.barks.jp/news/?id=1000074073 「NO MUSIC, NO IDOL?」期待のアイドル、新宿LOFTに集結]&amp;lt;/ref&amp;gt;
+|[[ロフト (ライブハウス)|新宿LOFT]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都[[新宿区]]）
+|フェス
+|-
+|10月23日
+|'''さくら学院祭☆2011'''&amp;lt;ref&amp;gt;{{cite news|title=“さくら学院”、＜さくら学院祭☆2011＞のステージ上で2ndシングルリリースを発表|newspaper=リッスンジャパン|date=2011-10-24|url=http://listenmusic.jp/store/musicnews_35686_all.htm|accessdate=2016-03-01|publisher=株式会社[[エムティーアイ]]}}&amp;lt;/ref&amp;gt;
+|[[Mt.RAINIER HALL SHIBUYA PLEASURE PLEASURE|Mt.RAINIER HALL&amp;lt;br /&amp;gt;SHIBUYA PLEASURE PLEASURE]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|フェス
+|-
+| rowspan="13" |2012
+|{{0}}1月{{0}}9日
+|'''WOMEN'S POWER 20th Anniversary'''&amp;lt;ref name="BARKS20120110" /&amp;gt;
+|[[Shibuya O-WEST]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|フェス
+|-
+|{{0}}3月25日
+|'''さくら学院 2011年度 卒業 〜旅立ち〜'''&amp;lt;ref&amp;gt;[http://www.cdjournal.com/main/news/sakura-gakuin/43934 さくら学院から、初の卒業生が誕生!]&amp;lt;/ref&amp;gt;
+|[[室町東三井ビルディング|日本橋三井ホール]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都[[中央区 (東京都)|中央区]]）
+|フェス
+|-
+|{{0}}4月{{0}}8日
+|'''第2回アイドル横丁祭!!生バンドスペシャル supported by TopYell'''&amp;lt;ref&amp;gt;[https://web.archive.org/web/20150407010120/http://www.kawaii-girl.jp/feature/13917 テキストリポート【アイドル横丁祭!!】℃-ute、super☆girls、babymetalなど豪華7組が出演した【アイドル横丁祭!!】をリポート!] &amp;lt;/ref&amp;gt;
+|[[SHIBUYA-AX]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|フェス
+|-
+|{{0}}6月23日
+|'''TOWER RECORDS Presents Pop'n アイドル 02'''&amp;lt;ref name="POPn2" /&amp;gt;
+|[[Zepp]] TOKYO&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|フェス
+|-
+|{{0}}7月21日
+|'''LEGEND〜コルセット祭り'''&amp;lt;ref name="natalie20120722" /&amp;gt;
+|[[目黒鹿鳴館]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都[[目黒区]]）
+|プレミアムライブ{{Refnest|group="注"|シングル「[[ヘドバンギャー!!]]」初回限定盤に封入されていた抽選券の当選者限定ライブ。}}
+|-
+|{{0}}8月{{0}}4日
+|'''TOKYO IDOL FESTIVAL 2012'''
+|お台場・青海特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|フェス
+|-
+|{{0}}8月19日
+|'''[[サマーソニック|SUMMER SONIC]] 2012'''&amp;lt;ref name="summersonic2012" /&amp;gt;
+|[[千葉マリンスタジアム]]&amp;amp;[[幕張メッセ]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[千葉県]][[千葉市]]）
+|SIDE-SHOW MESSEに出演
+|-
+|{{0}}8月20日
+|'''SuG LIVE BATTLE 2012 “LIVE! TOWER RECORDS DAY”&amp;lt;br /&amp;gt;「-[[SuG]] VS [[たむらぱん]] VS BABYMETAL-」'''&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/73850 SuG企画対バンに撃鉄、BABYMETAL、たむらぱんら]&amp;lt;/ref&amp;gt;
+|[[WWW (ライブハウス)|渋谷WWW]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|スリーマンライブ
+|-
+|10月{{0}}6日
+|'''I、D、Z〜LEGEND“I”'''&amp;lt;ref name="hatsuoneman" /&amp;gt;
+|[[Shibuya O-EAST]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|ワンマンライブ&amp;lt;br /&amp;gt;※同一内容による昼夜2公演
+|-
+|10月27日
+|'''さくら学院祭☆2012'''&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/79121 「さくら学院祭」で“科学究明機構ロヂカ?”初お披露目]&amp;lt;/ref&amp;gt;
+|恵比寿ガーデンホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都目黒区）
+|フェス
+|-
+|11月10日
+|'''[[アニメ・フェスティバル・アジア|Anime Festival Asia]] Singapore 2012'''&amp;lt;ref name="nikkeibp20121121" /&amp;gt;
+|Singapore Expo Halls 7&amp;amp;8&amp;lt;br /&amp;gt;（{{Flagicon|SIN|size=20px}} [[シンガポール]]）
+|フェス
+|-
+|12月20日
+|'''I、D、Z〜LEGEND“D” SU-METAL聖誕祭'''&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/d_news/detail/9178/2 BABYMETAL 聖誕祭でSPEEDや「翼をください」をメタルカバー]&amp;lt;/ref&amp;gt;
+|[[赤坂BLITZ]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都[[港区 (東京都)|港区]]）
+|ワンマンライブ
+|-
+|12月27日
+|'''DECEMBER'S CHILDREN'''&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/82187 ピエール中野&amp;amp;BABYMETAL、武道館イベントで競演]&amp;lt;/ref&amp;gt;
+|[[日本武道館]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都[[千代田区]]）
+|ピエール中野([[凛として時雨]])主催のライブイベントにゲスト出演
+|-
+| rowspan="25" |2013
+|{{0}}2月{{0}}1日
+|'''I、D、Z〜LEGEND“Z”'''&amp;lt;ref name="legendz"&amp;gt;{{cite news|title=BABYMETAL：解散説を否定 期限付きで活動継続|newspaper=[[まんたんブロード|MANTNANWEB]]|date=2013-02-01|url=http://mantan-web.jp/2013/02/01/20130201dog00m200053000c.html|accessdate=2013-12-14|publisher=[[毎日新聞社]]}}&amp;lt;/ref&amp;gt;
+|Zepp TOKYO&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|ワンマンライブ
+|-
+|{{0}}3月31日
+|'''The Road to Graduation Final 〜さくら学院 2012年度 卒業〜'''&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/87841 さくら学院、中元すず香卒業「皆さんがすぅを変えてくれた」]&amp;lt;/ref&amp;gt;
+|[[東京国際フォーラム]] ホールC&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都千代田区）
+|フェス
+|-
+|{{0}}5月10日
+| rowspan="3" |'''BABYMETAL DEATH MATCH TOUR 2013 -五月革命-'''&amp;lt;ref name="5月革命" /&amp;gt;
+|[[BIG CAT]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[大阪府]][[大阪市]]）
+| rowspan="3" |ワンマンライブ&amp;lt;br /&amp;gt;※最終日のみ昼夜2公演
+|-
+|{{0}}5月17日
+| rowspan="2" |Zepp DiverCity (TOKYO)&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|-
+|{{0}}5月18日
+|-
+|{{0}}5月26日
+|'''TOKYO [[METROPOLITAN ROCK FESTIVAL]] 2013'''&amp;lt;ref name="ro6982839" /&amp;gt;
+|[[若洲公園]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|フェス
+|-
+|{{0}}6月30日
+|'''LEGEND“1999” YUIMETAL &amp;amp; MOAMETAL聖誕祭'''&amp;lt;ref name="natalie130704"/&amp;gt;
+|[[NHKホール]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|ワンマンライブ
+|-
+|{{0}}7月{{0}}7日
+|'''Rock Beats Cancer FES Vol.2 supported by チューリッヒ生命'''&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/84324 チャリティーイベント「Rock Beats Cancer FES Vol.2」に奥田民生、BABYMETALらが出演]&amp;lt;/ref&amp;gt;
+|[[日比谷野外音楽堂]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都千代田区）
+|フェス
+|-
+|{{0}}7月14日
+|'''キツネ祭り'''&amp;lt;ref&amp;gt;[http://www.cdjournal.com/main/news/babymetal/53012 BABYMETAL、目黒・鹿鳴館で〈キツネ祭り〉開催]&amp;lt;/ref&amp;gt;
+|目黒鹿鳴館&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都目黒区）
+|プレミアムライブ{{Refnest|group="注"|シングル「[[メギツネ]]」に封入されていた抽選券の当選者限定ライブ。}}
+|-
+|{{0}}7月15日
+|'''SUMMER CAMP 2013'''&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/d_news/detail/13861/2 10-FEET、FACTら猛者集うロックイベントで、最年少BABYMETALも爆音パフォーマンス]&amp;lt;/ref&amp;gt;
+|[[CLUB CITTA']]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[神奈川県]][[川崎市]]）
+|フェス
+|-
+|{{0}}7月21日
+|'''[[JOIN ALIVE]] 2013'''&amp;lt;ref name="barks20130722" /&amp;gt;
+|[[いわみざわ公園]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[北海道]][[岩見沢市]]）
+|フェス
+|-
+|{{0}}8月{{0}}4日
+|'''[[ROCK IN JAPAN FESTIVAL]] 2013'''&amp;lt;ref name="mfound20130805" /&amp;gt;
+|[[国営ひたち海浜公園]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[茨城県]][[ひたちなか市]]）
+|フェス
+|-
+|{{0}}8月10日
+| rowspan="2" |'''SUMMER SONIC 2013'''&amp;lt;ref name="ss2013" /&amp;gt;
+|千葉マリンスタジアム&amp;amp;幕張メッセ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+| rowspan="2" |フェス
+|-
+|{{0}}8月11日
+|[[舞洲]]サマーソニック大阪特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+|-
+|{{0}}9月{{0}}7日
+|'''Anime Festival Asia Indonesia 2013'''&amp;lt;ref name="animefes2013" /&amp;gt;
+|[[:en:Jakarta Convention Center|Jakarta Convention Center]]&amp;lt;br /&amp;gt;（{{Flagicon|INA|size=20px}} [[インドネシア]]・[[ジャカルタ]]）
+|フェス
+|-
+|{{0}}9月22日
+|'''[[イナズマロックフェス]] 2013'''&amp;lt;ref name="musicman-net20130925" /&amp;gt;
+|[[烏丸半島]]芝生広場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[滋賀県]][[草津市]]）
+|フェス
+|-
+|10月18日
+|'''タワーレコード新宿店 15周年大感謝祭スペシャル「15の夜。」'''&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/101779 タワレコ新宿15th企画でベビメタ、鬱P、ロティカら激突]&amp;lt;/ref&amp;gt;
+|赤坂BLITZ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都港区）
+|フェス
+|-
+|10月20日
+|'''[[LOUD PARK]] 13'''&amp;lt;ref name="loudpark13" /&amp;gt;
+|[[さいたまスーパーアリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[埼玉県]][[さいたま市]]）
+|フェス
+|-
+|11月{{0}}4日
+|'''JAPAN POP CULTURE CARNIVAL 2013 IN MATSUDO'''&amp;lt;ref&amp;gt;{{Cite web|url=http://asianbeat.com/ja/jjj/jjj082.html|title=【櫻井孝昌のJAPAN! JAPAN! JAPAN!】第82回 文化外交で出会った大切な同志、影山ヒロノブ、田中れいな、SU-METAL(BABYMETAL)らとジャンルを超えて〜Japan Pop Culture Carnival④|accessdate=2016-03-01|author=[[櫻井孝昌]]|date=2013-12-18|work=asianbeat|publisher=[[アジアユースカルチャーセンター]]}}&amp;lt;/ref&amp;gt;
+|[[森のホール21]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県[[松戸市]]）
+|SU-METALのみ出演{{Refnest|group="注"|「JAM METAL Project with SU-METAL」（[[JAM Project]]との特別ユニット）として出演。}}
+|-
+|11月{{0}}9日
+|'''Anime Festival Asia Singapore 2013'''
+|[[サンテック・シンガポール国際会議展示場]]&amp;lt;br /&amp;gt;（{{Flagicon|SIN|size=20px}} シンガポール）
+|フェス
+|-
+|11月30日
+|'''SKULLSHIT presents SkullMania Vol.8'''&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/90247 「SKULLMANIA Vol.7&amp;amp;8」第2弾発表でTOTALFAT、SiM、BABYMETALらの出演が決定]&amp;lt;/ref&amp;gt;
+|[[STUDIO COAST]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|フェス
+|-
+|12月{{0}}1日
+|'''[[アクト・アゲインスト・エイズ|Act Against AIDS]] 2013 「THE VARIETY 21」'''&amp;lt;ref&amp;gt;{{cite news|title=岸谷五朗、寺脇康文らがエイズ撲滅を呼びかける!Act Against AIDS 2013「THE VARIETY」に豪華な顔ぶれが勢揃い!|newspaper=ecolusso|date=2013-12-02|url=http://www.ecolusso.jp/world_eco_repo/131202.html|accessdate=2016-03-01|publisher=エコルッソ株式会社}}&amp;lt;/ref&amp;gt;
+|[[日本武道館]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都千代田区）
+|フェス
+|-
+|12月21日
+|'''LEGEND“1997” SU-METAL聖誕祭'''&amp;lt;ref name="barks20140204" /&amp;gt;
+|幕張メッセ イベントホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|ワンマンライブ
+|-
+|12月28日
+|'''LIVE IN SINGAPORE'''&amp;lt;ref name="ro6920131105" /&amp;gt;
+|SCAPE Ground Theatre&amp;lt;br /&amp;gt;（{{Flagicon|SIN|size=20px}} シンガポール）
+|ワンマンライブ
+|-
+|12月30日
+|'''[[COUNTDOWN JAPAN]] 13/14 SUPPORTED BY Windows'''&amp;lt;ref&amp;gt;[https://rockinon.com/quick/cdj1314/detail/94522 BABYMETAL│COUNTDOWN JAPAN 13/14│クイックレポート]&amp;lt;/ref&amp;gt;
+|幕張メッセ 国際展示場&amp;lt;br /&amp;gt;1 - 8ホール&amp;amp;イベントホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|フェス
+|-
+| rowspan="27" |2014
+|{{0}}1月18日
+|'''LIVE EXPO TOKYO 2014 ALL LIVE NIPPON Vol.2'''&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/108124 金爆、T.M.R.、ベビメタ、MWAMら競演に1万2000人興奮]&amp;lt;/ref&amp;gt;
+|[[国立代々木競技場]] 第一体育館&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|フェス
+|-
+|{{0}}1月24日
+|'''[[筋肉少女帯]]/BABYMETAL'''&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/106664 筋肉少女帯vs特撮!2月赤坂BLITZで激突]&amp;lt;/ref&amp;gt;
+|[[Shibuya O-EAST|TSUTAYA O-EAST]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+|ツーマンライブ
+|-
+|{{0}}2月{{0}}2日
+|'''完全櫻樂團 第壹團 重音偶像大對決&amp;lt;br /&amp;gt;BABYMETAL×[[ソニック (バンド)|ChthoniC 閃靈]] 協助:完全娛樂'''&amp;lt;ref&amp;gt;[http://www.babymetal.jp/news/detail.php?id=201 2014年2月2日（日）台湾ライブのチケットが12月20日（金）12時から発売DEATH!!]&amp;lt;/ref&amp;gt;
+|[[:zh:ATT 4 FUN|ATT Show Box]]&amp;lt;br /&amp;gt;（{{Flagicon|ROC|size=20px}} [[台湾]]・[[台北市]]）
+|ツーマンライブ
+|-
+|{{0}}3月{{0}}1日
+|'''赤い夜 LEGEND“巨大コルセット祭り”&amp;lt;br /&amp;gt;〜天下一メタル武道会ファイナル〜'''
+| rowspan="2" |日本武道館&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都千代田区）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}3月{{0}}2日
+|'''黒い夜 LEGEND“DOOMSDAY” 〜召喚の儀〜'''
+|-
+|{{0}}6月23日
+|'''APOCRYPHA - I'''
+| rowspan="2" |TSUTAYA O-EAST&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}6月24日
+|'''APOCRYPHA - II'''
+|-
+|{{0}}7月{{0}}1日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2014'''
+|[[ラ・シガール]]&amp;lt;br /&amp;gt;（{{Flagicon|FRA|size=20px}} [[フランス]]・[[パリ]]）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}7月{{0}}3日
+|[[Live Music Hall|ライブ・ミュージック・ホール]]&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} [[ドイツ]]・[[ケルン]]）
+|-
+|{{0}}7月{{0}}5日
+|'''[[:en:Sonisphere Festival|Sonisphere Festival]] UK'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2014）
+|Knebworth Park&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} [[イギリス]]・[[:en:Knebworth|ネブワース]]）
+|フェス
+|-
+|{{0}}7月{{0}}7日
+|'''BABYMETAL WORLD TOUR 2014'''
+|[[:en:The Forum, London|The Forum]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[ロンドン]]）
+|ワンマンライブ&amp;lt;br/&amp;gt;※[[ライブビューイング]]を開催{{Refnest|group="注"|Zepp Tokyoでの生中継および13都道府県の映画館でのディレイ中継。}}
+|-
+| rowspan="2" |{{0}}7月21日
+|'''APOCRYPHA - Y'''
+| rowspan="2" |TSUTAYA O-EAST&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|'''APOCRYPHA - M'''
+|-
+|{{0}}7月27日
+|'''BABYMETAL WORLD TOUR 2014'''
+|[[:en:The Fonda Theatre|The Fonda Theater]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[カリフォルニア州]][[ロサンゼルス]]）
+|ワンマンライブ
+|-
+|{{0}}7月30日
+| rowspan="5" |'''[[レディー・ガガ|LADY GAGA]]'S [[:en:ArtRave: The Artpop Ball|artRAVE: The ARTPOP Ball]]'''
+|[[USエアウェイズ・センター]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[アリゾナ州]][[フェニックス (アリゾナ州)|フェニックス]]）
+| rowspan="5" |サポートアクト
+|-
+|{{0}}8月{{0}}1日
+|[[MGMグランド・ガーデン・アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[ネバダ州]][[ラスベガス]]）
+|-
+|{{0}}8月{{0}}2日
+|[[:en:Harveys Lake Tahoe|Harveys Lake Tahoe]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} ネバダ州[[:en:Stateline, Nevada|ステートライン]]）
+|-
+|{{0}}8月{{0}}4日
+|[[エナジーソリューションズ・アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[ユタ州]][[ソルトレイクシティ]]）
+|-
+|{{0}}8月{{0}}6日
+|[[ペプシ・センター]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[コロラド州]][[デンバー]]）
+|-
+|{{0}}8月{{0}}9日
+|'''[[:en:Heavy MONTRÉAL|HEAVY MONTRÉAL]]'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2014）
+|[[:en:Parc Jean-Drapeau|Parc Jean-Drapeau]]&amp;lt;br /&amp;gt;（{{Flagicon|CAN|size=20px}} [[カナダ]]・[[ケベック州]][[モントリオール]]）
+|フェス
+|-
+|{{0}}8月16日
+| rowspan="2" |'''SUMMER SONIC 2014'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2014）
+|千葉マリンスタジアム&amp;amp;幕張メッセ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+| rowspan="2" |フェス
+|-
+|{{0}}8月17日
+|舞洲サマーソニック大阪特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+|-
+|{{0}}9月13日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2014'''
+| rowspan="2" |幕張メッセ イベントホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}9月14日
+|-
+|11月{{0}}4日
+| rowspan="2" |'''BABYMETAL BACK TO THE USA/UK TOUR 2014'''
+|[[ハマースタイン・ボールルーム]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[ニューヨーク州]][[ニューヨーク]]）
+| rowspan="2" |ワンマンライブ
+|-
+|11月{{0}}8日
+|[[ブリクストン・アカデミー|O2アカデミー・ブリクストン]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・ロンドン）
+|-
+|12月20日
+|'''APOCRYPHA - S'''
+|[[チームスマイル|チームスマイル/豊洲PIT]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|WEB会員限定ライブ
+|-
+| rowspan="40" |2015
+|{{0}}1月10日
+|'''LEGEND“2015” 〜新春キツネ祭り〜'''
+|さいたまスーパーアリーナ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 埼玉県さいたま市）
+|ワンマンライブ&amp;lt;!--&amp;lt;br /&amp;gt;2015-03-15 TV放送（カット版）&amp;lt;br /&amp;gt;2015-05-06 Tube配信（[https://www.youtube.com/watch?v=zTEYUFgLveY Road of Resistance]）&amp;lt;br /&amp;gt;2015-08-14 BD発売&amp;lt;br /&amp;gt;2016-09-01 BD発売（リマスター&amp;amp;別アングル）--&amp;gt;
+|-
+|{{0}}4月23日
+|'''APOCRYPHA - THE BLACK MASS -'''
+| rowspan="2" |TSUTAYA O-EAST&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}4月24日
+|'''APOCRYPHA - THE RED MASS -'''
+|-
+|{{0}}5月{{0}}9日
+| rowspan="3" |'''BABYMETAL WORLD TOUR 2015'''
+|[[:es:Circo Volador|Circo Volador]]&amp;lt;br /&amp;gt;（{{Flagicon|MEX|size=20px}} [[メキシコ]]・[[メキシコシティ]]）
+| rowspan="3" |ワンマンライブ
+|-
+|{{0}}5月12日
+|[[:en:The Music Hall (Toronto)|Danforth Music Hall]]&amp;lt;br /&amp;gt;（{{Flagicon|CAN|size=20px}} カナダ・[[オンタリオ州]][[トロント]]）
+|-
+|{{0}}5月14日
+|[[:en:House of Blues|House of Blues Chicago]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[イリノイ州]][[シカゴ]]）
+|-
+|{{0}}5月16日
+|'''[[:en:Rock on the Range|Rock On The Range]] 2015'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2015）
+|[[コロンバス・クルー・スタジアム]]（マフレ・スタジアム）&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[オハイオ州]][[コロンバス (オハイオ州)|コロンバス]]）
+|フェス
+|-
+|{{0}}5月24日
+|'''TOKYO METROPOLITAN ROCK FESTIVAL 2015'''
+|若洲公園&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|フェス
+|-
+|{{0}}5月29日
+|'''[[:de:Rockavaria|ROCKAVARIA]]'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2015）
+|[[:en:Olympiapark, Munich|Olympiapark München]]&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[ミュンヘン]]）
+|フェス
+|-
+|{{0}}5月30日
+|'''[[:de:Rock im Revier|Rock im Revier]]'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2015）
+|[[フェルティンス・アレーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[ゲルゼンキルヒェン]]）
+|フェス
+|-
+|{{0}}6月{{0}}1日
+| rowspan="3" |'''BABYMETAL WORLD TOUR 2015'''
+|[[:fr:Salle de Musiques actuelles de la ville de Strasbourg|La Laiterie]]&amp;lt;br /&amp;gt;（{{Flagicon|FRA|size=20px}} フランス・[[ストラスブール]]）
+| rowspan="3" |ワンマンライブ
+|-
+|{{0}}6月{{0}}3日
+|[[:de:Limmathaus|X-TRA]]&amp;lt;br /&amp;gt;（{{Flagicon|SUI|size=20px}} [[スイス]]・[[チューリッヒ]]）
+|-
+|{{0}}6月{{0}}5日
+|Estragon Club&amp;lt;br /&amp;gt;（{{Flagicon|ITA|size=20px}} [[イタリア]]・[[ボローニャ]]）
+|-
+|{{0}}6月{{0}}6日
+|'''[[:de:Rock in Vienna|Rock In Vienna]]'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2015）
+|Donauinsel Wien&amp;lt;br /&amp;gt;（{{Flagicon|AUT|size=20px}} [[オーストリア]]・[[ウィーン]]）
+|フェス
+|-
+|{{0}}6月12日
+|'''[[ダウンロード・フェスティバル|Download Festival]] 2015'''
+|[[ドニントン・パーク]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[レスターシャー]]）
+|[[ドラゴンフォース]]のステージにシークレットゲストとして出演
+|-
+|{{0}}6月15日
+|'''[[:en:Metal Hammer|METAL HAMMER]] GOLDEN GODS 2015 AWARD CEREMONY'''
+|[[The O2|indigO2]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・ロンドン）
+|授賞式でドラゴンフォースと共演
+|-
+|{{0}}6月21日
+|'''BABYMETAL WORLD TOUR 2015 〜巨大天下一メタル武道会〜'''
+|幕張メッセ 国際展示場1 - 3ホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|ワンマンライブ&amp;lt;br /&amp;gt;※ライブビューイング（全国24カ所の映画館）を開催&amp;lt;!--&amp;lt;br /&amp;gt;神バンド前日誕生日のYUIMETAL祝福&amp;lt;br /&amp;gt;「ヤバッ!」初披露&amp;lt;br /&amp;gt;2015-10-18 TV放送（カット版）&amp;lt;br /&amp;gt;2016-09-01 BD発売--&amp;gt;
+|-
+|{{0}}7月28日
+| rowspan="2" |'''APOCRYPHA - Only The FOX GOD Knows -'''
+| rowspan="2" |TSUTAYA O-EAST&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}7月29日
+|-
+|{{0}}8月15日
+| rowspan="2" |'''SUMMER SONIC 2015'''
+|千葉マリンスタジアム&amp;amp;幕張メッセ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+| rowspan="2" |フェス
+|-
+|{{0}}8月16日
+|舞洲サマーソニック大阪特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+|-
+|{{0}}8月20日
+|'''APOCRYPHA - THE RED MASS - II'''
+|TSUTAYA O-EAST&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都渋谷区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}8月21日
+|'''APOCRYPHA - THE BLACK MASS - II'''
+|STUDIO COAST&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|-
+|{{0}}8月26日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2015'''
+|[[:de:Batschkapp|Batschkapp]]&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[フランクフルト]]）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}8月27日
+|Huxleys&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[ベルリン]]）
+|-
+|{{0}}8月29日
+| rowspan="2" |'''[[レディング・フェスティバル|Reading &amp;amp; Leeds Festivals]] 2015'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2015）
+|Richfield Avenue（[[:en:Little John's Farm|Little John's Farm]]）&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[レディング]]）
+| rowspan="2" |フェス
+|-
+|{{0}}8月30日
+|[[:en:Bramham Park|Bramham Park]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[リーズ]]）
+|-
+|{{0}}9月16日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2015 in JAPAN'''
+| rowspan="2" |Zepp Namba (OSAKA)&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}9月17日
+|-
+|{{0}}9月20日
+|'''[[ULTRA JAPAN]] 2015'''
+|お台場ULTRA JAPAN特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|[[スクリレックス]]のステージにサプライズゲストとして出演
+|-
+|{{0}}9月21日
+| rowspan="6" |'''BABYMETAL WORLD TOUR 2015 in JAPAN'''
+|Zepp Sapporo&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 北海道[[札幌市]]）
+| rowspan="6" |ワンマンライブ
+|-
+|10月{{0}}2日
+|Zepp Fukuoka&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[福岡県]][[福岡市]]）
+|-
+|10月{{0}}7日
+| rowspan="2" |Zepp Nagoya&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[愛知県]][[名古屋市]]）
+|-
+|10月{{0}}8日
+|-
+|10月15日
+| rowspan="2" |Zepp DiverCity (TOKYO)&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|-
+|10月16日
+|-
+|11月22日
+|'''[[オズフェスト|Ozzfest]] Japan 2015'''
+|幕張メッセ 国際展示場9 - 11ホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|フェス
+|-
+|12月12日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2015 in JAPAN&amp;lt;br /&amp;gt;- THE FINAL CHAPTER OF TRILOGY -'''
+| rowspan="2" |[[横浜アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 神奈川県横浜市）
+| rowspan="2" |ワンマンライブ
+|-
+|12月13日
+|-
+|12月28日
+|'''COUNTDOWN JAPAN 15/16 SUPPORTED BY Windows 10'''
+|幕張メッセ 国際展示場&amp;lt;br /&amp;gt;1 - 11ホール&amp;amp;イベントホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|フェス
+|-
+| rowspan="43" |2016
+|{{0}}4月{{0}}2日
+|'''BABYMETAL WORLD TOUR 2016&amp;lt;br /&amp;gt;kicks off at THE SSE ARENA WEMBLEY!!'''
+|[[ウェンブリー・アリーナ]]（SSEアリーナ・ウェンブリー）&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[ウェンブリー]]）
+|ワンマンライブ&amp;lt;br /&amp;gt;※ライブビューイング（全国のZepp6会場）を開催
+|-
+|{{0}}4月20日
+| rowspan="2" |'''APOCRYPHA - Only The FOX GOD Knows -'''
+| rowspan="2" |STUDIO COAST&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}4月21日
+|-
+|{{0}}5月{{0}}4日
+| rowspan="3" |'''BABYMETAL WORLD TOUR 2016 / US TOUR'''
+|[[:en:PlayStation Theater|PlayStation Theater]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ニューヨーク州ニューヨーク）
+| rowspan="3" |ワンマンライブ
+|-
+|{{0}}5月{{0}}5日
+|[[:en:House of Blues|House of Blues Boston]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[マサチューセッツ州]][[ボストン]]）
+|-
+|{{0}}5月{{0}}7日
+|[[:en:Electric Factory|Electric Factory]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ペンシルベニア州]][[フィラデルフィア]]）
+|-
+|{{0}}5月{{0}}8日
+|'''[[:en:Carolina Rebellion|Carolina Rebellion]] 2016'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2016 / US TOUR）
+|[[シャーロット・モーター・スピードウェイ]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ノースカロライナ州]][[コンコード (ノースカロライナ州)|コンコード]]）
+|フェス
+|-
+|{{0}}5月10日
+| rowspan="3" |'''BABYMETAL WORLD TOUR 2016 / US TOUR'''
+|The Fillmore Silver Spring&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[メリーランド州]][[シルバースプリング (メリーランド州)|シルバースプリング]]）
+| rowspan="3" |ワンマンライブ
+|-
+|{{0}}5月11日
+|[[:en:Fillmore Detroit|The Fillmore Detroit]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ミシガン州]][[デトロイト]]）
+|-
+|{{0}}5月13日
+|House of Blues Chicago&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} イリノイ州シカゴ）
+|-
+|{{0}}5月14日
+|'''NORTHERN INVASION'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2016 / US TOUR）
+|[[:en:Somerset Amphitheater|Somerset Amphitheater]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ウィスコンシン州]][[:en:Somerset (town), Wisconsin|サマセット]]）
+|フェス
+|-
+|{{0}}6月{{0}}2日
+|'''BABYMETAL WORLD TOUR 2016 / EUROPE TOUR'''
+|Z7&amp;lt;br /&amp;gt;（{{Flagicon|SUI|size=20px}} スイス・[[:en:Pratteln|プラッテルン]]）
+|ワンマンライブ
+|-
+|{{0}}6月{{0}}3日
+|'''Rock In Vienna'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2016 / EUROPE TOUR）
+|Donauinsel Wien&amp;lt;br /&amp;gt;（{{Flagicon|AUT|size=20px}} オーストリア・ウィーン）
+|フェス
+|-
+|{{0}}6月{{0}}5日
+|'''[[:nl:FortaRock Festival|FortaRock Festival]] 2016'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2016 / EUROPE TOUR）
+|[[:nl:Doornroosje (Nijmegen)|Doornroosje]], [[:nl:Park Brakkenstein|Park Brakkenstein]], [[:nl:Goffertpark|Goffertpark]]&amp;lt;br /&amp;gt;（{{Flagicon|NED|size=20px}} [[オランダ]]・[[ナイメーヘン]]）
+|フェス
+|-
+|{{0}}6月{{0}}7日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2016 / EUROPE TOUR'''
+|ライブ・ミュージック・ホール&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・ケルン）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}6月{{0}}8日
+|Longhorn&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[シュトゥットガルト]]）
+|-
+|{{0}}6月10日
+|'''Download Festival 2016'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2016 / EUROPE TOUR）
+|ドニントン・パーク&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・レスターシャー）
+|フェス
+|-
+|{{0}}6月11日
+|'''Download Festival Paris 2016'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2016 / EUROPE TOUR）
+|[[パリロンシャン競馬場|ロンシャン競馬場]]&amp;lt;br /&amp;gt;（{{Flagicon|FRA|size=20px}} フランス・パリ）
+|フェス
+|-
+|{{0}}7月12日
+| rowspan="3" |'''BABYMETAL WORLD TOUR 2016 / US TOUR'''
+|[[:en:The Showbox|Showbox SoDo]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ワシントン州]][[シアトル]]）
+| rowspan="3" |ワンマンライブ
+|-
+|{{0}}7月14日
+|[[:en:The Regency Center|The Regency Ballroom]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州[[サンフランシスコ]]）
+|-
+|{{0}}7月15日
+|[[:en:Pellissier Building and Wiltern Theatre|The Wiltern]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州ロサンゼルス）
+|-
+|{{0}}7月17日
+|'''[[:en:Chicago Open Air|Chicago Open Air]]'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2016 / US TOUR）
+|[[トヨタパーク]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} イリノイ州[[:en:Bridgeview, Illinois|ブリッジヴュー]]）
+|フェス
+|-
+|{{0}}7月18日
+|'''2016 Journeys [[オルタナティヴ・プレス|Alternative Press]] Awards&amp;lt;br /&amp;gt;fueled by Monster Energy'''
+|[[:en:Value City Arena|Schottenstein Center]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[オハイオ州]][[コロンバス (オハイオ州)|コロンバス]]）
+|[[ロブ・ハルフォード]]([[ジューダス・プリースト]])が&amp;lt;br/&amp;gt;ゲストボーカルとして出演
+|-
+|{{0}}7月24日
+|'''[[フジロックフェスティバル|FUJI ROCK FESTIVAL]] '16'''
+|[[苗場スキー場]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}}[[新潟県]][[湯沢町]]）
+|フェス
+|-
+|{{0}}8月{{0}}6日
+|'''ROCK IN JAPAN FESTIVAL 2016'''
+|国営ひたち海浜公園&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 茨城県ひたちなか市）
+|フェス
+|-
+|{{0}}8月{{0}}8日
+| rowspan="2" |'''APOCRYPHA - THE WHITE MASS -'''
+| rowspan="2" |[[なんばHatch]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}8月{{0}}9日
+|-
+|{{0}}8月12日
+|'''[[ライジング・サン・ロックフェスティバル|RISING SUN ROCK FESTIVAL]] 2016 in EZO'''
+|[[石狩湾新港]]樽川埠頭横 野外特設ステージ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 北海道[[小樽市]]）
+|フェス
+|-
+|{{0}}8月17日
+| rowspan="2" |'''APOCRYPHA - THE WHITE MASS -'''
+| rowspan="2" |Zepp Tokyo&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}8月18日
+|-
+|{{0}}8月21日
+|'''SUMMER SONIC 2016'''
+|舞洲サマーソニック大阪特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+|フェス
+|-
+|{{0}}8月24日
+| rowspan="2" |'''APOCRYPHA - THE WHITE MASS -'''
+| rowspan="2" |Zepp Nagoya&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 愛知県名古屋市）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|{{0}}8月25日
+|-
+|{{0}}9月19日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2016&amp;lt;br /&amp;gt;LEGEND - METAL RESISTANCE - RED NIGHT &amp;amp; BLACK NIGHT'''
+| rowspan="2" |[[東京ドーム]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都[[文京区]]）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}9月20日
+|-
+|12月{{0}}5日
+| rowspan="8" |'''[[レッド・ホット・チリ・ペッパーズ|Red Hot Chili Peppers]] [[:en:The Getaway World Tour|The Getaway World Tour]]&amp;lt;br /&amp;gt;- Headlining tour - European leg I - United Kingdom'''
+| rowspan="2" |[[O2アリーナ (ロンドン)|O2アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・ロンドン）
+| rowspan="8" |サポートアクト
+|-
+|12月{{0}}6日
+|-
+|12月{{0}}8日
+|[[The SSE Hydro]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[グラスゴー]]）
+|-
+|12月10日
+| rowspan="2" |[[:en:Genting Arena|Genting Arena]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[バーミンガム]]）
+|-
+|12月11日
+|-
+|12月14日
+| rowspan="2" |[[マンチェスター・アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・[[マンチェスター]]）
+|-
+|12月15日
+|-
+|12月18日
+|O2アリーナ&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・ロンドン）
+|-
+| rowspan="38" |2017
+|{{0}}1月11日
+|'''[[メタリカ|METALLICA]] [[:en:WorldWired Tour|WorldWired Tour]] 2017 Seoul'''
+|[[高尺スカイドーム]]&amp;lt;br /&amp;gt;（{{Flagicon|ROK|size=20px}} [[大韓民国|韓国]]・[[ソウル特別市]]）
+|サポートアクト
+|-
+|{{0}}1月21日
+| rowspan="4" |'''[[ガンズ・アンド・ローゼズ|Guns N' Roses]] [[:en:Not in This Lifetime... Tour|NOT IN THIS LIFETIME]]'''
+|[[大阪ドーム]]（京セラドーム大阪）&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+| rowspan="4" |サポートアクト
+|-
+|{{0}}1月22日
+|[[ワールド記念ホール]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} [[兵庫県]][[神戸市]]）
+|-
+|{{0}}1月25日
+|横浜アリーナ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 神奈川県横浜市）
+|-
+|{{0}}1月29日
+|さいたまスーパーアリーナ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 埼玉県さいたま市）
+|-
+|{{0}}4月12日
+| rowspan="10" |'''Red Hot Chili Peppers The Getaway World Tour&amp;lt;br /&amp;gt;- Headlining tour North American leg'''
+|[[キャピタル・ワン・アリーナ|ベライゾン・センター]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ワシントンD.C.]]）
+| rowspan="10" |サポートアクト
+|-
+|{{0}}4月14日
+|[[ステートファーム・アリーナ|フィリップス・アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ジョージア州]][[アトランタ]]）
+|-
+|{{0}}4月15日
+|[[PNCアリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ノースカロライナ州[[ローリー (ノースカロライナ州)|ローリー]]）
+|-
+|{{0}}4月17日
+|[[スペクトラム・センター]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ノースカロライナ州[[シャーロット (ノースカロライナ州)|シャーロット]]）
+|-
+|{{0}}4月19日
+|[[:en:Colonial Life Arena|Colonial Life Arena]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[サウスカロライナ州]][[コロンビア (サウスカロライナ州)|コロンビア]]）
+|-
+|{{0}}4月22日
+|[[:en:Verizon Arena|Verizon Arena]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[アーカンソー州]][[リトルロック (アーカンソー州)|リトルロック]]）
+|-
+|{{0}}4月24日
+|[[:en:VyStar Veterans Memorial Arena|Jacksonville Veterans Memorial Arena]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} [[フロリダ州]][[ジャクソンビル (フロリダ州)|ジャクソンビル]]）
+|-
+|{{0}}4月26日
+|[[アムウェイ・センター]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} フロリダ州[[オーランド]]）
+|-
+|{{0}}4月27日
+|[[アマリー・アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} フロリダ州[[タンパ]]）
+|-
+|{{0}}4月29日
+|[[アメリカン・エアラインズ・アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|USA|size=20px}} フロリダ州[[マイアミ]]）
+|-
+|{{0}}6月16日
+|'''BABYMETAL US TOUR 2017'''&amp;lt;br /&amp;gt;'''SPECIAL HEADLINE SHOW IN LA'''
+|[[:en:Hollywood Palladium|Hollywood Palladium]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州ロサンゼルス）
+|ワンマンライブ
+スペシャルゲスト：[[ヘルイェー|HELLYEAH]]
+|-
+|{{0}}6月18日
+| rowspan="5" |'''[[コーン (バンド)|Korn]] The Serenity Of Summer Tour'''
+|[[:en:Isleta Amphitheater|Isleta Amphitheater]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ニューメキシコ州]][[アルバカーキ]]）
+| rowspan="5" |サポートアクト
+|-
+|{{0}}6月20日
+|[[:en:North Island Credit Union Amphitheatre|Sleep Train Amphitheatre]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州[[チュラビスタ (カリフォルニア州)|チュラビスタ]]）
+|-
+|{{0}}6月21日
+|[[ザ・フォーラム (アリーナ)|ザ・フォーラム]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州ロサンゼルス）
+|-
+|{{0}}6月22日
+|[[:en:Shoreline Amphitheatre|Shoreline Amphitheatre]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州[[マウンテンビュー]]）
+|-
+|{{0}}6月25日
+|[[:en:CenturyLink Arena|CenturyLink Arena]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[アイダホ州]][[ボイシ]]）
+|-
+|{{0}}7月18日
+|'''5大キツネ祭り in JAPAN - 黒キツネ祭り -'''
+| rowspan="3" |赤坂BLITZ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都港区）
+| rowspan="7" |ワンマンライブ
+|-
+|{{0}}7月19日
+|'''5大キツネ祭り in JAPAN - 赤キツネ祭り -'''
+|-
+|{{0}}7月20日
+|'''5大キツネ祭り in JAPAN - 金キツネ祭り -'''
+|-
+|{{0}}7月25日
+|'''5大キツネ祭り in JAPAN - 銀キツネ祭り -'''
+| rowspan="2" |Zepp DiverCity TOKYO&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+|-
+|{{0}}7月26日
+|'''5大キツネ祭り in JAPAN - 白キツネ祭り -'''
+|-
+|{{0}}8月{{0}}8日
+|'''5大キツネ祭り in JAPAN - 銀キツネ祭り -'''
+| rowspan="2" |Zepp Nagoya&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 愛知県名古屋市）
+|-
+|{{0}}8月{{0}}9日
+|'''5大キツネ祭り in JAPAN - 白キツネ祭り -'''
+|-
+|{{0}}8月19日
+| rowspan="2" |'''SUMMER SONIC 2017'''
+|舞洲サマーソニック大阪特設会場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+| rowspan="2" |フェス
+|-
+|{{0}}8月20日
+|[[千葉マリンスタジアム|ZOZOマリンスタジアム]]&amp;amp;幕張メッセ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|-
+|{{0}}8月29日
+|'''5大キツネ祭り in JAPAN - 銀キツネ祭り -'''
+| rowspan="2" |Zepp Osaka Bayside&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪市此花区）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}8月30日
+|'''5大キツネ祭り in JAPAN - 白キツネ祭り -'''
+|-
+|{{0}}9月26日
+| rowspan="4" |'''巨大キツネ祭り in JAPAN'''
+| rowspan="2" |さいたまスーパーアリーナ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 埼玉県さいたま市）
+| rowspan="4" |ワンマンライブ
+|-
+|{{0}}9月27日
+|-
+|10月14日
+| rowspan="2" |[[大阪城ホール]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+|-
+|10月15日
+|-
+|12月{{0}}2日
+| rowspan="2" |'''LEGEND - S - 洗礼の儀 -'''
+| rowspan="2" |[[広島グリーンアリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}}[[広島県]][[広島市]]）
+| rowspan="2" |ワンマンライブ
+※2018年4月1日に映画館で上映
+|-
+|12月{{0}}3日
+|-
+| rowspan="23" |2018
+|{{0}}5月{{0}}8日
+| rowspan="7" |'''BABYMETAL WORLD TOUR 2018 / US TOUR'''
+|Uptown Theater&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ミズーリ州]][[カンザスシティ (ミズーリ州)|カンザスシティ]]）
+| rowspan="7" |ワンマンライブ
+スペシャルゲスト：[[:en:Skyharbor|Skyharbor]]
+|-
+|{{0}}5月10日
+|ACL Live at the Moody Theater&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[テキサス州]][[オースティン (テキサス州)|オースティン]]）
+|-
+|{{0}}5月11日
+|House of Blues Dallas&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} テキサス州[[ダラス]]）
+|-
+|{{0}}5月13日
+|[[:en:Revention Music Center|Revention Music Center]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} テキサス州[[ヒューストン]]）
+|-
+|{{0}}5月15日
+|[[:en:Tabernacle (concert hall)|Tabernacle Atlanta]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ジョージア州アトランタ）
+|-
+|{{0}}5月17日
+|The Fillmore&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ノースカロライナ州シャーロット）
+|-
+|{{0}}5月18日
+|Marathon Music Works&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[テネシー州]][[ナッシュビル]]）
+|-
+|{{0}}5月20日
+|'''Rock On The Range 2018'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2018 / US TOUR）
+|マフレ・スタジアム&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} オハイオ州コロンバス）
+|フェス
+|-
+|{{0}}6月{{0}}1日
+|'''[[:en:Rock_am_Ring_and_Rock_im_Park|Rock am Ring]] 2018'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2018 / EUROPE TOUR）
+|[[ニュルブルクリンク]]&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[ニュルブルク]]）
+|フェス
+※ライブ配信
+|-
+|{{0}}6月{{0}}2日
+|'''[[:en:Rock_am_Ring_and_Rock_im_Park|Rock im Park]] 2018'''&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2018 / EUROPE TOUR）
+|ツェッペリン・フィールド&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[ニュルンベルク]]）
+|フェス
+|-
+|{{0}}6月{{0}}4日
+| rowspan="3" |'''BABYMETAL WORLD TOUR 2018 / EUROPE TOUR'''
+|Music Hall Innsbruck&amp;lt;br /&amp;gt;（{{Flagicon|AUT|size=20px}} オーストリア・[[インスブルック]]）
+| rowspan="3" |ワンマンライブ
+スペシャルゲスト：[[:en:Dream State|Dream State]]
+|-
+|{{0}}6月{{0}}5日
+| rowspan="2" |[[:en:TivoliVredenburg|TivoliVredenburg]]&amp;lt;br /&amp;gt;（{{Flagicon|NED|size=20px}} オランダ・[[ユトレヒト]]）
+|-
+|{{0}}6月{{0}}6日
+|-
+|{{0}}6月{{0}}9日
+|'''[[ダウンロード・フェスティバル|Download Festival]] UK 2018'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、2年ぶりの＜Download Festival UK＞出演でヨーロッパツアー閉幕|url=https://www.barks.jp/news/?id=1000156113|website=BARKS|accessdate=2019-04-02|language=ja}}&amp;lt;/ref&amp;gt;&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2018 / EUROPE TOUR）
+|ドニントン・パーク&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・レスターシャー）
+|フェス
+※ライブ配信
+|-
+|10月23日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2018 in JAPAN'''&amp;lt;ref name="natalie181101"&amp;gt;{{Cite web|title=【ライブレポート】BABYMETAL、新体制で臨んだジャパンツアーが終幕（写真11枚）|url=https://natalie.mu/music/news/306085|website=音楽ナタリー|accessdate=2019-04-02|language=ja|first=Natasha|last=Inc}}&amp;lt;/ref&amp;gt;
+| rowspan="2" |幕張メッセ イベントホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+| rowspan="2" |ワンマンライブ
+スペシャルゲスト：GALACTIC EMPIRE
+|-
+|10月24日
+|-
+|10月28日
+|'''BABYMETAL WORLD TOUR 2018 in JAPAN EXTRA SHOW&amp;lt;br /&amp;gt;"DARK NIGHT CARNIVAL"'''&amp;lt;ref name="natalie181101"/&amp;gt;
+|さいたまスーパーアリーナ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 埼玉県さいたま市）
+|ワンマンライブ&amp;lt;br /&amp;gt;※フェス形式
+スペシャルゲスト：[[サバトン|SABATON]]、GALACTIC EMPIRE
+|-
+|10月30日
+| rowspan="2" |'''BABYMETAL WORLD TOUR 2018 in JAPAN'''&amp;lt;ref name="natalie181101"/&amp;gt;
+| rowspan="2" |ワールド記念ホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 兵庫県神戸市）
+| rowspan="2" |ワンマンライブ
+スペシャルゲスト：SABATON
+|-
+|10月31日
+|-
+|12月{{0}}4日
+|'''[[ジューダス・プリースト|JUDAS PRIEST]] [[:en:Firepower World Tour|Fire Power World Tour]] 2018'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、JUDAS PRIESTと2年ぶりの競演!シンガポール公演にスペシャル・ゲストとして出演決定!|url=https://gekirock.com/news/2018/09/babymetal_judas_priest_live_in_singapore.php|website=激ロックニュース|accessdate=2019-04-02|language=ja|first=Gekirock Editorial|last=Department}}&amp;lt;/ref&amp;gt;&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2018 / SINGAPORE）
+|ZEEP@BIGBOX Singapore&amp;lt;br /&amp;gt;（{{Flagicon|SIN|size=20px}} シンガポール）
+|サポートアクト
+|-
+|12月{{0}}7日
+| rowspan="3" |'''[[:en:Good Things (Australian music festival)|Good Things Festival]] 2018'''&amp;lt;ref name="cdjournal181223"/&amp;gt;&amp;lt;br /&amp;gt;（BABYMETAL WORLD TOUR 2018 / AUSTRALIA）
+|[[フレミントン競馬場]]&amp;lt;br /&amp;gt;（{{Flagicon|AUS|size=20px}} [[オーストラリア]]・[[メルボルン]]）
+| rowspan="3" |フェス
+|-
+|12月{{0}}8日
+|[[:en:Parramatta_Park,_New_South_Wales|PARRAMATTA PARK]]&amp;lt;br /&amp;gt;（{{Flagicon|AUS|size=20px}} オーストラリア・[[シドニー]]）
+|-
+|12月{{0}}9日
+|SHOWGROUNDS&amp;lt;br /&amp;gt;（{{Flagicon|AUS|size=20px}} オーストラリア・[[ブリスベン]]）
+|-
+| rowspan="36" |2019
+|{{0}}6月28日
+| rowspan="2" |'''BABYMETAL AWAKENS - THE SUN ALSO RISES -'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETALの新アルバムが年内リリース、横浜&amp;amp;名古屋で日本公演も|url=https://www.cinra.net/news/20190401-babymetal|website=CINRA.NET|accessdate=2019-04-23|language=ja}}&amp;lt;/ref&amp;gt;
+| rowspan="2" |横浜アリーナ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 神奈川県横浜市）
+| rowspan="2" |ワンマンライブ
+サプライズゲスト：[[:th:ฟักกลิ้งฮีโร่|F.HERO]]
+|-
+|{{0}}6月29日
+|-
+|{{0}}6月30日
+|'''[[グラストンベリー・フェスティバル|Glastonbury Festival]] 2019'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、イギリス"Glastonbury Festival"初出演決定!|url=https://gekirock.com/news/2019/05/babymetal_glastonbury_festival.php|website=激ロックニュース|accessdate=2019-05-29|language=ja|first=Gekirock Editorial|last=Department}}&amp;lt;/ref&amp;gt;
+|Worthy Farm&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・シェプトン・マレット）
+|フェス
+※ライブ配信
+|-
+|{{0}}7月{{0}}2日
+|'''O2 Academy Brixton'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETALイギリス公演、AmarantheとSleep Tokenがゲスト出演|url=https://natalie.mu/music/news/329157|website=音楽ナタリー|accessdate=2019-04-23|language=ja|first=Natasha|last=Inc}}&amp;lt;/ref&amp;gt;
+|O2アカデミー・ブリクストン&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} イギリス・ロンドン）
+|ワンマンライブ
+スペシャルゲスト：[[アマランス (バンド)|Amaranthe]]、Sleep Token
+|-
+|{{0}}7月{{0}}6日
+| rowspan="2" |'''BABYMETAL ARISES - BEYOND THE MOON - LEGEND - M -'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETALの新アルバムが年内リリース、横浜&amp;amp;名古屋で日本公演も|url=https://www.cinra.net/news/20190401-babymetal|website=CINRA.NET|accessdate=2019-04-23|language=ja}}&amp;lt;/ref&amp;gt;
+| rowspan="2" |ポートメッセなごや（[[名古屋市国際展示場]]）&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 愛知県名古屋市）
+| rowspan="2" |ワンマンライブ
+※7月7日にライブビューイングを開催
+|-
+|{{0}}7月{{0}}7日
+|-
+|{{0}}8月{{0}}4日
+|'''[[:zh:超犀利趴|SUPER SLIPPA]] 10'''
+|[[:en:Taipei_Nangang_Exhibition_Center|南港展覧館]]&amp;lt;br /&amp;gt;（{{Flagicon|ROC|size=20px}} 台湾・台北市）
+|フェス
+※ライブ配信
+|-
+|{{0}}8月16日
+| rowspan="2" |'''[[SUMMER SONIC]] 2019'''
+|舞洲SONIC PARK（[[舞洲スポーツアイランド]]）&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+| rowspan="2" |フェス
+※ライブ配信
+|-
+|{{0}}8月17日
+|ZOZOマリンスタジアム&amp;amp;幕張メッセ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|-
+|{{0}}9月{{0}}4日
+| rowspan="16" |'''METAL GALAXY WORLD TOUR'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、9月よりUSツアー開催決定!|url=https://gekirock.com/news/2019/05/babymetal_us_tour_2019.php|website=激ロックニュース|accessdate=2019-05-13|language=ja|first=Gekirock Editorial|last=Department}}&amp;lt;/ref&amp;gt;
+|Hard Rock Live&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} フロリダ州オーランド）
+| rowspan="16" |ワンマンライブ
+スペシャルゲスト：[[アヴァター (バンド)|Avator]]
+|-
+|{{0}}9月{{0}}6日
+|Coca-Cola Roxy&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ジョージア州アトランタ）
+|-
+|{{0}}9月{{0}}8日
+|[[:en:The Anthem (music venue)|The Anthem]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ワシントンD.C.）
+|-
+|{{0}}9月11日
+|House of Blues Boston&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} マサチューセッツ州ボストン）
+|-
+|{{0}}9月13日
+|The Fillmore&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州[[サクラメント (カリフォルニア州)|サクラメント]]）
+|-
+|{{0}}9月15日
+|[[:en:Terminal 5 (venue)|Terminal 5]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ニューヨーク州ニューヨーク）
+|-
+|{{0}}9月18日
+|The Fillmore Detroit&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ミシガン州デトロイト）
+|-
+|{{0}}9月20日
+|[[:en:Aragon Ballroom (Chicago)|Aragon Ballroom]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} イリノイ州シカゴ）
+|-
+|{{0}}9月21日
+|Myth Live Event Center&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[ミネソタ州]][[セントポール (ミネソタ州)|セントポール]]）
+|-
+|{{0}}9月23日
+|Uptown Theater&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ミズーリ州カンザスシティ）
+|-
+|{{0}}9月24日
+|South Side Ballroom&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} テキサス州ダラス）
+|-
+|{{0}}9月27日
+|[[:en:Ogden Theatre|Ogden Theatre]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} コロラド州デンバー）
+|-
+|{{0}}9月28日
+|The Union Event Center&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ユタ州ソルトレークシティ）
+|-
+|{{0}}9月30日
+|House of Blues Las Vegas&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ネバダ州ラスベガス）
+|-
+|10月{{0}}1日
+|[[:en:Marquee Theatre|Marquee Theatre]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} アリゾナ州[[テンピ (アリゾナ州)|テンピ]]）
+|-
+|10月{{0}}4日
+|[[:en:Warfield Theatre|The Warfield]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州サンフランシスコ）
+|-
+|10月11日
+|'''METAL GALAXY WORLD TOUR'''&amp;lt;br /&amp;gt;'''- LIVE AT THE FORUM -'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、アメリカでのアリーナ公演＋新曲デジタルリリース決定|url=https://www.barks.jp/news/?id=1000166712|website=BARKS|accessdate=2019-04-23|language=ja}}&amp;lt;/ref&amp;gt;
+|ザ・フォーラム&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州ロサンゼルス）
+|ワンマンライブ&amp;lt;br /&amp;gt;※ライブビューイングを開催、 11月12日にディレイビューイングを開催
+|-
+|10月13日
+|'''METAL GALAXY WORLD TOUR'''&amp;lt;br /&amp;gt;'''「[[:en:Aftershock_Festival|Aftershock Festival]] 2019」'''&amp;lt;ref&amp;gt;{{Cite web|title=Slipknot, Blink-182 + Tool Lead 2019 Aftershock Festival Lineup|url=https://loudwire.com/slipknot-blink-182-tool-2019-aftershock-festival/|website=Loudwire|accessdate=2019-04-23|language=en|first=Lauryn SchaffnerChad|last=Childers}}&amp;lt;/ref&amp;gt;
+|Discovery Park&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} カリフォルニア州サクラメント）
+|フェス
+|-
+|10月15日
+| rowspan="2" |'''METAL GALAXY WORLD TOUR'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、9月よりUSツアー開催決定!|url=https://gekirock.com/news/2019/05/babymetal_us_tour_2019.php|website=激ロックニュース|accessdate=2019-05-13|language=ja|first=Gekirock Editorial|last=Department}}&amp;lt;/ref&amp;gt;
+|[[:en:Roseland Theater|Roseland Theater]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} [[オレゴン州]][[ポートランド (オレゴン州)|ポートランド]]）
+| rowspan="2" |ワンマンライブ
+スペシャルゲスト：[[:en:The_Hu|The Hu]]
+|-
+|10月16日
+|[[:en:Paramount Theatre (Seattle)|The Paramount Theatre]]&amp;lt;br /&amp;gt;（{{Flagicon|US|size=20px}} ワシントン州シアトル）
+|-
+|11月16日
+| rowspan="4" |'''METAL GALAXY WORLD TOUR IN JAPAN'''&amp;lt;ref name=":0"&amp;gt;{{Cite web|title=【ライブレポート】BABYMETALアルバム「METAL GALAXY」発売決定、11月には日本公演も|url=https://natalie.mu/music/news/337677|website=音楽ナタリー|accessdate=2019-06-30|language=ja|first=Natasha|last=Inc}}&amp;lt;/ref&amp;gt;
+| rowspan="2" |さいたまスーパーアリーナ&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 埼玉県さいたま市）
+| rowspan="4" |ワンマンライブ
+スペシャルゲスト：[[ブリング・ミー・ザ・ホライズン|Bring Me The Horizon]]
+|-
+|11月17日
+|-
+|11月20日
+| rowspan="2" |大阪城ホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 大阪府大阪市）
+|-
+|11月21日
+|-
+|12月16日
+| rowspan="2" |'''APOCRYPHA - ANOTHER GALAXY -'''
+| rowspan="2" |Zepp DiverCity TOKYO&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 東京都江東区）
+| rowspan="2" |WEB会員限定ライブ
+|-
+|12月17日
+|-
+|12月28日
+|'''[[COUNTDOWN JAPAN]] 19/20'''&amp;lt;ref&amp;gt;{{Cite web|title=「CDJ」あいみょん、King Gnu、アレキ、BABYMETAL、欅、天月ら追加で全出演者確定|url=https://natalie.mu/music/news/353515|website=音楽ナタリー|accessdate=2019-10-31|language=ja|first=Natasha|last=Inc}}&amp;lt;/ref&amp;gt;
+|幕張メッセ 国際展示場&amp;lt;br /&amp;gt;1～11ホール、イベントホール&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|フェス
+|-
+| rowspan="35" |2020
+|{{0}}1月25日
+| rowspan="2" |'''METAL GALAXY WORLD TOUR IN JAPAN EXTRA SHOW'''&amp;lt;br /&amp;gt;'''LEGEND - METAL GALAXY'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、来年1月に幕張メッセでワールドツアー追加公演開催－rockinon.com｜https://rockinon.com/news/detail/189606|url=https://rockinon.com/news/detail/189606|website=rockinon.com|accessdate=2019-10-03|language=ja}}&amp;lt;/ref&amp;gt;
+| rowspan="2" |幕張メッセ 国際展示場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}1月26日
+|-
+|{{0}}2月{{0}}3日
+| rowspan="17" |'''METAL GALAXY WORLD TOUR&amp;lt;ref name=":0" /&amp;gt;'''
+|[[:en:Fryshuset|Fryhuset]]&amp;lt;br /&amp;gt;（{{Flagicon|SWE|size=20px}} [[スウェーデン]]・[[ストックホルム]]）
+| rowspan="10" |ワンマンライブ
+スペシャルゲスト：SKYND
+|-
+|{{0}}2月{{0}}4日
+|[[:no:Sentrum Scene|Sentrum Scene]]&amp;lt;br /&amp;gt;（{{Flagicon|NOR|size=20px}} [[ノルウェー]]・[[オスロ]]）
+|-
+|{{0}}2月{{0}}5日
+|[[:en:Vega, Copenhagen|Vega Main Hall]]&amp;lt;br /&amp;gt;（{{Flagicon|DNK|size=20px}} [[デンマーク]]・[[コペンハーゲン]]）
+|-
+|{{0}}2月{{0}}8日
+|[[:de:Große Freiheit 36|Große Freiheit 36]]&amp;lt;br /&amp;gt;（{{Flagicon|DEU|size=20px}} ドイツ・[[ハンブルグ]]）
+|-
+|{{0}}2月{{0}}9日
+|[[:en:Élysée Montmartre|Élysée Montmartre]]&amp;lt;br /&amp;gt;（{{Flagicon|FRA|size=20px}} フランス・パリ）
+|-
+|{{0}}2月11日
+|Gasometer&amp;lt;br /&amp;gt;（{{Flagicon|AUT|size=20px}} オーストリア・ウィーン）
+|-
+|{{0}}2月13日
+|Carlswerk Victoria&amp;lt;br /&amp;gt;（{{Flagicon|DEU|size=20px}} ドイツ・ケルン）
+|-
+|{{0}}2月14日
+|Huxleys&amp;lt;br /&amp;gt;（{{Flagicon|DEU|size=20px}} ドイツ・ベルリン）
+|-
+|{{0}}2月16日
+|AB&amp;lt;br /&amp;gt;（{{Flagicon|BEL|size=20px}} [[ベルギー]]・[[ブリュッセル]]）
+|-
+|{{0}}2月17日
+|013&amp;lt;br /&amp;gt;（{{Flagicon|NLD|size=20px}} オランダ・[[ティルブルフ]]）
+|-
+|{{0}}2月19日
+|[[:en:Barrowland Ballroom|Barrowland]]&amp;lt;br /&amp;gt;（{{Flagicon|GBR|size=20px}} イギリス・グラスゴー）
+| rowspan="4" |ワンマンライブ
+スペシャルゲスト：CREEPER
+|-
+|{{0}}2月20日
+|The Great Hall&amp;lt;br /&amp;gt;（{{Flagicon|GBR|size=20px}} イギリス・[[カーディフ]]）
+|-
+|{{0}}2月22日
+|[[:en:O2 Apollo Manchester|O2 Apollo]]&amp;lt;br /&amp;gt;（{{Flagicon|GBR|size=20px}} イギリス・マンチェスター）
+|-
+|{{0}}2月23日
+|[[ハマースミス・アポロ]]&amp;lt;br /&amp;gt;（{{Flagicon|GBR|size=20px}} イギリス・ロンドン）
+|-
+|{{0}}2月26日
+|House of Culture&amp;lt;br /&amp;gt;（{{Flagicon|FIN|size=20px}} [[フィンランド]]・[[ヘルシンキ]]）
+| rowspan="3" |ワンマンライブ
+|-
+|{{0}}2月28日
+|M1&amp;lt;br /&amp;gt;（{{Flagicon|RUS|size=20px}} [[ロシア]]・[[サンクトペテルブルグ]]）
+|-
+|{{0}}3月{{0}}1日
+|Adrenaline Stadium&amp;lt;br /&amp;gt;（{{Flagicon|RUS|size=20px}} ロシア・[[モスクワ]]）
+|-
+|{{0}}3月20日
+|'''[[ノットフェスト|KNOTFEST]] JAPAN 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=「KNOTFEST JAPAN 2020」第5弾にBABYMETAL、coldrain、スーサイド・サイレンス、浜⽥⿇⾥－rockinon.com｜https://rockinon.com/news/detail/191265|url=https://rockinon.com/news/detail/191265|website=rockinon.com|accessdate=2019-12-21|language=ja}}&amp;lt;/ref&amp;gt;
+|幕張メッセ 国際展示場&amp;lt;br /&amp;gt;（{{Flagicon|JPN|size=20px}} 千葉県千葉市）
+|フェス
+|-
+|{{0}}3月22日
+| rowspan="4" |'''METAL GALAXY WORLD TOUR IN ASIA'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、来年4/3にワールド・ツアー台北公演開催決定！|url=https://gekirock.com/news/2019/08/babymetal_taipei.php|website=激ロックニュース|accessdate=2019-08-05|language=ja|first=Gekirock Editorial|last=Department}}&amp;lt;/ref&amp;gt;&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL タイ・バンコク公演が決定！2020年3月22日（日）開催 {{!}} タイランドハイパーリンクス：ThaiHyper|url=https://www.thaich.net/news/20191013bm.htm|date=2019-10-13|accessdate=2019-10-15|language=ja|last=タイランドハイパーリンクス}}&amp;lt;/ref&amp;gt;
+|GMM Live House&amp;lt;br /&amp;gt;（{{Flagicon|THA|size=20px}} [[タイ王国|タイ]]・[[バンコク]]）
+| rowspan="4" |ワンマンライブ
+|-
+|{{0}}3月27日
+|（{{Flagicon|MYS|size=20px}} [[マレーシア]]・[[クアラルンプール]]）
+|-
+|{{0}}3月29日
+|（{{Flagicon|IDN|size=20px}} インドネシア・ジャカルタ）
+|-
+|{{0}}4月{{0}}3日
+|[[国立台湾大学|台湾大学]]総合体育館1F&amp;lt;br /&amp;gt;（{{Flagicon|ROC|size=20px}} 台湾・台北市）
+|-
+|{{0}}5月16日
+|'''[[:en:Pulp Summer Slam|Pulp Summer Slam]] 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=Iron Maiden to headline PH metal festival with BABYMETAL, Dragonforce|url=https://news.abs-cbn.com/entertainment/11/07/19/iron-maiden-to-headline-ph-metal-festival-with-babymetal-dragonforce|website=ABS-CBN News|accessdate=2019-11-08|first=ABS-CBN|last=News}}&amp;lt;/ref&amp;gt;
+|[[モール・オブ・アジア・アリーナ]]&amp;lt;br /&amp;gt;（{{Flagicon|PHL|size=20px}} [[フィリピン]]・[[マニラ]]）
+|フェス
+|-
+| rowspan="2" |{{0}}6月 5日-7日
+|'''[[:en:Rock_am_Ring_and_Rock_im_Park|Rock am Ring]] 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=Rock am Ring / Rock im Park 2020: Neue Bandwelle mit Alter Bride und Babymetal|url=https://www.rollingstone.de/rock-am-ring-rock-im-park-2020-neue-bandwelle-1874983/|website=Rolling Stone|date=2019-12-10|accessdate=2019-12-11|language=de-DE}}&amp;lt;/ref&amp;gt;
+|[[ニュルブルクリンク]]&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[ニュルブルク]]）
+|フェス
+|-
+|'''[[:en:Rock_am_Ring_and_Rock_im_Park|Rock im Park]] 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=Rock am Ring / Rock im Park 2020: Neue Bandwelle mit Alter Bride und Babymetal|url=https://www.rollingstone.de/rock-am-ring-rock-im-park-2020-neue-bandwelle-1874983/|website=Rolling Stone|date=2019-12-10|accessdate=2019-12-11|language=de-DE}}&amp;lt;/ref&amp;gt;
+|ツェッペリン・フィールド&amp;lt;br /&amp;gt;（{{Flagicon|GER|size=20px}} ドイツ・[[ニュルンベルク]]）
+|フェス
+|-
+|{{0}}6月 8日
+|'''METAL GALAXY WORLD TOUR'''
+|Stodola
+（{{Flagicon|POL|size=20px}} [[ポーランド]]・[[ワルシャワ]]）
+|ワンマン
+|-
+|{{0}}6月10日-13日
+|'''[[:en:Nova_Rock_Festival|Nova Rock Festival]] 2020'''
+|Pannonia Fields
+（{{Flagicon|AUT|size=20px}} [[オーストリア]]）
+|フェス
+|-
+|{{0}}6月11日
+-13日
+|'''[[:en:Greenfield Festival|Greenfield Festival]] 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL to perform at Greenfield Festival 2020|url=https://avo-magazine.nl/en/2019/10/babymetal-to-perform-at-greenfield-festival-2020/|website=AVO Magazine - One click closer to Japan|date=2019-10-30|accessdate=2019-10-31|language=en-US}}&amp;lt;/ref&amp;gt;
+|[[:en:Interlaken Airport|Interlaken Airport]]&amp;lt;br /&amp;gt;（{{Flagicon|CHE|size=20px}} [[スイス]]・[[ベルン]]）
+|フェス
+|-
+|{{0}}6月14日
+|'''[[ダウンロード・フェスティバル|Download Festival]] UK 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=Download adds Killswitch Engage, BABYMETAL and more for 2020 festival|url=https://www.nme.com/news/music/download-festival-2020-adds-babymetal-killswitch-engage-and-others-to-line-up-2569196|website=NME|date=2019-11-18|accessdate=2019-11-19|language=en-US|first=Charlotte|last=Krol}}&amp;lt;/ref&amp;gt;
+|ドニントン・パーク&amp;lt;br /&amp;gt;（{{Flagicon|UK|size=20px}} [[イギリス]]・[[レスターシャー]]）
+|フェス
+|-
+|{{0}}6月19日
+|'''[[:en:Graspop_Metal_Meeting|Graspop Metal Meeting]] 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL confirmed for Graspop 2020|url=https://avo-magazine.nl/en/2019/11/babymetal-confirmed-for-graspop-2020/|website=AVO Magazine - One click closer to Japan|date=2019-11-12|accessdate=2019-11-27|language=en-US}}&amp;lt;/ref&amp;gt;
+|（{{Flagicon|BEL|size=20px}} [[ベルギー]]・デッセル）
+|フェス
+|-
+|{{0}}6月21日
+|'''[[:en:Hellfest_(French_music_festival)|Hellfest]] 2020'''&amp;lt;ref&amp;gt;{{Cite web|title=Hellfest. System Of A Down s’impose comme tête d’affiche du festival|url=https://www.ouest-france.fr/festivals/hellfest/hellfest-system-down-s-impose-comme-tete-d-affiche-du-festival-6626438|website=Ouest-France.fr|date=2019-11-26|accessdate=2019-11-27|language=fr|first=Benoît|last=GUÉRIN}}&amp;lt;/ref&amp;gt;
+|（{{Flagicon|FRA|size=20px}} [[フランス]]・クリッソン）
+|フェス
+|-
+|{{0}}6月23日
+| rowspan="2" |'''METAL GALAXY WORLD TOUR'''
+|La Riviera
+（{{Flagicon|ESP|size=20px}} [[スペイン]]・[[マドリード]]）
+| rowspan="2" |ワンマンライブ
+|-
+|{{0}}6月24日
+|Razzmatazz
+（{{Flagicon|ESP|size=20px}} [[スペイン]]・[[バルセロナ]]）
+|}
+
+== タイアップ ==
+{| class="wikitable" style="font-size:small"
+! 楽曲 !! タイアップ先
+|-
+| ギミチョコ!! || [[サンテレビ]]情報バラエティ番組『[[ガーリーボート]]』オープニング&amp;amp;エンディングテーマ
+|-
+| いいね! || [[フジテレビ]]系列クイズ番組『[[優しい人なら解ける クイズやさしいね]]』オープニング&amp;amp;エンディングテーマ
+|-
+| メギツネ || [[朝日放送]]・[[静岡朝日テレビ]]トークバラエティ番組『[[ハッキリ5〜そんなに好かれていない5人が世界を救う〜]]』オープニングテーマ
+|-
+| KARATE || [[WWE]]・NXT [[WWE#WWEのPPV特番|PPV興行]]『[[NXTテイクオーバー|テイクオーバー]]』公式テーマソング {{Refnest|group="注"|[[2016年]][[6月8日]]、[[フロリダ州]]{{仮リンク|ウィンターパーク (フロリダ州)|label=ウィンターパーク|en|Winter Park, Florida}}大会「NXT Takeover: The End」にて採用。[[ア・デイ・トゥ・リメンバー]]の楽曲と同時起用&amp;lt;ref&amp;gt;{{cite news|url=http://www.hochi.co.jp/entertainment/20160526-OHT1T50110.html|title=BABYMETAL、米プロレス団体WWEの大会テーマソングに採用|newspaper=スポーツ報知|date=2016-05-27|accessdate=2016-05-27}}&amp;lt;/ref&amp;gt;。}}
+|}
+
+== メディア出演 ==
+'''[[テレビ]]'''
+* BABYMETAL現象 〜世界が熱狂する理由〜（2014年12月22日、[[NHK総合テレビジョン|NHK総合]]） - 特別番組&amp;lt;ref&amp;gt;[http://japan.techinsight.jp/2014/12/babymetal-nhktokuban-kamiband20141221.html BABYMETALの魅力が「かわいいは正義」を超越。“神バンド”がライブ映像に感激。]&amp;lt;/ref&amp;gt;。
+* BABYMETAL LEGEND“2015”〜新春キツネ祭り〜（2015年3月15日〈初回放送〉、[[WOWOW]]）&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/117844 BABYMETAL、「新春キツネ祭り」のWOWOW放送日が3/15に決定]&amp;lt;/ref&amp;gt;
+* BABYMETAL WORLD TOUR 2015 〜巨大天下一メタル武道会〜（2015年10月18日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;{{cite news|url=http://www.tvgroove.com/news/article/ctg/2/nid/24414.html|title=BABYMETAL、幕張メッセでの単独公演を10/18 ＷＯＷＯＷにて放送|newspaper=TVGroove|publisher=株式会社TVグルーヴ・ドット・コム|date=2015-09-08|accessdate=2015-10-18}}&amp;lt;/ref&amp;gt;
+* BABYMETAL WORLD TOUR 2015 in JAPAN - THE FINAL CHAPTER OF TRILOGY -（2016年3月26日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/d_news/detail/36354/2 BABYMETAL 感動のワールドツアー2015ファイナル 横浜アリーナ公演をWOWOWで放送]&amp;lt;/ref&amp;gt;
+* [[MUSIC JAPAN#MJ presents|MJ presents]] BABYMETAL革命 〜少女たちは世界と戦う〜（2016年4月4日、NHK総合） - 特別番組&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/181974 NHKでBABYMETAL特番、初スタジオライブ&amp;amp;ウェンブリー公演を放送]&amp;lt;/ref&amp;gt;。
+* MTV INSIDE：BABYMETAL -METAL RESISTANCE-（2016年4月30日〈初回放送〉、[[MTVジャパン]]） - 特別番組&amp;lt;ref&amp;gt;[http://gekirock.com/news/2016/04/babymetal_mtv_special-program.php BABYMETAL、4/30（土）21時〜MTVにて特番の放送決定!Michael Weikath（HELLOWEEN）、Herman Li（DRAGONFORCE）らもゲスト出演!]&amp;lt;/ref&amp;gt;。
+* BABYMETAL Road to WEMBLEY 〜 Live &amp;amp; Interview 〜（2016年5月4日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;[http://www.barks.jp/news/?id=1000126756 BABYMETAL、英ウェンブリーアリーナの様子を放送]&amp;lt;/ref&amp;gt;
+* BABYMETAL革命・完全版 〜少女たちは世界と戦う〜（2016年5月6日、NHK総合） - 特別番組&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/185833 未公開映像追加したBABYMETAL特番完全版をNHKで放送]&amp;lt;/ref&amp;gt;。
+* What is BABYMETAL ? 〜歴史を変えた少女たち〜（2016年6月4日〈初回放送〉、WOWOW）
+* BABYMETAL WORLD TOUR 2016 kicks off at THE SSE ARENA WEMBLEY（2016年7月31日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/146236 BABYMETAL、日本人初のウェンブリー・アリーナ単独公演をOA!]&amp;lt;/ref&amp;gt;
+*BABYMETAL WORLD TOUR 2016 LEGEND -METAL RESISTANCE-（RED NIGHT 2016年12月18日〈初回放送〉、BLACK NIGHT 2017年1月1日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;{{Cite news|title=BABYMETAL、初の東京ドーム公演初日をWOWOWでオンエア {{!}} BARKS|url=https://www.barks.jp/news/?id=1000136066|accessdate=2018-06-05|language=ja-JP|work=BARKS}}&amp;lt;/ref&amp;gt;
+*BABYMETAL 巨大キツネ祭り in JAPAN（2017年12月23日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;{{Cite web|url=http://realsound.jp/2018/02/post-159972.html|title=『BABYMETAL LEGEND – S – 洗礼の儀 -』WOWOWにて放送 SU-METAL初の広島凱旋公演|accessdate=2018-06-05|website=Real Sound｜リアルサウンド|language=ja-JP}}&amp;lt;/ref&amp;gt;
+*BABYMETAL LEGEND - S - 洗礼の儀 -（2018年3月31日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;{{Cite web|url=http://realsound.jp/2018/02/post-159972.html|title=『BABYMETAL LEGEND – S – 洗礼の儀 -』WOWOWにて放送 SU-METAL初の広島凱旋公演|accessdate=2018-06-05|website=Real Sound｜リアルサウンド|language=ja-JP}}&amp;lt;/ref&amp;gt;
+*BABYMETAL AWAKENS - THE SUN ALSO RISES -（2019年10月11日〈初回放送〉、WOWOW）&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、横アリ2日目WOWOWで10月放送決定|url=https://natalie.mu/music/news/342074|website=音楽ナタリー|accessdate=2019-08-05|language=ja|first=Natasha|last=Inc}}&amp;lt;/ref&amp;gt;
+*BABYMETAL LIVE AT THE FORUM（2020年1月18日〈初回放送〉、WOWOW）
+&amp;lt;div class="NavFrame"&amp;gt;
+&amp;lt;div class="NavHead" style="text-align: left;"&amp;gt;ゲスト出演&amp;lt;/div&amp;gt;
+&amp;lt;div class="NavContent" style="text-align: left;"&amp;gt;
+* [[オリエンタルラジオのツギクルッ!]]（2012年3月12日〈初回放送〉、[[MUSIC ON! TV]]） - YUIMETALはインフルエンザのため欠席。
+* music japan リクエスト J:COMスペシャル（2012年7月14日、[[Music Japan TV]]）
+* [[ハッピーMusic]]（2013年1月5日、[[日本テレビ放送網|日本テレビ]]） - 「イジメ、ダメ、ゼッタイ」を披露。
+* [[MUSIC JAPAN]]（2013年1月6日、NHK総合） - 「イジメ、ダメ、ゼッタイ」を披露。
+* HOT WAVE（2013年2月13日、[[テレビ埼玉]]）
+* HOT WAVE（2013年6月19日、テレビ埼玉）
+* [[ミュージックドラゴン]]（2013年6月22日、日本テレビ） - 「メギツネ」を披露。
+* MUSIC JAPAN ANNEX（2013年7月16日、NHK総合） - 「メギツネ」を披露。
+* 完全娯楽（2013年11月29日、12月6日、台湾 三立電視台） - 番組内コーナー「完全櫻樂」（かんぜんさくらがく）に出演。
+* [[ミュージックステーション]]（2014年2月7日、[[テレビ朝日]]） - 「イジメ、ダメ、ゼッタイ」を披露。
+* [[ミュージックステーションスーパーライブ]] 2014（2014年12月26日、テレビ朝日） - 「イジメ、ダメ、ゼッタイ」を披露。
+* [[ミュージックステーションスーパーライブ ]] 2015（2015年12月25日、テレビ朝日） - 「ギミチョコ!!」を披露。
+* [[ザ・レイト・ショー・ウィズ・スティーヴン・コルベア]]（2016年4月5日、[[CBS]]） - 「ギミチョコ!!」を披露。
+* ミュージックステーション（2016年4月22日、テレビ朝日） - 「KARATE」を披露。
+* ダウンロード・フェスティバル 2018（全3回、2019年2月23日、3月2日、3月9日〈初回放送〉、NHK BS4K）&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL出演の音楽フェス「ダウンロード」4K放送。23日から全3回|url=https://av.watch.impress.co.jp/docs/news/1170641.html|website=AV Watch|date=2019-02-20|accessdate=2019-03-13|language=ja|last=株式会社インプレス}}&amp;lt;/ref&amp;gt;　− 2月23日「メギツネ」、3月9日「Distortion」「Road of Resistance」を放映。
+* [[SUMMER SONIC]] 2019 （2019年10月22日〈初回放送〉、WOWOW） -「ギミチョコ‼︎」「PA PA YA!!」「Road of Resistance」を放映。
+* [[ミュージックステーションスーパーライブ]] 2019（2019年12月27日、テレビ朝日） - 「PA PA YA!! (feat. F.HERO)」を披露。
+&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+
+'''ラジオ'''
+* BABYMETALの[[オールナイトニッポン]]（2013年10月7日、[[ニッポン放送]]） - 特別番組&amp;lt;ref&amp;gt;[http://web.archive.org/web/20150725111215/http://www.musicman-net.com/artist/29499.html BABYMETALがオールナイトニッポンのパーソナリティーに決定、10/7深夜1時よりOA(archive)]&amp;lt;/ref&amp;gt;。
+&amp;lt;div class="NavFrame"&amp;gt;
+&amp;lt;div class="NavHead" style="text-align: left;"&amp;gt;ゲスト出演&amp;lt;/div&amp;gt;
+&amp;lt;div class="NavContent" style="text-align: left;"&amp;gt;
+* [[ミュ〜コミ+プラス|ミュ〜コミ+]]（2012年3月21日、ニッポン放送）
+* [[BUZZ ROCK]]（2012年7月23日、[[エフエム大阪|FM大阪]]）
+* 音楽人〜ONGAKU-BEAT〜（2012年9月29日、[[エフエムナックファイブ|NACK5]]）
+* [[TOKYO No.1 カワイイラジオ]]（2012年12月22日、[[全国FM放送協議会|JFN]]）
+* [[Tresen+]]（2013年1月7日、[[横浜エフエム放送|FMヨコハマ]]）
+* [[〜IDOL SHOWCASE〜 i-BAN!!]]（2013年1月13日、NACK5）
+* [[REDNIQS]]（2013年1月14日、[[FM802]]）
+* ミュ〜コミ+（2013年6月18日、ニッポン放送） - SU-METALのみ出演。
+* TOKYO No.1 カワイイラジオ（2013年8月18日、JFN） - SU-METALのみ出演。
+* [[T.M.Revolution 西川貴教のちょこっとナイトニッポン]]（2014年2月17日 - 2月21日、ニッポン放送）
+* メタルゴッドJP（2014年12月30日、[[NHK-FM放送|NHK-FM]]） - 特別番組。
+* REDNIQS（2015年9月21日、FM802）
+* [[WORLD AIR CURRENT|ANA WORLD AIR CURRENT]]（2015年12月19日、[[J-WAVE]]）
+&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+
+'''雑誌表紙'''
+* MARQUEE Vol.101（2014年2月10日、[[マーキー・インコーポレイティド]]）&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/109383 BABYMETAL「MARQUEE」表紙＋大解剖21ページ特集]&amp;lt;/ref&amp;gt;
+* [[AERA]] 2015年7月6日号（2015年6月29日、[[朝日新聞出版]]）&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/152199 BABYMETALが「AERA」最新号の表紙飾る&amp;amp;「HikakinTV」に登場]&amp;lt;/ref&amp;gt;
+* [[:en:Metal Hammer|METAL HAMMER]] 273号（2015年7月21日、TeamRock）&amp;lt;ref&amp;gt;[http://www.barks.jp/news/?id=1000117844 BABYMETAL、日本人アーティストで初めて英メタル誌『METAL HAMMER』表紙に登場]&amp;lt;/ref&amp;gt;
+* [[:en:Metal Hammer|METAL HAMMER]] 281号（2016年3月1日、TeamRock）&amp;lt;ref&amp;gt;{{cite news|url=http://teamrock.com/news/2016-02-18/pre-order-the-new-metal-hammer-with-babymetal-3d-cover|title=Pre-order the new Metal Hammer with Babymetal 3D cover|newspaper=TeamRock.com|publisher=TeamRock|date=2016-02-18|accessdate=2016-03-15|language=英語}}&amp;lt;/ref&amp;gt;
+* [[ミュージック・マガジン]] 2016年4月号（2016年3月19日、株式会社ミュージックマガジン）&amp;lt;ref&amp;gt;{{cite news|url=http://amass.jp/70255/|title=ミュージック・マガジン4月号は「特集BABYMETAL」|newspaper=amass.jp|publisher=amass|date=2016-03-15|accessdate=2016-03-27}}&amp;lt;/ref&amp;gt;
+* [[ヘドバン (雑誌)|ヘドバン]] Vol.10（2016年3月28日、[[シンコーミュージック・エンタテイメント]]）&amp;lt;ref&amp;gt;[http://www.billboard-japan.com/d_news/detail/36057/2 BABYMETAL『ヘドバンVol.10』表紙巻頭登場 YUIMETAL&amp;amp;MOAMETAL1万字&amp;amp;SU-METAL単独インタビュー掲載]&amp;lt;/ref&amp;gt;
+* [[NYLON#日本版|NYLON JAPAN]] 2016年5月号限定版（2016年3月28日〈インターネット限定販売〉、カエルム株式会社）&amp;lt;ref&amp;gt;{{Cite web|url=http://www.nylon.jp/other094.html|title=BABYMETAL、女性誌初表紙が決定!! 3月28日のNYLON JAPAN5月号限定版に降臨|date=2016-03-08|accessdate=2016-03-14|work=NYLON JAPAN|publisher=カエルム株式会社}}&amp;lt;/ref&amp;gt;
+* [[:en:Rock Sound|ROCK SOUND]] 212号（2016年3月28日、Freeway Press）&amp;lt;ref&amp;gt;{{cite news|url=http://www.rocksound.tv/news/read/babymetal-are-on-the-cover-of-this-months-rock-sound|title=BABYMETAL Are On The Cover Of This Month’s Rock Sound Magazine!|newspaper=ROCK SOUND.TV|publisher=|date=2016-03-28|accessdate=2016-04-01|language=英語}}&amp;lt;/ref&amp;gt;
+* [[月刊カドカワ#別冊カドカワ|別冊カドカワ]] DirecT04 BABYMETAL（2016年3月31日、[[角川マガジンズ]]）{{sfn|別冊カドカワ04}}
+* ぴあMUSIC COMPLEX Vol.4（2016年4月4日、[[ぴあ]]株式会社）&amp;lt;ref&amp;gt;[http://www.barks.jp/news/?id=1000125846 『ぴあMUSIC COMPLEX Vol.4』にBABYMETALと宇多田ヒカル]&amp;lt;/ref&amp;gt;
+* [[日経エンタテインメント!]] 2016年5月号（2016年4月4日、[[日経BP]]社）&amp;lt;ref&amp;gt;[http://ent.nikkeibp.co.jp/ent/monthly/2016/05/ 2016年5月号│日経エンタテインメント!]&amp;lt;/ref&amp;gt;
+* [[:nl:Aardschok (tijdschrift)|AARDSCHOK]] 2016年4月号（2016年4月4日、Aardschok Rockommunity）&amp;lt;ref&amp;gt;{{Cite news|url=http://aardschok.com/news-20/16-heaven-and-hell/aardschok/2081-aardschok-4-2016-is-ready|title=AARDSCHOK 4-2016 IS READY!|accessdate=2016-03-13|newspaper=Aardschok.com|publisher=Aardschok Rockommunity|language=ドイツ語}}&amp;lt;/ref&amp;gt;
+* [[YOUNG GUITAR]] 2016年5月号（2016年4月9日、[[シンコーミュージック・エンタテイメント]]）&amp;lt;ref&amp;gt;[http://amass.jp/71006/ BABYMETALが表紙巻頭を飾る『YOUNG GUITAR 5月号』 ドラゴンフォースが明かす共演秘話やマーティ・フリードマンによる考察も]&amp;lt;/ref&amp;gt;
+* [[Quick Japan]] vol.125（2016年4月23日、[[太田出版]]）{{sfn|QJ20164|p=1}}
+* [[:en:The Aquarian Weekly|The Aquarian Weekly]] 2016年5月4日号（2016年5月4日、Arts Weekly）&amp;lt;ref&amp;gt;{{Cite web|url=http://store.theaquarian.com/index.php/back-issues/may-4-2016-babymetal.html|title=May 4, 2016 - BABYMETAL - Back Issues|accessdate=2016-12-21|work=The Aquarian Weekly|publisher=Arts Weekly|language=英語}}&amp;lt;/ref&amp;gt;
+* [[ビッグイシュー|Big Issue North]] 1138号（2016年6月27日、Big Issue North）&amp;lt;ref&amp;gt;[http://megalodon.jp/2016-0701-2341-33/www.bigissuenorth.com/latest-issue Issue 1138 Out 27(archive)]&amp;lt;/ref&amp;gt;
+* [[ケラング!]] 2016年11月30日号（2016年11月30日、バウアー・メディア・グループ）
+*ぴあMUSIC COMPLEX Vol.13（2019年4月11日、[[ぴあ]]株式会社）&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、年内にニュー・アルバムをリリース&amp;amp;横浜、名古屋にて日本公演決定。約3年ぶり雑誌表紙にも登場 - TOWER RECORDS ONLINE|url=https://tower.jp/article/news/2019/04/02/tg002|website=tower.jp|accessdate=2019-04-05}}&amp;lt;/ref&amp;gt;
+*[[:en:Metal Hammer|METAL HAMMER]] 327号（2019年9月12日、TeamRock）
+*ぴあMUSIC COMPLEX Vol.15（2019年9月30日、[[ぴあ]]株式会社）&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL、9月30日発売「ぴあMUSIC COMPLEX Vol.15」表紙＆特集に登場。最新ロング・インタビューやニューヨーク公演レポートなど掲載 - TOWER RECORDS ONLINE|url=https://tower.jp/article/news/2019/09/11/tg008|website=tower.jp|accessdate=2019-10-03}}&amp;lt;/ref&amp;gt;
+*[[ヘドバン (雑誌)|ヘドバン]] Vol.24（2019年10月3日、[[シンコーミュージック・エンタテイメント]]）&amp;lt;ref&amp;gt;{{Cite web|title=BABYMETAL巻頭大特集号「ヘドバン Vol.24」10月3日刊行 - CDJournal ニュース|url=https://www.cdjournal.com/main/news/babymetal/83663|website=www.cdjournal.com|accessdate=2019-10-03|language=ja}}&amp;lt;/ref&amp;gt;
+*[[ヤング・ギター|YOUNG GUITAR]] 2019年11月号（2019年10月10日、[[シンコーミュージック・エンタテイメント]]）&amp;lt;ref&amp;gt;{{Cite web|title=ヤング・ギター11月号の表紙はBABYMETAL。3rdフル・アルバム『METAL GALAXY』が遂に完成、90ページ超えの大特集で最新サウンドを徹底検証!!|url=https://youngguitar.jp/yg/yg-201911|website=ヤング・ギター YOUNG GUITAR|accessdate=2019-10-03|language=ja}}&amp;lt;/ref&amp;gt;
+*[[:en:Rock Sound|ROCK SOUND]] 2019年11月号（2019年10月27日、Rock Sound Ltd）
+
+'''CM'''
+* [[:en:Metallica Through the Never|メタリカ・スルー・ザ・ネヴァー]] 日本語字幕版（2013年11月15日 - 11月21日、[[ポニーキャニオン]]） - [[IMAX]]デジタルシアター&amp;amp;[[YouTube]]専用予告編&amp;lt;ref&amp;gt;[https://rockinon.com/news/detail/92160 メタリカの映画『スルー・ザ・ネヴァー』のCMにBABYMETALが登場]&amp;lt;/ref&amp;gt;。
+* [[Android]]：みんなの and（2014年10月31日 - 12月31日、[[Google]] Japan）&amp;lt;ref&amp;gt;[http://www.cdjournal.com/main/research/dj-fumiya/4227 google「Android」のCMソングは?]&amp;lt;/ref&amp;gt;
+* [[Chromecast]]：夢中になろう。YouTube を、テレビへ。（[[むすめん。]]篇）（2015年7月、Google Japan） - インターネット限定CM&amp;lt;ref&amp;gt;[http://www.babymetal.jp/news/0/14732/ メディア出演情報DEATH!!]&amp;lt;/ref&amp;gt;。
+* [[Google Play Music]]：BABYMETAL篇（2015年11月20日 - 12月、Google Japan）&amp;lt;ref&amp;gt;[http://www.babymetal.jp/news/0/14765/ Google Play Music 楽曲配信がスタートDEATH!!]&amp;lt;/ref&amp;gt;
+
+== 関連グッズ、コンテンツ ==
+'''フィギュア'''
+* POP! Rocks: Babymetal（[[:en:Funko|Funko]]社製、2015年12月アメリカ発売&amp;lt;ref&amp;gt;{{cite news|url=http://funko.com/blogs/news/72330947-straight-from-japan|title=Home/News/Straight from Japan!|newspaper=Funko|date=2015-10-21|accessdate=2015-11-02|language=英語}}&amp;lt;/ref&amp;gt;、2016年3月日本発売&amp;lt;ref&amp;gt;[http://natalie.mu/music/news/163827 BABYMETALを米国おもちゃメーカーFUNKOがフィギュア化]&amp;lt;/ref&amp;gt;）
+**POP! Rocks: 43 SU-METAL
+**POP! Rocks: 44 YUIMETAL
+**POP! Rocks: 45 MOAMETAL
+'''ポイントカード'''
+* BABYMETAL×Tカード（[[TSUTAYA]]、2016年4月6日 - 2016年6月30日&amp;lt;店頭受付期間&amp;gt;、2016年3月28日 - 2017年3月31日&amp;lt;オンラインショッピング受付期間&amp;gt;）&amp;lt;ref&amp;gt;[http://www.barks.jp/news/?id=1000125618 BABYMETALのTカードが登場]&amp;lt;/ref&amp;gt;
+'''ゲームキャラクター'''
+* BABYMETAL キャラマリオ（[[任天堂]]、2016年4月28日配信 - ） - [[Wii U]]専用ゲームソフト「[[スーパーマリオメーカー]]」の[[ダウンロードコンテンツ]]&amp;lt;ref&amp;gt;{{cite news|url=http://www.famitsu.com/news/201604/27104731.html|title=『スーパーマリオメーカー』BABYMETALがキャラマリオに! 4月28日より全世界同時配信決定【動画あり】|newspaper=[[ファミ通]].com|publisher=[[カドカワ]]株式会社|date=2016-04-27|accessdate=2016-05-03}}&amp;lt;/ref&amp;gt;。
+'''バンドスコア'''
+* BABYMETAL / LIVE SCORE SELECTION（[[ドレミ楽譜出版社]]、2016年7月9日発売）&amp;lt;ref&amp;gt;[http://gekirock.com/news/2016/06/babymetal_band-score.php BABYMETAL、7/9にバンド・スコアの発売が決定!]&amp;lt;/ref&amp;gt;
+* BABYMETAL / Distortion 配信限定（フェアリー、2018年6月上旬発売）&amp;lt;ref&amp;gt;{{Cite news|title=『Distortion／BABYMETAL』のバンドスコアがフェアリーより6月上旬に発売。配信限定｜BIGLOBEニュース|url=https://news.biglobe.ne.jp/economy/0522/dre_180522_5974749361.html|accessdate=2018-05-31|language=ja-JP|work=BIGLOBEニュース}}&amp;lt;/ref&amp;gt;
+
+== 脚注 ==
+{{脚注ヘルプ}}
+=== 注釈 ===
+{{Reflist|group="注"}}
+=== 出典 ===
+{{Reflist|3}}
+
+== 参考文献 ==
+&amp;lt;!--※本のref名と当該記事のref名が重複してしまうものは下位に{{Wikicite}}を設けて当該記事を表示しました。※date（刊行年月日を記す）とissue（号の名を記す）も正しく区別して下さい。--&amp;gt;
+* {{Cite journal |和書 |date=2012-12-13 |title= |publisher=[[マーキー・インコーポレイティド]] |journal=MARQUEE Vol.94 |issue=2012年12月号「特集：私立恵比寿中学 BABYMETAL でんぱ組.inc Dorothy Little Happy」 |isbn=4-434-17447-9 |oclc=821701913 |pages= |ref={{SfnRef|MARQUEE94}} }}ISBN 978-4-434-17447-6。
+** {{Wikicite |ref={{SfnRef|MMMatsumoto|2012}} |reference=MMMatsumoto（編集長）「BABYMETALロングインタビュー」}}&amp;lt;!--※インタビュー記事の出典はこちらのref名がピンポイント。ページ数表示も忘れずに。--&amp;gt;
+* {{Cite journal |和書 |date=2013-06-07 |title= |publisher=マーキー・インコーポレイティド |journal=MARQUEE Vol.97 |issue=2013年6月号「BABYMETAL特集」 |isbn=4-434-18024-X |oclc=848607374 |ref={{SfnRef|MARQUEE97}} }}ISBN 978-4-434-18024-8。
+* {{Cite journal |和書 |date=2013-07 |title=BABYMETAL60頁大特集 |url=https://www.shinko-music.co.jp/item/pid1638468/ |publisher=[[シンコーミュージック・エンタテイメント]] |journal=[[ヘドバン (雑誌)|ヘドバン]] |issue=Vol.1「あれもメタルこれもメタルそれもメタル」 |series=SHINKO MUSIC MOOK |isbn=4-401-63846-8 |oclc=852778713 |pages= |ref={{SfnRef|ヘドバン1}} }}ISBN 978-4-401-63846-8。
+* {{Cite book |和書 |date=2013-12 |title=BABYMETAL APOCALYPSE 第1巻 GENESIS |publisher=[[アミューズ]] |asin=B07MV3NCN9 |ref={{SfnRef|BABYMETAL APOCALYPSE 1}} }}
+* {{Cite journal |和書 |date=2014-03-18 |title= |publisher=シンコーミュージック・エンタテイメント |journal=ヘドバン |issue=Vol.3「メタル異種格闘技戦」 |series=SHINKO MUSIC MOOK |isbn=4-401-63949-9 |oclc= 875925781 |ref={{SfnRef|ヘドバン3}}}}ISBN 978-4-401-63949-6。
+* {{Cite journal |和書 |date=2014-10-29 |title= |publisher=シンコーミュージック・エンタテイメント |journal=ヘドバン |issue=Vol.5「ココロにメタルハートを」 |series=SHINKO MUSIC MOOK |isbn=4-401-64070-5 |oclc=895771262 |ref={{SfnRef|ヘドバン5}}}}ISBN 978-4-401-64070-6。
+* {{Cite journal |和書 |date=2015-02-05 |title= |publisher=シンコーミュージック・エンタテイメント |journal=[[BURRN!]] |issue=2015年3月号 |edition=月刊版 |asin=B00S5TN14U |ref={{SfnRef|BURRN!20153}}}}
+* {{Cite journal |和書 |date=2015-08-06 |title= |url= |publisher=[[エムディエヌコーポレーション]] |journal=月刊MdN |issue=2015年9月号「特集：振り付け☆愛 時間と空間のビジュアル革命」 |asin=B011TH7IXO |ref={{SfnRef|月刊MdN 2015年9月号}} }}
+* {{Cite journal |和書 |date=2015-12-04 |title= |publisher=シンコーミュージック・エンタテイメント |journal=BURRN! |issue=2016年1月号 |asin=B00V47EQ0S |ref={{SfnRef|BURRN!20161}} }}
+* {{Cite journal |和書|date=2015-10-15 |title=|publisher=シンコーミュージック・エンタテイメント |journal=ヘドバン |issue=Vol.8「メタル復権運動!」 |series=SHINKO MUSIC MOOK |isbn=4-401-64223-6 |oclc=926664922 |ref={{SfnRef|ヘドバン8}} }}ISBN 978-4-401-64223-6。
+* {{Cite journal |和書 |date=2015-12-28 |title= |publisher=シンコーミュージック・エンタテイメント |journal=ヘドバン |issue=Vol.9「メタルゆく年くる年 ～ヘドバン・オブ・ザ・イヤー2015」 |series=SHINKO MUSIC MOOK |isbn=4-401-64249-X |oclc=934400943 |ref={{SfnRef|ヘドバン9}} }}ISBN 978-4-401-64249-6。
+* {{Cite book |和書 |date=2016-03-31 |title=総力特集 BABYMETAL 前人未到のSENSATION |url=http://store.kadokawa.co.jp/shop/g/g321602000310/ |publisher=[[KADOKAWA]]/[[角川マガジンズ]] |journal=[[月刊カドカワ#別冊カドカワ|別冊カドカワ]] |issue=DirecT 04 |series=カドカワムック No.637 |isbn=4-04-895581-0 |oclc=946289587 |ref={{SfnRef|別冊カドカワ04}} }}ISBN 978-4-04-895581-2。
+* {{Cite journal |和書 |date=2016-03-19 |title= |publisher=株式会社ミュージックマガジン |journal=[[ミュージック・マガジン]] |issue=2016年4月号「特集 BABYMETAL」 |asin=B01AO0ZKH8 |ref={{SfnRef|Mマガジン20164}} }}
+* {{Cite journal |和書 |date=2016-04-14 |title= |publisher=[[新潮社]] |journal=[[週刊新潮]] |issue=2016年4月21日号 |asin=B01DKWWJR6 |ref={{SfnRef|週刊新潮 2016年4月21日号}} }}
+* {{Cite journal |和書 |date=2016-04-23 |title= |publisher=[[太田出版]] |journal=[[Quick Japan]] |issue=Vol.125「特集 BABYMETAL ロンドン密着レポート」 |isbn=4-7783-1517-0 |oclc=948971266 |ref={{SfnRef|QJ20164}} }}ISBN 978-4-7783-1517-7。[http://www.ohtabooks.com/quickjapan/backnumber/2016/04/15150501.html]
+* {{Cite journal |和書 |date=2016-04-09 |title= |publisher=シンコーミュージック・エンタテイメント |journal=[[YOUNG GUITAR]] |issue=2016年5月号 |asin=B01D16EGC2 |ref={{SfnRef|YOUNG GUITAR20165}} }}
+* {{Cite journal |和書 |date=2016-05-23 |title=メタル×カワイイはブルーオーシャンだった! BABYMETALという戦略 |publisher=[[東洋経済新報社]] |journal=[[東洋経済新報社#「週刊東洋経済」|週刊東洋経済]] |issue=2016年5月28日号 |asin= |pages= |ref={{SfnRef|東洋経済2016528}} }}[[EANコード|JAN]] 4910201340569[https://www.honyaclub.com/shop/goods/goods.aspx?goods=17894663]。
+
+== 関連項目 ==
+* [[宇佐美秀文]] - 2012年10月以降のほぼ全てのライブで[[マニピュレーター]]を担当。
+* [[田中紫紋]] - CD・DVDなどのジャケットデザインおよびライブ内映像のイラストデザインを担当。
+* [[染谷歩]] - ライブ内映像の日本語ナレーションを担当。
+* [[INNI VISION]] - ライブ映像作品・トレーラーの撮影および編集ディレクションを担当。
+
+== 外部リンク ==
+{{Commonscat|Babymetal}}
+* [https://www.babymetal.com/jp/ BABYMETAL] - 公式サイト
+* [https://theone.babymetal.jp/ THE ONE] - メンバーズサイト
+* [http://baw.babymetal.jp/ BABYMETAL APOCALYPSE WEB] - 旧メンバーズサイト
+* {{YouTube|user=BABYMETALofficial|BABYMETALofficial}}
+* {{Twitter|BABYMETAL_JAPAN|BABYMETAL}}
+* {{Facebook|BABYMETAL.jp|BABYMETAL}}
+* {{Instagram|babymetal_official|BABYMETAL}}
+* {{Spotify artist|630wzNP2OL7fl4Xl0GnMWq}}
+* [https://line.me/R/ti/p/%40babymetal BABYMETAL LINE公式アカウント] - [[LINE (アプリケーション)|LINE]]
+* [https://artist.amuse.co.jp/artist/babymetal/ BABYMETAL - アミューズ オフィシャル ウェブサイト]
+* [https://www.toysfactory.co.jp/artist/babymetal/ BABYMETAL | TOY'S FACTORY]
+* [http://bmdfoxapparel.com BMD FOX APPAREL]
+* {{歌ネット歌手|id=13281|name=BABYMETAL}} (歌詞情報)
+* {{歌ネット歌手|id=11244|name=重音部 BABYMETAL(さくら学院)}} (歌詞情報)
+
+{{BABYMETAL}}
+{{さくら学院}}
+{{アミューズ}}
+{{CDショップ大賞}}
+{{Normdaten}}
+
+{{デフォルトソート:へひいめたる}}
+[[Category:BABYMETAL|*]]
+[[Category:さくら学院]]
+[[Category:アミューズ]]
+[[Category:トイズファクトリーのアーティスト]]
+[[Category:日本のポップ・グループ]]
+[[Category:日本のアイドルグループ]]
+[[Category:日本のガール・グループ]]
+[[Category:日本のヘヴィメタル・バンド]]
+[[Category:架空のキツネ]]
+[[Category:2人組の音楽グループ]]
+[[Category:ROCK IN JAPAN FESTIVAL出場者]]
+[[Category:フジロック・フェスティバル出演者]]
+[[Category:サマーソニック出演者]]
+[[Category:LOUD PARK出演者]]
+[[Category:CDショップ大賞受賞者]]
+[[Category:2010年に結成した音楽グループ]]&lt;/rev>
+        &lt;/revisions>
+      &lt;/page>
+    &lt;/pages>
+  &lt;/query>
+&lt;/api></pre></div></div><noscript><img src="//ja.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div><div class="printfooter">
+「<a dir="ltr" href="https://ja.wikipedia.org/wiki/特別:ApiHelp">https://ja.wikipedia.org/wiki/特別:ApiHelp</a>」から取得</div>
+			</div>
+		</div>
+
+		
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":99,"wgHostname":"mw1312"});});</script>		</body></html>
