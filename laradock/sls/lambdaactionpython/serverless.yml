@@ -1,0 +1,28 @@
+service: sample
+
+frameworkVersion: '3'
+
+custom:
+  customDomain:
+    domainName: django-sls-helloworld.umihi.co
+    certificateName: umihi.co
+    basePath: ''
+    stage: ${opt:stage, self:provider.stage}
+    createRoute53Record: true
+    endpointType: 'edge'
+    securityPolicy: tls_1_2
+  wsgi:
+    app: django_sls_helloworld.wsgi.application
+    packRequirements: false
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: ap-northeast-1
+
+functions:
+  hello:
+    handler: handler.hello
+
+plugins:
+  - serverless-python-requirements

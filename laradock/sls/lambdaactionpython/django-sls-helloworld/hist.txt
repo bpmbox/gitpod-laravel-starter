@@ -1,0 +1,31 @@
+    1  brew install act
+    2  git clone https://github.com/bpmbox/lambdaactionpython.git
+    3  cd ./lambdaactionpython/
+    4  ls -al
+    5  act
+    6  cd ..
+    7  mv ./dreamo/lambdaactionpython/ ./
+    8  ls -al
+    9  cd ./lambdaactionpython/
+   10  act
+   11  act -P ubuntu-18.04=nektos/act-environments-ubuntu:18.04
+   12  act init
+   13  act
+   14  act -P ubuntu-16.04=node:16-buster-slim
+   15  sudo su
+   16  brew install act
+   17  act
+   18  git clone https://github.com/umihico/django-sls-helloworld.git
+   19  cd ./django-sls-helloworld2/
+   20  ls -al
+   21  aws
+   22  aws configure
+   23  npm install serverless -g
+   24  $ sls plugin install -n serverless-python-requirements
+   25  sls plugin install -n serverless-python-requirements
+   26  sls plugin install -n serverless-wsgi
+   27  sls deploy
+   28  cd ..
+   29  cd ./django-sls-helloworld/
+   30  sls deploy
+   31  history > hist.txt
