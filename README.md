@@ -240,18 +240,27 @@ erDiagram
 
 - リポジトリー　https://github.com/bpmbox/laravel-ci-test
 - チェック画面　https://github.com/bpmbox/laravel-ci-test/runs/5438446387?check_suite_focus=true
+- lambda にはserverless でアップ（理由）Privateでセキュリティーの為〇
+- cloud watch でシステムチェック
 
 ## 5.2.DJANGO github action(CIDI 自動エラーチェック）
 
 - リポジトリー　https://github.com/bpmbox/djangoaction
 - チェック画面　https://github.com/bpmbox/djangoaction/actions
-- 分析とGraph化　20220308
+- lambda にはserverless でアップ（理由）Privateでセキュリティーの為〇
+- cloud watch でシステムチェック
 
-# 7.APIサービス(細かい箇所はマイクロサービスで作成）
+# 5.3 .APIサービス(細かい箇所はマイクロサービスで作成）
+- https://bd4tp02hs9.execute-api.ap-northeast-1.amazonaws.com/Prod/hello/
+- folder
+- sam で行う
 - AWS lambda chaiser で自動アップ◎
 - FastAPI◎
 - (lambda sls) python[https://github.com/bpmbox/lambdaactionpython/tree/master]
 - ここはいろいろと試す（SAM　serverless どれがいいのか　まずは　0308にHelloが動作するまで）
+
+# 5.4 ECR ECS でのサービス開始
+- Docker にして　ECS　Lambda　どちらにも対応にする
 
 # 8.チェックシステム（REACTNATIVE)
 - API確認用　REST　GraphQL
