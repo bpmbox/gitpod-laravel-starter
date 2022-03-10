@@ -51,6 +51,8 @@
 - 在庫管理設計書を元にGSSで作成をする 20220308
 - [サンプル設計書](https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml)
 - [今回のテスト仕様書](https://docs.google.com/spreadsheets/d/e/2PACX-1vRqoXF_TrOm9WTVLudPUiHD0jfqC88HIKbsJHAp-tl1GCRR9KVkGZl4NFBURtNVYlaMGMFx-lKYcpU7/pubhtml#)
+- [業務マトリクス](https://docs.google.com/spreadsheets/d/e/2PACX-1vTwlZ1QSarxWhUN9QBEqRZxJp9D81Cp8JfVcLi9YQJQrSc8E0a6AL-zoAQW_vpjG87cMtzPFIJt2aK7/pubhtml)
+- 業務マトリクスが全体の把握となる
 
 ```
 年次取引サマリの一覧 Ｘ.
