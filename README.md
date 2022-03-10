@@ -9,12 +9,14 @@
 3. 自動アップデートまでのサンプルをLaravel、Djangoを元に作成をする
 ## GITPOD上で開発（開発環境のクラウド化）　開発環境は自動構築にする
 ## 基本的にMD　メモで記載）最終的にメモで変更出来ないと、変更と履歴が分からない為
-
+- [appsheet](a)
+- [googlespread]()
 1. (設計)[## サンプル設計書（サンプル設計を元に構築）]
 2. 設計からリバースして画面が出来る事
 3. リバースして作成した内容を　Laravel、Djangoで作成
-4. CIDIで自動ビルド＋テスト
-5. CIDIで　AWS　サーバーに自動デプロイ
+4. CICDで自動ビルド＋テスト
+5. CICDで　AWS　サーバーに自動デプロイ
+- CI と　CDは分けて開発
 
 ### 予定（MIDOMO mマインドマップ＋ガントチャートで詳細は作成する）
 - 難易度と日数の目安（暫定工数位の目途）
@@ -250,7 +252,7 @@ erDiagram
 - lambda にはserverless でアップ（理由）Privateでセキュリティーの為〇
 - cloud watch でシステムチェック
 
-# 5.3 .APIサービス(細かい箇所はマイクロサービスで作成）
+## 5.3 .APIサービス(細かい箇所はマイクロサービスで作成）
 - https://bd4tp02hs9.execute-api.ap-northeast-1.amazonaws.com/Prod/hello/
 - folder
 - sam で行う
@@ -259,7 +261,7 @@ erDiagram
 - (lambda sls) python[https://github.com/bpmbox/lambdaactionpython/tree/master]
 - ここはいろいろと試す（SAM　serverless どれがいいのか　まずは　0308にHelloが動作するまで）
 
-# 5.4 ECR ECS でのサービス開始
+## 5.4 ECR ECS でのサービス開始
 - Docker にして　ECS　Lambda　どちらにも対応にする
 
 # 8.チェックシステム（REACTNATIVE)
