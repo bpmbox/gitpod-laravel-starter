@@ -1,0 +1,28 @@
+    1  pyenv shell 3.8.12
+    2  sam init --runtime=python3.8
+    3  pip install aws-sam-cli
+    4  sam
+    5  kdir samapp
+    6  mkdir samapp
+    7  cd samapp/
+    8  python -m venv venv
+    9  . ./venv/bin/activate
+   10  sam init --runtime python3.7
+   11  cd sam-app/
+   12  sam build
+   13  deactivate
+   14  sam build
+   15  sam
+   16  sam build
+   17  cd ..
+   18  rm -rf ./sam-app/
+   19  sam init --runtime python3.8
+   20  cd ./sam-app/
+   21  sam build
+   22  sam local start-api
+   23  sam deploy --guided
+   24  aws
+   25  aws configure
+   26  sam deploy --guided
+   27  ls -al
+   28  history > build.txt
