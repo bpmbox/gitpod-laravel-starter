@@ -10,6 +10,14 @@
 
 ![image](https://user-images.githubusercontent.com/1344355/157688591-0c22d328-e896-4ba8-8320-a58c5c38f562.png)
 
+# BPMS
+- 設計の時系列と画面、項目はBPMSで纏める
+
+  - processmaker https://www.processmaker.com/
+  - [mermaid](https://mermaid.live/edit/?gist=#eyJjb2RlIjoic2VxdWVuY2VEaWFncmFtXG4gICAgQWxpY2UtPj4rSm9objogSGVsbG8gSm9obiwgaG93IGFyZSB5b3U_XG4gICAgQWxpY2UtPj4rSm9objogSm9obiwgY2FuIHlvdSBoZWFyIG1lP1xuICAgIEpvaG4tLT4-LUFsaWNlOiBIaSBBbGljZSwgSSBjYW4gaGVhciB5b3UhXG4gICAgSm9obi0tPj4tQWxpY2U6IEkgZmVlbCBncmVhdCEgaHR0cHM6Ly9qcFxuICAgIEpvaG4tPj4rdGVzdDogYWFhYWFhYVxuICAgIHRlc3QtPj4tYWFhOiBhYWFhXG4gICAgICAgICAgICAiLCJtZXJtYWlkIjoie1xuICBcInRoZW1lXCI6IFwiZGVmYXVsdFwiXG59IiwidXBkYXRlRWRpdG9yIjp0cnVlLCJhdXRvU3luYyI6dHJ1ZSwidXBkYXRlRGlhZ3JhbSI6dHJ1ZX0)
+
+![image](https://user-images.githubusercontent.com/1344355/153618480-2eca408f-6871-46f7-baa4-1745b3be394c.png)
+
 ## GITPOD上で開発（開発環境のクラウド化）　開発環境は自動構築にする
 ## 基本的にMD　メモで記載）最終的にメモで変更出来ないと、変更と履歴が分からない為
 - [appsheet](a)
