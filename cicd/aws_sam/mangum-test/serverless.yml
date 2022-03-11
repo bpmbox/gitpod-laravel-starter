@@ -1,0 +1,20 @@
+# ref:https://qiita.com/yktakaha4/items/ead117870617f45c70d5
+service: mangum-test
+
+provider:
+  name: aws
+  stage: prod
+  region: ap-northeast-1
+  deploymentBucket: mini-serverless-framework # デプロイ時に使うS3 あまり増やすと上限に引っかかるのでこれだけにした
+  logRetentionInDays: 30 # Cloudwatchのログ保存期間 無限課金防止
+
+functions:
+  index:
+    image: "${ssm:AccountID}.dkr.ecr.ap-northeast-1.amazonaws.com/${ssm:MangumRepository}" # ダイジェスト込み
+    events:
+      - http:
+          integration: lambda-proxy
+          path: /{proxy+}
+          method: ANY
+          cors: true
+

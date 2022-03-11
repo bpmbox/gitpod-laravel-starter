@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "sample2"
+stack_name = "miyata3"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-c14t6zp4a173"
-s3_prefix = "sample2"
+s3_prefix = "miyata3"
 region = "ap-northeast-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"

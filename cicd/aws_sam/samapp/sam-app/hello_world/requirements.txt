@@ -1,1 +1,4 @@
-requests
+  requests
+  mangum
+  uvicorn
+  fastapi
