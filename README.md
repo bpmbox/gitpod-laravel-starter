@@ -37,7 +37,9 @@
 - B(3)
 - C(1)
 ```
-1,2,3,4,6,7,8,9,10,11,12,13,14
+1,2,3,4,6,7,8,9,10,11,12,13,14 ,15,16,17,18,19, 20
+BPMS化ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー
+                                -------------------
            lambda chaiser api up(github auction)　AWSLambdaにアプリを自動的にアップ出来る仕組み　github action 対応　優先度（高）メインでLambdaの為
            aws pem settigng
            テストデータ自動作成（設定　Mk2でやるかソフトで作成かまとめる　ソフトで自動化が良い）優先度（低）
@@ -49,6 +51,22 @@
                  　API関数は　GOOGLE　COLAB
             　　　　フロントエンド　GAS、（CloudFrontは使わない）
                 　Kibana ElasticSearch(結合テスト）
+                                  ■各種MakeFile作成
+                                  1,自動デプロイ　GIT　Action＋SLS〇
+                                  　自動デプロイ　GIT　Action＋SAM〇
+                                    各　アプリに、DockerとDocker　Composeでの単体実行　
+                                    　　１，２　ローカル実行（毎回ビルドがキツイため）　python_local + sls server + sam server
+                                  ２、GIT　Action　script　△（DjangとLaraveに対しても追加）★
+                                          各SAM,SLSで　GithubアクションでCIDC
+                                  ３，Dockerで内部実行△（全てつけていない）
+                                      ４，WEBSOCK（APIGATEWAYでWEBSOCK通信）
+                                     ５，ElastickSearch
+                                        GASからの検索　→APPSHEETのデータを　ElastickSearchにJsonで登録
+                                        　　　　　　　　トリガーだとデータが取れないのでWEBHookを作る★１９日
+                                        PYTHONからの検索〇
+                                            ■ステージングさーバー（EC2上で仮想ECRを元に　１台で開発用サーバーを立てる）
+                                            ６，Djangoに組み込み
+                                                サーバー側のDjanngoに、ElasticSearchの実装         
 ```
 
 ### 問題
