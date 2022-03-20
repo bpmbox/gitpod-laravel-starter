@@ -1,5 +1,35 @@
 # Welcome 
 
+![image](https://user-images.githubusercontent.com/1344355/159172805-940d2488-0b3e-4c19-a1b5-87d8fe9c912b.png)
+
+- jwt https://www.blog.danishi.net/2021/08/19/post-5336/
+- ip seigen https://aws.amazon.com/jp/premiumsupport/knowledge-center/api-gateway-resource-policy-access/
+- getkey https://qiita.com/shimajiri/items/2639e9da4a1a77dce1d0
+- appshync https://aws.amazon.com/jp/appsync/
+- django elastick dsl https://qiita.com/zenwerk/items/81ba2f234e9611546025
+- django qiita elastick search https://qiita.com/zenwerk/items/81ba2f234e9611546025
+- 8 hasula api test https://cloud.hasura.io/project/954a0e3b-e3a1-4fa0-ac22-febe73e730a2/console/api/api-explorer
+
+```
+20 21 22 23 24 25 26 27 28 29 30
+django elastic
+ laravel elastick （いるか？）
+ 　Gspred（python からGspredにデータを入れ確認）Google　Colab
+  　Hasula（マッピング）OK
+   結合テスト（CIDDテスト）
+   　SQL(CICD)
+    　LmabdaRest（CICD)Elastic検索
+     　Django（自動デプロイ）
+      　Laravel自動デプロイ）
+       
+２０日
+　１０，１１，１２　１，２，３，４，５，６
+ 　仕様書作成
+  　　　テストデータ検討
+     　　　　　　　　結合設定ーーーーーー
+```
+
+
 ![image](https://user-images.githubusercontent.com/1344355/159132233-faf8a6db-baee-4ad9-99e1-2336435b4b5a.png)
 
 
