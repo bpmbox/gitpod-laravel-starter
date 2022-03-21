@@ -6,6 +6,10 @@
 
 ![image](https://user-images.githubusercontent.com/1344355/159365664-bda11ae4-2031-4e39-a8f7-850c8877e8e7.png)
 
+  # hasra  でマッピングすることで　DBからのCRUDと　Graphqlのテストをスムーズにする
+  
+ ![image](https://user-images.githubusercontent.com/1344355/159366031-42a9270e-3240-4017-ab50-f15c733a9052.png)
+
 
 - jwt https://www.blog.danishi.net/2021/08/19/post-5336/
 - ip seigen https://aws.amazon.com/jp/premiumsupport/knowledge-center/api-gateway-resource-policy-access/
