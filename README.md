@@ -2,6 +2,11 @@
 
 ![image](https://user-images.githubusercontent.com/1344355/159172805-940d2488-0b3e-4c19-a1b5-87d8fe9c912b.png)
 
+# lambda fastapi rest graphql (restでドキュメントの確認）
+
+![image](https://user-images.githubusercontent.com/1344355/159365664-bda11ae4-2031-4e39-a8f7-850c8877e8e7.png)
+
+
 - jwt https://www.blog.danishi.net/2021/08/19/post-5336/
 - ip seigen https://aws.amazon.com/jp/premiumsupport/knowledge-center/api-gateway-resource-policy-access/
 - getkey https://qiita.com/shimajiri/items/2639e9da4a1a77dce1d0
