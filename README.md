@@ -8,7 +8,8 @@
 ![image](https://user-images.githubusercontent.com/1344355/159172805-940d2488-0b3e-4c19-a1b5-87d8fe9c912b.png)
 
 # lambda fastapi rest graphql (restでドキュメントの確認）
-
+- ECR にいれるまえに　Dockerで実行
+- Lumbdaとの相違を入れる
 ![image](https://user-images.githubusercontent.com/1344355/159365664-bda11ae4-2031-4e39-a8f7-850c8877e8e7.png)
 
   # hasra  でマッピングすることで　DBからのCRUDと　Graphqlのテストをスムーズにする
