@@ -1,11 +1,28 @@
 # Welcome 
 
+```
 22,23,24,25,26,27,28,29,30,31
 22 (git action ecr sls lambda へのアップ）〇
 　 23 (FastApi へテストケースの追加）(休み）
       24 (Django で管理画面の追加）
+```
+
+```
+25 (fastAPI setting)
+   26 (lambda debug setting) sam の場合と、　fast api の　ASGIでのdebug
+   　 27, (elastic search lib と その他細かいライブラリーの必要な物を　fast api にまとめる）
+     　　　Lambda の情報をAPPSHEETにまとめる
+          28, 29, 30, 31（4日で　Reactを含めたサンプルアプリの開発）
+          　　　　 30, laravel,django,fastapi,lambda のAct版のアップ
+      
+```
+
+
+
 
 ![image](https://user-images.githubusercontent.com/1344355/159172805-940d2488-0b3e-4c19-a1b5-87d8fe9c912b.png)
+
+1. python lambda act https://github.com/bpmbox/mangum-test
 
 # lambda fastapi rest graphql (restでドキュメントの確認）
 - ECR にいれるまえに　Dockerで実行
