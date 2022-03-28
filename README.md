@@ -9,12 +9,21 @@ gantt
     title A Gantt Diagram
     dateFormat  YYYY-MM-DD
     section Section
-    A task           :a1, 2014-01-01, 30d
+    A task           :a1, 2022-03-027, 30d
     Another task     :after a1  , 20d
     section Another
-    Task in sec      :2014-01-12  , 12d
+    Task in sec      :2022-03-28  , 12d
     another task      : 24d
 ```
+
+```
+27 fastapi aws-power-python
+  28 gitでの障害対応
+  　29 github action でのテスト　Laravel　ReactAPIのアップ（APPSHEET更新　GITで管理出来ないか？）
+      30　
+        31
+```
+
 
 ```
 22,23,24,25,26,27,28,29,30,31
