@@ -4,6 +4,17 @@
 
 ![image](https://user-images.githubusercontent.com/1344355/160260261-0e016ca1-0356-433d-91c4-581e2e6e6b05.png)
 
+```mermaid
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2014-01-01, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-12  , 12d
+    another task      : 24d
+```
 
 ```
 22,23,24,25,26,27,28,29,30,31
