@@ -21,7 +21,7 @@ gantt
 
 ```
 27 fastapi aws-power-python
-  28 gitでの障害対応
+  28 gitでの障害対応 ひとつはPUBLICがあってもいいか
   　29 github action でのテスト　Laravel　ReactAPIのアップ（APPSHEET更新　GITで管理出来ないか？）
       30　
         31
